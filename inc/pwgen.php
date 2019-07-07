@@ -20,6 +20,8 @@ for($x = 0; $x < 100; $x++) {
 }
 
 $content.= "<div class='row center'>".PHP_EOL.
-"<div class='col-x-12 col-s-12 col-m-12 col-l-12 col-xl-12'><pre>".$passwords."</pre></div>".PHP_EOL.
+"<div class='col-x-12 col-s-12 col-m-12 col-l-12 col-xl-12'><pre>".PHP_EOL.
+$passwords.PHP_EOL.
+"</pre></div>".PHP_EOL.
 "</div>".PHP_EOL;
 ?>
