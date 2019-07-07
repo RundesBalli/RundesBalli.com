@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+}
+html, body {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  background: #ededed;
+  color: #000000;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+a {
+  color: #000000;
+  text-decoration: underline;
+}
+a:hover {
+  color: #444444;
+  text-decoration: none;
+}
+textarea {
+  background: #ededed;
+  color: #000000;
+  font-family: monospace;
+}
+#header {
+  margin: 3vh auto 1vh;
+  max-width: 1000px;
+}
+.wrapper {
+  width: 100%;
+  text-align: center;
+  font-size: 2vw;
+  color: #000000;
+  font-family: Helvetica, Arial, sans-serif;
+  margin: 3vw auto 0;
+}
+.wrapper span {
+  margin: 0 2vw;
+  font-size: 4vw;
+}
+.wrapper a.iconlink {
+  text-decoration: none;
+}
+#info {
+  width: 100%;
+  text-align: center;
+  color: #444444;
+  font-size: 1vw;
+  font-family: Helvetica, Arial, sans-serif;
+  margin: 3vw auto 0;
+}
+.spacer {
+  height: 1vh;
+}
+@font-face {
+  font-family: 'fontawesome-r';
+  font-style: normal;
+  font-weight: 400;
+  src: url("/src/webfonts/fa-regular-400.eot");
+  src: url("/src/webfonts/fa-regular-400.eot?#iefix") format("embedded-opentype"), url("/src/webfonts/fa-regular-400.woff2") format("woff2"), url("/src/webfonts/fa-regular-400.woff") format("woff"), url("/src/webfonts/fa-regular-400.ttf") format("truetype"), url("/src/webfonts/fa-regular-400.svg#fontawesome") format("svg");
+}
+.far {
+  font-family: 'fontawesome-r';
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'fontawesome-s';
+  font-style: normal;
+  font-weight: 900;
+  src: url("/src/webfonts/fa-solid-900.eot");
+  src: url("/src/webfonts/fa-solid-900.eot?#iefix") format("embedded-opentype"), url("/src/webfonts/fa-solid-900.woff2") format("woff2"), url("/src/webfonts/fa-solid-900.woff") format("woff"), url("/src/webfonts/fa-solid-900.ttf") format("truetype"), url("/src/webfonts/fa-solid-900.svg#fontawesome") format("svg");
+}
+.fas {
+  font-family: 'fontawesome-s';
+  font-weight: 900;
+}
+@font-face {
+  font-family: 'fontawesome-b';
+  font-style: normal;
+  font-weight: normal;
+  src: url("/src/webfonts/fa-brands-400.eot");
+  src: url("/src/webfonts/fa-brands-400.eot?#iefix") format("embedded-opentype"), url("/src/webfonts/fa-brands-400.woff2") format("woff2"), url("/src/webfonts/fa-brands-400.woff") format("woff"), url("/src/webfonts/fa-brands-400.ttf") format("truetype"), url("/src/webfonts/fa-brands-400.svg#fontawesome") format("svg"); }
+
+.fab {
+  font-family: 'fontawesome-b';
+}
