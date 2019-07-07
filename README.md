@@ -1,2 +1,2 @@
 # RundesBalli.com
-The [RundesBalli.com](https://rundesballi.com) page.
+Die [RundesBalli.com](https://rundesballi.com) Homepage.
