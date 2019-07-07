@@ -7,9 +7,9 @@ https://github.com/RundesBalli/RundesBalli.com
   <head>
     <title>RundesBalli.com{TITLE}</title>
     <meta charset="utf-8">
-    <meta name="description" content="RundesBalli.com"/>
+    <meta name="description" content="RundesBalli.com Homepage"/>
     <meta name="robots" content="index, follow"/>
-    <meta name="keywords" content="RundesBalli"/>
+    <meta name="keywords" content="RundesBalli, Homepage"/>
     <meta name="author" content="RundesBalli"/>
     <meta name="revisit-after" content="3 days"/>
     <link href="/src/style.css" rel="stylesheet">
