@@ -19,8 +19,9 @@ $content.= "<div class='spacer-m'></div>".PHP_EOL;
  */
 $content.= "<h1><span class='fas'>&#xf0c1;</span> Quellenangaben</h1>".PHP_EOL;
 $content.= "<div class='row'>".PHP_EOL.
-"<div class='col-x-12 col-s-12 col-m-12 col-l-12 col-xl-12'>Icons von <a href='https://fontawesome.com' target='_blank' rel='noopener'>fontawesome</a>.</div>".PHP_EOL.
-"<div class='col-x-12 col-s-12 col-m-12 col-l-12 col-xl-12'>Haftungsausschluss von <a href='http://www.mustervorlage.net/disclaimer-muster' target='_blank' rel='noopener'>mustervorlage.net</a>.</div>".PHP_EOL.
+"<div class='col-x-12 col-s-12 col-m-12 col-l-12 col-xl-12'>Icons von <a href='https://fontawesome.com' target='_blank' rel='noopener'>fontawesome</a></div>".PHP_EOL.
+"<div class='col-x-12 col-s-12 col-m-12 col-l-12 col-xl-12'>Logo Schriftart: <a href='https://www.dafont.com/weather-sunday.font' target='_blank' rel='noopener'>Weather Sunday</a></div>".PHP_EOL.
+"<div class='col-x-12 col-s-12 col-m-12 col-l-12 col-xl-12'>Haftungsausschluss von <a href='http://www.mustervorlage.net/disclaimer-muster' target='_blank' rel='noopener'>mustervorlage.net</a></div>".PHP_EOL.
 "</div>".PHP_EOL;
 
 $content.= "<div class='spacer-m'></div>".PHP_EOL;
