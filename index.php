@@ -52,8 +52,5 @@ if(isset($pageArray[$getp])) {
  */
 $templatefile = __DIR__.DIRECTORY_SEPARATOR."src".DIRECTORY_SEPARATOR."template.tpl";
 $fp = fopen($templatefile, "r");
-if(!headers_sent()) {
-  http_response_code(200);
-}
 echo preg_replace(array("/{TITLE}/im", "/{CONTENT}/im"), array(($title == "" ? "" : " - ".$title), $content), fread($fp, filesize($templatefile)));
 ?>
