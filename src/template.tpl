@@ -25,7 +25,7 @@ https://github.com/RundesBalli/RundesBalli.com
       {CONTENT}
     </div>
     <div id="footer">
-      <a href="/imprint"><span class="fas">&#xf21b;</span>&nbsp;Impressum</a> - <a href="https://github.com/RundesBalli/RundesBalli.com" target="_blank" rel="noopener"><span class="fab">&#xf09b;</span>&nbsp;Github</a>
+      <a href="/imprint"><span class="fas">&#xf21b;</span>&nbsp;Impressum</a> - <a href="https://github.com/RundesBalli/RundesBalli.com" target="_blank" rel="noopener"><span class="fab">&#xf09b;</span>&nbsp;GitHub</a>
     </div>
   </body>
 </html>
