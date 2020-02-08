@@ -8,7 +8,7 @@ $title = "Impressum";
 
 $content.= "<h1><span class='fas'>&#xf21b;</span> Impressum</h1>".PHP_EOL;
 $content.= "<div class='row'>".PHP_EOL.
-"<div class='col-x-12 col-s-12 col-m-12 col-l-12 col-xl-12'>Kein kommerzieller Internetauftritt und demnach gemäß <a href='https://dejure.org/gesetze/TMG/5.html' target='_blank' rel='noopener'>§5 TMG</a> und <a href='http://www.urheberrecht.org/law/normen/rstv/RStV-13/text/2010_06.php' target='_blank'>§55 Abs. 2 RStV</a> nicht impressumspflichtig.</div>".PHP_EOL.
+"<div class='col-x-12 col-s-12 col-m-12 col-l-12 col-xl-12'>Kein kommerzieller Internetauftritt und demnach gemäß <a href='https://dejure.org/gesetze/TMG/5.html' target='_blank' rel='noopener'>§5 TMG</a> nicht impressumspflichtig.</div>".PHP_EOL.
 "<div class='col-x-12 col-s-12 col-m-12 col-l-12 col-xl-12'>Kontaktmöglichkeiten: <a href='mailto:webspam@RundesBalli.com' target='_blank'>Mail</a></div>".PHP_EOL.
 "</div>".PHP_EOL;
 
