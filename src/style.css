@@ -105,6 +105,14 @@ a:active, a:hover, a:focus {
   font-size: 22px;
 }
 
+.smaller {
+  font-size: 16px;
+}
+
+h1, h2, h3 {
+  word-break: break-word;
+}
+
 /*
 1.1 Fontawesome
 https://fontawesome.com/
@@ -323,6 +331,15 @@ https://fontawesome.com/
   content: "";
   clear: both;
   display: table;
+}
+
+.hover {
+  background-color: transparent;
+  transition: all 0.4s;
+}
+
+.hover:hover {
+  background-color: rgba(0, 0, 0, 0.2);
 }
 
 .spacer-s {
