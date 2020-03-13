@@ -10,9 +10,10 @@
  */
 $content.= "<h1 class='center'>Kontaktmöglichkeiten</h1>".PHP_EOL;
 $content.= "<div class='row center'>".PHP_EOL.
-"<div class='col-x-12 col-s-4 col-m-4 col-l-4 col-xl-4 hover'><a href='https://t.me/RundesBalli' target='_blank' class='iconlink' rel='noopener'><span class='fab'>&#xf2c6;</span> Telegram</a></div>".PHP_EOL.
-"<div class='col-x-12 col-s-4 col-m-4 col-l-4 col-xl-4 hover'><a href='https://pr0gramm.com/user/RundesBalli' target='_blank' class='iconlink' rel='noopener'><span class='fas'>&#xf120;</span> pr0gramm</a></div>".PHP_EOL.
-"<div class='col-x-12 col-s-4 col-m-4 col-l-4 col-xl-4 hover'><a href='mailto:webspam@RundesBalli.com' target='_blank' class='iconlink'><span class='fas'>&#xf0e0;</span> Mail</a></div>".PHP_EOL.
+"<div class='col-x-12 col-s-3 col-m-3 col-l-3 col-xl-3 hover'><a href='https://t.me/RundesBalli' target='_blank' class='iconlink' rel='noopener'><span class='fab'>&#xf2c6;</span> Telegram</a></div>".PHP_EOL.
+"<div class='col-x-12 col-s-3 col-m-3 col-l-3 col-xl-3 hover'><a href='https://pr0gramm.com/user/RundesBalli' target='_blank' class='iconlink' rel='noopener'><span class='fas'>&#xf120;</span> pr0gramm</a></div>".PHP_EOL.
+"<div class='col-x-12 col-s-3 col-m-3 col-l-3 col-xl-3 hover'><a href='mailto:webspam@RundesBalli.com' target='_blank' class='iconlink'><span class='fas'>&#xf0e0;</span> Mail</a></div>".PHP_EOL.
+"<div class='col-x-12 col-s-3 col-m-3 col-l-3 col-xl-3 hover'><a href='https://steamcommunity.com/id/RundesBalli/' target='_blank' class='iconlink'><span class='fab'>&#xf1b6;</span> Steam</a></div>".PHP_EOL.
 "</div>".PHP_EOL;
 $content.= "<div class='spacer-l'></div>".PHP_EOL;
 
