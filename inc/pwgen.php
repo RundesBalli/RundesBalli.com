@@ -6,8 +6,8 @@
  */
 
 $title = "Passwortgenerator";
-
-$content.= "<h1 class='center'>Passwortgenerator [0-9a-zA-Z]{64}</h1>".PHP_EOL;
+$content.= "<h1><span class='fas icon'>&#xf084;</span>Passwortgenerator <code>[0-9a-zA-Z]{64}</code></h1>".PHP_EOL;
+$content.= "<div class='spacer-m'></div>".PHP_EOL;
 
 $alphabet = "abcdefghijklmnopqrstuwxyzABCDEFGHIJKLMNOPQRSTUWXYZ0123456789";
 $passwords = "";

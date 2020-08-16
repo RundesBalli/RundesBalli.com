@@ -18,14 +18,18 @@ https://github.com/RundesBalli/RundesBalli.com
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   <body>
-    <div id="header">
-      <a href="https://RundesBalli.com"><img src="/src/header.png" alt="Header"></a>
+    <div class="header">
+      <a href="/"><img src="/src/header.png" alt="Header"></a>
     </div>
-    <div id="wrapper">
+    <div class="navbar">
+      {NAV}
+    </div>
+    <hr>
+    <div class="wrapper">
       {CONTENT}
     </div>
-    <div id="footer">
-      <a href="/imprint"><span class="fas">&#xf21b;</span>&nbsp;Impressum</a> - <a href="https://github.com/RundesBalli/RundesBalli.com" target="_blank" rel="noopener"><span class="fab">&#xf09b;</span>&nbsp;GitHub</a>
+    <div class="footer">
+      {FOOTER}
     </div>
   </body>
 </html>

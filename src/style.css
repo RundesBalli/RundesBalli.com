@@ -2,7 +2,7 @@
 CSS stylesheet for https://RundesBalli.com/
 
 https://RundesBalli.com/
-https://github.com/
+https://github.com/RundesBalli
 
 Sources:
 - Font-Awesome Free: https://fontawesome.com/start
@@ -13,7 +13,6 @@ Contents:
 3. Navigation
 4. Footer
 5. Grid
-6. Forms
 */
 
 /*
@@ -23,12 +22,11 @@ Contents:
 html, body {
   padding: 0px;
   margin: 0px;
-  background: #ededed;
   width: 100%;
   height: 100%;
   font-family: sans-serif;
-  font-size: 20px;
-  color: #000000;
+  background: #000000;
+  color: #cdcdcd;
 }
 
 body {
@@ -45,72 +43,29 @@ img {
   height: auto;
 }
 
-img.thumb {
-  border: 1px solid #000000;
-}
-
 a {
   outline: none;
-  color: #000000;
-  text-decoration: underline;
+  color: #ff6600;
+  text-decoration: none;
   cursor: pointer;
+  transition: all 0.4s;
 }
 
 a:active, a:hover, a:focus {
-  color: #444444;
-  text-decoration: none;
-}
-
-.iconlink, .iconlink:active, .iconlink:hover, .iconlink:focus {
-  text-decoration: none;
-}
-
-.warn {
-  color: #c52b2f;
-}
-
-.highlight {
-  color: #ee4d2e;
-}
-
-.bold {
-  font-weight: bold;
-}
-
-.italic {
-  font-style: italic;
-}
-
-.underline {
-  text-decoration: underline;
-}
-
-.center {
-  text-align: center;
-}
-
-.left {
-  float: left;
-}
-
-.right {
-  float: right;
-}
-
-.clear {
-  clear: both;
-}
-
-.bigger {
-  font-size: 22px;
-}
-
-.smaller {
-  font-size: 16px;
+  color: #cdcdcd;
 }
 
 h1, h2, h3 {
   word-break: break-word;
+}
+
+hr {
+  border: 1px solid rgba(205, 205, 205, 0.2); /* #cdcdcd */
+  width: 100%;
+}
+
+pre {
+  font-family: monospace;
 }
 
 /*
@@ -155,45 +110,68 @@ https://fontawesome.com/
   font-family: 'fontawesome-b';
 }
 
+.icon {
+  display: inline;
+  padding: 0px 5px 0px 0px;
+}
+
 /*
   2. Header
 */
 
-#header {
+.header {
   flex: none;
   text-align: center;
   margin: 15px auto 10px;
-}
-
-#header .info {
-  font-family: monospace;
-  font-size: 14px;
-}
-
-#header a {
-  color: #000000;
-  text-decoration: none;
-}
-
-#header a:hover {
-  color: #444444;
 }
 
 /*
   3. Navigation
 */
 
-/*
-  entfällt
-*/
+.navbar {
+  flex: none;
+  text-align: center;
+  margin: 10px auto 20px;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.navbar > a {
+  color: #ff6600;
+  font-size: 24px;
+  text-decoration: none;
+  transition: all 0.3s;
+  border-left: 1px solid #ff6600;
+  padding: 0px 20px;
+  display: inline-block;
+}
+
+.navbar > a:first-child {
+  border: 0px;
+}
+
+.navbar > a:active, .navbar > a:hover, .navbar > a:focus {
+  color: #cdcdcd;
+}
+
+.navbar > a.active {
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 900px) {
+  .navbar > a {
+    border-left: 0px;
+  }
+}
 
 /*
   4. Footer
 */
 
-#footer {
+.footer {
   width: 100%;
-  background-color: #212121;
+  background-color: rgba(205, 205, 205, 0.2); /* #cdcdcd */
   overflow: hidden;
   text-align: center;
   flex: none;
@@ -201,23 +179,28 @@ https://fontawesome.com/
   font-size: 14px;
 }
 
-#footer a {
+.footer a {
   color: #888888;
   text-decoration: none;
+  margin: 0px 10px;
 }
 
-#footer a:hover {
-  color: #ededed;
+.footer > a:active, .footer > a:hover, .footer > a:focus {
+  color: #cdcdcd;
+}
+
+.footer > a.active {
+  font-weight: bold;
 }
 
 /*
   5. Grid
 */
 
-#wrapper {
+.wrapper {
   max-width: 1200px;
   width: 100%;
-  margin: 12px auto;
+  margin: 0px auto 15px;
   flex: auto;
 }
 
@@ -333,15 +316,6 @@ https://fontawesome.com/
   display: table;
 }
 
-.hover {
-  background-color: transparent;
-  transition: all 0.4s;
-}
-
-.hover:hover {
-  background-color: rgba(0, 0, 0, 0.2);
-}
-
 .spacer-s {
   height: 15px;
 }
@@ -352,45 +326,4 @@ https://fontawesome.com/
 
 .spacer-l {
   height: 50px;
-}
-
-/*
-  6. Forms
-*/
-
-input[type=text], input[type=password], select, textarea {
-  width: 100%;
-  border: 1px solid #000000;
-  padding: 8px;
-  background-color: #ededed;
-  color: #000000;
-}
-
-textarea {
-  resize: none;
-  height: 120px;
-}
-
-input[type=text]:focus, input[type=password]:focus, select:focus, textarea:focus {
-  background-color: #ededed;
-  border: 1px solid #ee4d2e;
-  outline-color: #ee4d2e
-}
-
-input[type=submit], input[type=reset], input[type=button] {
-  width: 30%;
-  cursor: pointer;
-  padding: 8px 12px;
-  background-color: #ededed;
-  color: #000000;
-  border: 1px solid #000000;
-}
-
-input[type=submit]:hover, input[type=reset]:hover, input[type=button]:hover {
-  background-color: #ededed;
-}
-
-label {
-  display: inline-block;
-  color: #000000;
 }
