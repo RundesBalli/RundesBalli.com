@@ -28,7 +28,7 @@ $content.= "<div class='row'>".PHP_EOL.
 $content.= "<div class='spacer-m'></div>".PHP_EOL;
 
 $content.= "<div class='row'>".PHP_EOL.
-"<div class='col-x-12 col-s-4 col-m-4 col-l-4 col-xl-4'><a href='https://pr0.cooking' target='_blank' rel='noopener'><span class='fas icon'>&#xf543;</span>pr0.cooking</a></div>".PHP_EOL.
+"<div class='col-x-12 col-s-4 col-m-4 col-l-4 col-xl-4'><a href='https://pr0.cooking' target='_blank' rel='noopener'><span class='fas icon'>&#xf543;</span>pr0.cooking</a><br>- coming soon -</div>".PHP_EOL.
 "<div class='col-x-12 col-s-8 col-m-8 col-l-8 col-xl-8'>Rezeptsammlung meines Freundes <a href='https://nezos.wtf' target='_blank' rel='noopener'>Nezos</a>.<br>Tätigkeiten: Backend- und Frontendprogrammierung. Die Inhalte sind nicht von mir.</div>".PHP_EOL.
 "</div>".PHP_EOL;
 $content.= "<div class='spacer-m'></div>".PHP_EOL;
