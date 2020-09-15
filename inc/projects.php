@@ -10,6 +10,12 @@ $content.= "<h1><span class='fas icon'>&#xf542;</span>eigene Projekte</h1>".PHP_
 $content.= "<div class='spacer-m'></div>".PHP_EOL;
 
 $content.= "<div class='row'>".PHP_EOL.
+"<div class='col-x-12 col-s-4 col-m-4 col-l-4 col-xl-4'><a href='https://github.com/RundesBalli/lightweight-PHP-Boilerplate' target='_blank' rel='noopener'><span class='fas icon'>&#xf0ad;</span>lightweight-PHP-Boilerplate</a></div>".PHP_EOL.
+"<div class='col-x-12 col-s-8 col-m-8 col-l-8 col-xl-8'>Eine leichte und einfach anpassbare Code-Grundlage für die einfache Erstellung sicherer und dynamischer Webseiten.</div>".PHP_EOL.
+"</div>".PHP_EOL;
+$content.= "<div class='spacer-m'></div>".PHP_EOL;
+
+$content.= "<div class='row'>".PHP_EOL.
 "<div class='col-x-12 col-s-4 col-m-4 col-l-4 col-xl-4'><a href='https://github.com/RundesBalli/escpos-php-driver' target='_blank' rel='noopener'><span class='fas icon'>&#xf02f;</span>escpos-php-driver</a></div>".PHP_EOL.
 "<div class='col-x-12 col-s-8 col-m-8 col-l-8 col-xl-8'>Ein Treiber für Epson ESC/POS Thermodrucker, geschrieben in PHP.</div>".PHP_EOL.
 "</div>".PHP_EOL;
