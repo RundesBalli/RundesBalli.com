@@ -25,6 +25,7 @@ $content.= "<div class='row'>".PHP_EOL.
 "<div class='col-x-12 col-s-12 col-m-12 col-l-12 col-xl-12'><a href='https://pr0.tools/' target='_blank' rel='noopener'>pr0.tools</a></div>".PHP_EOL.
 "<div class='col-x-12 col-s-12 col-m-12 col-l-12 col-xl-12'><a href='https://stahlofen.info/' target='_blank' rel='noopener'>Stahlofen.info</a></div>".PHP_EOL.
 "<div class='col-x-12 col-s-12 col-m-12 col-l-12 col-xl-12'><a href='https://anti-ananas.club/' target='_blank' rel='noopener'>Anti-Ananas Club</a></div>".PHP_EOL.
+"<div class='col-x-12 col-s-12 col-m-12 col-l-12 col-xl-12'><a href='https://php-noise.com/' target='_blank' rel='noopener'>php-noise.com</a></div>".PHP_EOL.
 "</div>".PHP_EOL;
 $content.= "<div class='spacer-m'></div>".PHP_EOL;
 
