@@ -32,6 +32,7 @@ html, body {
 body {
   display: flex;
   flex-flow: column;
+  background-image: url("/src/bg.png");
 }
 
 * {
