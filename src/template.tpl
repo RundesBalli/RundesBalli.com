@@ -9,7 +9,7 @@ https://github.com/RundesBalli/RundesBalli.com
     <meta charset="utf-8">
     <meta name="description" content="RundesBalli.com Homepage"/>
     <meta name="robots" content="index, follow"/>
-    <meta name="keywords" content="RundesBalli, Homepage, pr0p0ll, pr0poll, pr0tools, pr0.tools"/>
+    <meta name="keywords" content="RundesBalli, Homepage, Projekte, Programmierung, Programmieren, projects, coding, php, code"/>
     <meta name="author" content="RundesBalli"/>
     <meta name="revisit-after" content="3 days"/>
     <link href="/src/style.css" rel="stylesheet">
