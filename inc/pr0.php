@@ -99,6 +99,12 @@ $content.= "<div class='row'>".PHP_EOL.
 "<div class='col-x-12 col-s-4 col-m-4 col-l-4 col-xl-4'><a href='https://github.com/RundesBalli/pr0gramm-Spendenraid' target='_blank' rel='noopener'><span class='fas icon'>&#xf4b9;</span>Spendenraid</a></div>".PHP_EOL.
 "<div class='col-x-12 col-s-8 col-m-8 col-l-8 col-xl-8'>Ein Tool zum Auswerten des Spendenraids auf pr0gramm.</div>".PHP_EOL.
 "</div>".PHP_EOL;
+$content.= "<div class='spacer-m'></div>".PHP_EOL;
+
+$content.= "<div class='row'>".PHP_EOL.
+"<div class='col-x-12 col-s-4 col-m-4 col-l-4 col-xl-4'><a href='https://github.com/pr0-dev/telegram-invitebenis-bot' target='_blank' rel='noopener'><span class='fas icon'>&#xf1ec;</span>Invitebenis-Bot</a></div>".PHP_EOL.
+"<div class='col-x-12 col-s-8 col-m-8 col-l-8 col-xl-8'>Bot zum Ausrechnen, ob ein User genug Benis für die nächste Invitevergabe hat.</div>".PHP_EOL.
+"</div>".PHP_EOL;
 $content.= "<div class='spacer-s'></div>".PHP_EOL;
 
 $content.= "<hr>".PHP_EOL;
