@@ -26,6 +26,8 @@ html, body {
   height: auto;
   min-height: 100vh;
   min-width: 100vw;
+  max-width: 100vw;
+  overflow-x: hidden;
   font-family: sans-serif;
   color: #cdcdcd;
 }
