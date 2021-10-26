@@ -22,17 +22,20 @@ Contents:
 html, body {
   padding: 0px;
   margin: 0px;
-  width: 100%;
-  height: 100%;
+  width: auto;
+  height: auto;
+  min-height: 100vh;
+  min-width: 100vw;
+  max-width: 100vw;
+  overflow-x: hidden;
   font-family: sans-serif;
-  background: #000000;
   color: #cdcdcd;
 }
 
 body {
   display: flex;
   flex-flow: column;
-  background-image: url("/src/bg.png");
+  background: #000 url(/src/bg.png) 0 0 repeat;
 }
 
 * {
