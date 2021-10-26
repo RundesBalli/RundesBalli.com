@@ -24,6 +24,8 @@ html, body {
   margin: 0px;
   width: auto;
   height: auto;
+  min-height: 100vh;
+  min-width: 100vw;
   font-family: sans-serif;
   color: #cdcdcd;
 }
