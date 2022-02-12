@@ -90,8 +90,8 @@ $content.= "<div class='row'>".PHP_EOL.
 $content.= "<div class='spacer-m'></div>".PHP_EOL;
 
 $content.= "<div class='row'>".PHP_EOL.
-"<div class='col-x-12 col-s-4 col-m-4 col-l-4 col-xl-4'><a href='https://github.com/RundesBalli/pr0gramm-poststats' target='_blank' rel='noopener'><span class='fas icon'>&#xf201;</span>Poststats</a></div>".PHP_EOL.
-"<div class='col-x-12 col-s-8 col-m-8 col-l-8 col-xl-8'>Ein Tool zum Schnellauswerten eines Posts auf pr0gramm.</div>".PHP_EOL.
+"<div class='col-x-12 col-s-4 col-m-4 col-l-4 col-xl-4'><a href='https://poststats.rundesballi.com' target='_blank' rel='noopener'><span class='fas icon'>&#xf201;</span>Poststats</a></div>".PHP_EOL.
+"<div class='col-x-12 col-s-8 col-m-8 col-l-8 col-xl-8'>Ein Tool zum Schnellauswerten eines Posts auf pr0gramm.<br>SourceCode bei <span class='fab icon'>&#xf09b;</span><a href='https://github.com/RundesBalli/pr0gramm-poststats' target='_blank' rel='noopener'>GitHub</a></div>".PHP_EOL.
 "</div>".PHP_EOL;
 $content.= "<div class='spacer-m'></div>".PHP_EOL;
 
