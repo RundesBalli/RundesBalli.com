@@ -159,6 +159,10 @@ https://fontawesome.com/
   display: inline-block;
 }
 
+.navbar > a > span.icon {
+  padding: 0px 12px 0px 0px;
+}
+
 .navbar > a:first-child {
   border: 0px;
 }
@@ -173,6 +177,7 @@ https://fontawesome.com/
 
 @media only screen and (max-width: 900px) {
   .navbar > a {
+    display: block;
     border-left: 0px;
   }
 }
