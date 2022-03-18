@@ -29,6 +29,25 @@ $content.= "<div class='spacer-s'></div>";
 $content.= "<hr>";
 
 /**
+ * GUIs
+ */
+$content.= "<h2>GUIs</h2>";
+
+$content.= "<div class='row'>".
+"<div class='col-s-12 col-l-4'><a href='https://poststats.rundesballi.com' target='_blank' rel='noopener'><span class='fas icon'>&#xf201;</span>Poststats</a></div>".
+"<div class='col-s-12 col-l-8'>Ein Tool zum Schnellauswerten eines Posts auf pr0gramm.<br>SourceCode bei <span class='fab icon'>&#xf09b;</span><a href='https://github.com/RundesBalli/pr0gramm-poststats' target='_blank' rel='noopener'>GitHub</a></div>".
+"</div>";
+$content.= "<div class='spacer-m'></div>";
+
+$content.= "<div class='row'>".
+"<div class='col-s-12 col-l-4'><a href='https://github.com/RundesBalli/pr0gramm-Spendenraid' target='_blank' rel='noopener'><span class='fas icon'>&#xf4b9;</span>Spendenraid</a></div>".
+"<div class='col-s-12 col-l-8'>Ein Tool zum Auswerten des Spendenraids auf pr0gramm.</div>".
+"</div>";
+$content.= "<div class='spacer-s'></div>";
+
+$content.= "<hr>";
+
+/**
  * Scripts
  */
 $content.= "<h2>Scripts</h2>";
@@ -60,18 +79,6 @@ $content.= "<div class='spacer-m'></div>";
 $content.= "<div class='row'>".
 "<div class='col-s-12 col-l-4'><a href='https://github.com/RundesBalli/pr0gramm-showScore' target='_blank' rel='noopener'><span class='fas icon'>&#xf0ac;</span>ShowScore</a></div>".
 "<div class='col-s-12 col-l-8'>Script um den Beniswert eines Users anzuzeigen (z.B. für Mikrocontroller, die nicht die ganze Response verarbeiten können).</div>".
-"</div>";
-$content.= "<div class='spacer-m'></div>";
-
-$content.= "<div class='row'>".
-"<div class='col-s-12 col-l-4'><a href='https://poststats.rundesballi.com' target='_blank' rel='noopener'><span class='fas icon'>&#xf201;</span>Poststats</a></div>".
-"<div class='col-s-12 col-l-8'>Ein Tool zum Schnellauswerten eines Posts auf pr0gramm.<br>SourceCode bei <span class='fab icon'>&#xf09b;</span><a href='https://github.com/RundesBalli/pr0gramm-poststats' target='_blank' rel='noopener'>GitHub</a></div>".
-"</div>";
-$content.= "<div class='spacer-m'></div>";
-
-$content.= "<div class='row'>".
-"<div class='col-s-12 col-l-4'><a href='https://github.com/RundesBalli/pr0gramm-Spendenraid' target='_blank' rel='noopener'><span class='fas icon'>&#xf4b9;</span>Spendenraid</a></div>".
-"<div class='col-s-12 col-l-8'>Ein Tool zum Auswerten des Spendenraids auf pr0gramm.</div>".
 "</div>";
 $content.= "<div class='spacer-m'></div>";
 
