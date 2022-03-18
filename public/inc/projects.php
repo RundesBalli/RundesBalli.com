@@ -13,7 +13,6 @@ $content.= "<div class='spacer-m'></div>".PHP_EOL;
  * Internetpräsenzen
  */
 $content.= "<h2>Internetpräsenzen</h2>".PHP_EOL;
-$content.= "<div class='spacer-s'></div>".PHP_EOL;
 
 $content.= "<div class='row'>".PHP_EOL.
 "<div class='col-x-12 col-s-4 col-m-4 col-l-4 col-xl-4'><a href='https://php-noise.com' target='_blank' rel='noopener'><span class='fas icon'>&#xf1b3;</span>php-noise Bildgenerator</a></div>".PHP_EOL.
@@ -33,7 +32,6 @@ $content.= "<hr>".PHP_EOL;
  * Tools
  */
 $content.= "<h2>Tools</h2>".PHP_EOL;
-$content.= "<div class='spacer-s'></div>".PHP_EOL;
 
 $content.= "<div class='row'>".PHP_EOL.
 "<div class='col-x-12 col-s-4 col-m-4 col-l-4 col-xl-4'><a href='https://github.com/RundesBalli/lightweight-PHP-Boilerplate' target='_blank' rel='noopener'><span class='fas icon'>&#xf0ad;</span>lightweight-PHP-Boilerplate</a></div>".PHP_EOL.
@@ -65,7 +63,6 @@ $content.= "<hr>".PHP_EOL;
  * Factorio
  */
 $content.= "<h2>Factorio</h2>".PHP_EOL;
-$content.= "<div class='spacer-s'></div>".PHP_EOL;
 
 $content.= "<div class='row'>".PHP_EOL.
 "<div class='col-x-12 col-s-4 col-m-4 col-l-4 col-xl-4'><a href='https://github.com/RundesBalli/factorio-blueprints' target='_blank' rel='noopener'><span class='fas icon'>&#xf013;</span>Factorio Blueprints</a></div>".PHP_EOL.
@@ -79,7 +76,6 @@ $content.= "<hr>".PHP_EOL;
  * Discord
  */
 $content.= "<h2>Discord</h2>".PHP_EOL;
-$content.= "<div class='spacer-s'></div>".PHP_EOL;
 
 $content.= "<div class='row'>".PHP_EOL.
 "<div class='col-x-12 col-s-4 col-m-4 col-l-4 col-xl-4'><a href='https://github.com/RundesBalli/discord-reminderBot' target='_blank' rel='noopener'><span class='fab icon'>&#xf392;</span>Discord Reminder-Bot</a></div>".PHP_EOL.
@@ -93,7 +89,6 @@ $content.= "<hr>".PHP_EOL;
  * Telegram
  */
 $content.= "<h2>Telegram</h2>".PHP_EOL;
-$content.= "<div class='spacer-s'></div>".PHP_EOL;
 
 $content.= "<div class='row'>".PHP_EOL.
 "<div class='col-x-12 col-s-4 col-m-4 col-l-4 col-xl-4'><a href='https://t.me/zufallbot' target='_blank' rel='noopener'><span class='fas icon'>&#xf522;</span>Telegram Zufallbot</a></div>".PHP_EOL.
@@ -107,7 +102,6 @@ $content.= "<hr>".PHP_EOL;
  * Weiteres
  */
 $content.= "<h2>Weiteres</h2>".PHP_EOL;
-$content.= "<div class='spacer-s'></div>".PHP_EOL;
 
 $content.= "<div class='row'>".PHP_EOL.
 "<div class='col-x-12 col-s-4 col-m-4 col-l-4 col-xl-4'><a href='https://pfandautomat.com' target='_blank' rel='noopener'><span class='fas icon'>&#xf72f;</span>Pfandautomat.com</a></div>".PHP_EOL.

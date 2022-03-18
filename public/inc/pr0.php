@@ -13,7 +13,6 @@ $content.= "<div class='spacer-m'></div>".PHP_EOL;
  * Internetpräsenzen
  */
 $content.= "<h2>Internetpräsenzen</h2>".PHP_EOL;
-$content.= "<div class='spacer-s'></div>".PHP_EOL;
 
 $content.= "<div class='row'>".PHP_EOL.
 "<div class='col-x-12 col-s-4 col-m-4 col-l-4 col-xl-4'><a href='https://pr0.tools' target='_blank' rel='noopener'><span class='fas icon'>&#xf7d9;</span>pr0.tools</a></div>".PHP_EOL.
@@ -57,7 +56,6 @@ $content.= "<hr>".PHP_EOL;
  * Scripts
  */
 $content.= "<h2>Scripts</h2>".PHP_EOL;
-$content.= "<div class='spacer-s'></div>".PHP_EOL;
 
 $content.= "<div class='row'>".PHP_EOL.
 "<div class='col-x-12 col-s-4 col-m-4 col-l-4 col-xl-4'><a href='https://github.com/RundesBalli/pr0gramm-apiCall' target='_blank' rel='noopener'><span class='fas icon'>&#xf0c1;</span>apiCall</a></div>".PHP_EOL.
@@ -113,7 +111,6 @@ $content.= "<hr>".PHP_EOL;
  * weiteres...
  */
 $content.= "<h2>weiteres...</h2>".PHP_EOL;
-$content.= "<div class='spacer-s'></div>".PHP_EOL;
 
 $content.= "<div class='row'>".PHP_EOL.
 "<div class='col-x-12 col-s-4 col-m-4 col-l-4 col-xl-4'><a href='https://github.com/RundesBalli/pr0gramm-bondrucker' target='_blank' rel='noopener'><span class='fas icon'>&#xf543;</span>Bondrucker Projekt</a> (archiviert)</div>".PHP_EOL.
