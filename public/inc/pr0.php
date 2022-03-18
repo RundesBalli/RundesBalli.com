@@ -24,14 +24,6 @@ $content.= "<div class='row'>".
 "<div class='col-x-12 col-s-4 col-m-4 col-l-4 col-xl-4'><a href='https://pr0p0ll.com' target='_blank' rel='noopener'><span class='fas icon'>&#xf044;</span>pr0p0ll</a></div>".
 "<div class='col-x-12 col-s-8 col-m-8 col-l-8 col-xl-8'>pr0p0ll ist ein Umfragenportal für pr0gramm Mitglieder.</div>".
 "</div>";
-$content.= "<div class='spacer-m'></div>";
-
-$content.= "<div class='row'>".
-"<div class='col-x-12 col-s-4 col-m-4 col-l-4 col-xl-4'><a href='https://pr0.cooking' target='_blank' rel='noopener'><span class='fas icon'>&#xf543;</span>pr0.cooking</a><br>- coming soon -</div>".
-"<div class='col-x-12 col-s-8 col-m-8 col-l-8 col-xl-8'>Rezeptsammlung meines Freundes <a href='https://nezos.wtf' target='_blank' rel='noopener'>Nezos</a>.<br>Tätigkeiten: Backend- und Frontendprogrammierung. Die Inhalte sind nicht von mir.</div>".
-"</div>";
-$content.= "<div class='spacer-m'></div>";
-
 
 $content.= "<div class='row'>".
 "<div class='col-x-12 col-s-4 col-m-4 col-l-4 col-xl-4'><a href='https://stahlofen.info' target='_blank' rel='noopener'><span class='fas icon'>&#xf06d;</span>Stahlofen.info</a></div>".
