@@ -10,18 +10,15 @@ $content.= "<h1><span class='fas icon'>&#xf084;</span>Passwortgenerator <code>[0
 $content.= "<div class='spacer-m'></div>";
 
 $alphabet = "abcdefghijklmnopqrstuwxyzABCDEFGHIJKLMNOPQRSTUWXYZ0123456789";
-$passwords = "";
+
+$content.= "<div class='row center'>";
 for($x = 0; $x < 100; $x++) {
+  $content.= "<div class='col-s-12 col-l-12 pre breakWord'>";
   for ($i = 0; $i < 64; $i++) {
     $n = rand(0, strlen($alphabet)-1);
-    $passwords.= $alphabet[$n];
+    $content.= $alphabet[$n];
   }
-  $passwords.= "<br>\n";
+  $content.= "</div>";
 }
-
-$content.= "<div class='row center'>".
-"<div class='col-x-12 col-s-12 col-m-12 col-l-12 col-xl-12'><pre>".
-$passwords.
-"</pre></div>".
-"</div>";
+$content.= "</div>";
 ?>
