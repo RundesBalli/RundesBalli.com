@@ -6,7 +6,7 @@
  */
 
 $title = "eigene Projekte";
-$content.= "<h1><span class='fas icon'>&#xf542;</span>eigene Projekte</h1>";
+$content.= "<h1 class='center'><span class='fas icon'>&#xf542;</span>eigene Projekte</h1>";
 $content.= "<div class='spacer-m'></div>";
 
 /**
