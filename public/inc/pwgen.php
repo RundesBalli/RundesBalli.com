@@ -15,7 +15,7 @@ $content.= "<div class='row center'>";
 for($x = 0; $x < 100; $x++) {
   $content.= "<div class='col-s-12 col-l-12 pre breakWord'>";
   for ($i = 0; $i < 64; $i++) {
-    $n = rand(0, strlen($alphabet)-1);
+    $n = mt_rand(0, strlen($alphabet)-1);
     $content.= $alphabet[$n];
   }
   $content.= "</div>";
