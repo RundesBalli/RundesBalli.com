@@ -68,8 +68,16 @@ hr {
   width: 100%;
 }
 
-pre {
+.pre {
   font-family: monospace;
+}
+
+.breakWord {
+  word-break: break-word;
+}
+
+.center {
+  text-align: center;
 }
 
 /*
