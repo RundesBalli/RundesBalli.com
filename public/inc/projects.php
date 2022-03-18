@@ -86,6 +86,19 @@ $content.= "<div class='spacer-s'></div>";
 $content.= "<hr>";
 
 /**
+ * Crawler
+ */
+$content.= "<h2>Crawler</h2>";
+
+$content.= "<div class='row'>".
+"<div class='col-x-12 col-s-4 col-m-4 col-l-4 col-xl-4'><a href='https://github.com/RundesBalli/ADR-Crawler' target='_blank' rel='noopener'><span class='fas icon'>&#xf7ba;</span>ADR Crawler</a></div>".
+"<div class='col-x-12 col-s-8 col-m-8 col-l-8 col-xl-8'>Ambient Dose Rate (Deutsch: ODL = Ortsdosisleistung) Crawler für ~1700 Messstellen innerhalb Deutschlands.</div>".
+"</div>";
+$content.= "<div class='spacer-s'></div>";
+
+$content.= "<hr>";
+
+/**
  * Factorio
  */
 $content.= "<h2>Factorio</h2>";
