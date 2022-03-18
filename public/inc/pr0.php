@@ -32,17 +32,6 @@ $content.= "<div class='row'>".
 "</div>";
 $content.= "<div class='spacer-m'></div>";
 
-$content.= "<div class='row'>".
-"<div class='col-x-12 col-s-4 col-m-4 col-l-4 col-xl-4'><a href='https://boomerparty.live' target='_blank' rel='noopener'><span class='fas icon'>&#xf144;</span>boomerparty.live</a></div>".
-"<div class='col-x-12 col-s-8 col-m-8 col-l-8 col-xl-8'>Offizielle Internetpräsenz zum <a href='https://open.spotify.com/playlist/64WfneVI8dqmpd6T6QKAMs' target='_blank' rel='noopener'>Boomerparty-Playlist</a> Community-Projekt meines Freundes <a href='https://pr0gramm.com/user/KaiserMolay' target='_blank' rel='noopener'>KaiserMolay</a>.<br>Tätigkeiten: Gesamte Seite außer die Hintergrundbilder. Die Playliste wird von KaiserMolay gepflegt.</div>".
-"</div>";
-$content.= "<div class='spacer-m'></div>";
-
-$content.= "<div class='row'>".
-"<div class='col-x-12 col-s-4 col-m-4 col-l-4 col-xl-4'><a href='https://anti-ananas.club' target='_blank' rel='noopener'><span class='fas icon'>&#xf00d;</span>Anti-Ananas Club</a></div>".
-"<div class='col-x-12 col-s-8 col-m-8 col-l-8 col-xl-8'>Satireprojekt. Das Projekt ist als Gegenreaktion zu dem Hawaii-Pizza-Meme entstanden.</div>".
-"</div>";
-$content.= "<div class='spacer-m'></div>";
 
 $content.= "<div class='row'>".
 "<div class='col-x-12 col-s-4 col-m-4 col-l-4 col-xl-4'><a href='https://stahlofen.info' target='_blank' rel='noopener'><span class='fas icon'>&#xf06d;</span>Stahlofen.info</a></div>".

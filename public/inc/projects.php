@@ -24,6 +24,26 @@ $content.= "<div class='row'>".
 "<div class='col-x-12 col-s-4 col-m-4 col-l-4 col-xl-4'><a href='https://tankersparnis.net' target='_blank' rel='noopener'><span class='fas icon'>&#xf52f;</span>Tankersparnis.net</a></div>".
 "<div class='col-x-12 col-s-8 col-m-8 col-l-8 col-xl-8'>Portal zur einfachen Berechnung des gesparten Geldes beim Tanken von Gas gegenüber herkömmlichen Kraftstoffen.<br>SourceCode bei <span class='fab icon'>&#xf09b;</span><a href='https://github.com/RundesBalli/tankersparnis' target='_blank' rel='noopener'>GitHub</a></div>".
 "</div>";
+$content.= "<div class='spacer-m'></div>";
+
+$content.= "<div class='row'>".
+"<div class='col-x-12 col-s-4 col-m-4 col-l-4 col-xl-4'><a href='https://anti-ananas.club' target='_blank' rel='noopener'><span class='fas icon'>&#xf00d;</span>Anti-Ananas Club</a></div>".
+"<div class='col-x-12 col-s-8 col-m-8 col-l-8 col-xl-8'>Satireprojekt. Das Projekt ist als Gegenreaktion zu dem Hawaii-Pizza-Meme entstanden.</div>".
+"</div>";
+$content.= "<div class='spacer-s'></div>";
+
+$content.= "<hr>";
+
+/**
+ * Projekte von Freunden an denen ich mitgewirkt habe
+ */
+$content.= "<h2>Projekte von Freunden</h2>";
+$content.= "<h3>an denen ich mitgewirkt habe</h3>";
+
+$content.= "<div class='row'>".
+"<div class='col-x-12 col-s-4 col-m-4 col-l-4 col-xl-4'><a href='https://boomerparty.live' target='_blank' rel='noopener'><span class='fas icon'>&#xf144;</span>boomerparty.live</a></div>".
+"<div class='col-x-12 col-s-8 col-m-8 col-l-8 col-xl-8'>Offizielle Internetpräsenz zum <a href='https://open.spotify.com/playlist/64WfneVI8dqmpd6T6QKAMs' target='_blank' rel='noopener'>Boomerparty-Playlist</a> Community-Projekt meines Freundes <a href='https://pr0gramm.com/user/KaiserMolay' target='_blank' rel='noopener'>KaiserMolay</a>.<br>Tätigkeiten: Gesamte Seite außer die Hintergrundbilder. Die Playliste wird von KaiserMolay gepflegt.</div>".
+"</div>";
 $content.= "<div class='spacer-s'></div>";
 
 $content.= "<hr>";
