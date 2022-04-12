@@ -35,7 +35,7 @@ html, body {
 body {
   display: flex;
   flex-flow: column;
-  background: #000 url(/src/bg.png) 0 0 repeat;
+  background: #000 url(/src/noise_hex-1b1b1b-t50-tS7-bW0-mB-mu1.2-st2.png) 0 0 repeat;
 }
 
 * {
@@ -188,7 +188,7 @@ https://fontawesome.com/
 
 .footer {
   width: 100%;
-  background-color: rgba(205, 205, 205, 0.2); /* #cdcdcd */
+  background-color: rgba(55, 55, 55, 0.2);
   overflow: hidden;
   text-align: center;
   flex: none;
