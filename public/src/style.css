@@ -38,6 +38,10 @@ body {
   background: #000 url(/src/noise_hex-1b1b1b-t50-tS7-bW0-mB-mu1.2-st2.png) 0 0 repeat;
 }
 
+.navbar, .wrapper {
+  text-shadow: 1px 2px 1px #000000;
+}
+
 * {
   box-sizing: border-box;
 }
