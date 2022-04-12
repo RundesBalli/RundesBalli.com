@@ -23,7 +23,6 @@ $content.= "<div class='row'>".
 "<div class='col-s-12 col-l-12'><a href='https://RundesBalli.com' target='_blank' rel='noopener'>RundesBalli.com</a></div>".
 "<div class='col-s-12 col-l-12'><a href='https://pr0p0ll.com/' target='_blank' rel='noopener'>pr0p0ll.com</a></div>".
 "<div class='col-s-12 col-l-12'><a href='https://pr0.tools/' target='_blank' rel='noopener'>pr0.tools</a></div>".
-"<div class='col-s-12 col-l-12'><a href='https://stahlofen.info/' target='_blank' rel='noopener'>Stahlofen.info</a></div>".
 "<div class='col-s-12 col-l-12'><a href='https://anti-ananas.club/' target='_blank' rel='noopener'>Anti-Ananas Club</a></div>".
 "<div class='col-s-12 col-l-12'><a href='https://php-noise.com/' target='_blank' rel='noopener'>php-noise.com</a></div>".
 "<div class='col-s-12 col-l-12'><a href='https://pfandautomat.com/' target='_blank' rel='noopener'>pfandautomat.com</a></div>".
