@@ -118,7 +118,7 @@ $content.= "<h2>Discord</h2>";
 
 $content.= "<div class='row'>".
 "<div class='col-s-12 col-l-4'><a href='https://github.com/RundesBalli/discord-reminderBot' target='_blank' rel='noopener'><span class='fab icon'>&#xf392;</span>Discord Reminder-Bot</a></div>".
-"<div class='col-s-12 col-l-8'>Script zum automatischen Senden eines vordefinierten Textes per WebHook an einen Textkanal.</div>".
+"<div class='col-s-12 col-l-8'>Script zum automatischen Senden eines vordefinierten Textes als Bot oder per WebHook an einen Textkanal.</div>".
 "</div>";
 $content.= "<div class='spacer-s'></div>";
 
