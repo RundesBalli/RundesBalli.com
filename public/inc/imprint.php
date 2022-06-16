@@ -18,7 +18,7 @@ $content.= "<div class='spacer-m'></div>";
  */
 $content.= "<h2><span class='fas icon'>&#xf0e8;</span>Gültigkeitsbereich</h2>";
 $content.= "<div class='row'>".
-"<div class='col-s-12 col-l-12'>Dieses Impressum gilt ausschließlich für die folgenden Internetpräsenzen:</div>".
+"<div class='col-s-12 col-l-12'>Dieses Impressum und der Haftungsausschluss gelten ausschließlich für die folgenden Internetpräsenzen:</div>".
 "<div class='col-s-12 col-l-12'>Sofern nicht anders angegeben gilt es ebenso für alle Subdomains (z.B. *.RundesBalli.com).</div>".
 "<div class='col-s-12 col-l-12'><a href='https://RundesBalli.com' target='_blank' rel='noopener'>RundesBalli.com</a></div>".
 "<div class='col-s-12 col-l-12'><a href='https://pr0p0ll.com/' target='_blank' rel='noopener'>pr0p0ll.com</a></div>".
