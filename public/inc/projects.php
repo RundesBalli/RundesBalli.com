@@ -41,7 +41,7 @@ $content.= "<h2>Projekte von Freunden</h2>";
 $content.= "<h3>an denen ich mitgewirkt habe</h3>";
 
 $content.= "<div class='row'>".
-"<div class='col-s-12 col-l-4'><a href='https://nezos.cooking' target='_blank' rel='noopener'><span class='fas icon'>&#xf543;</span>nezos.cooking</a><br>- coming soon -</div>".
+"<div class='col-s-12 col-l-4'><a href='https://nezos.cooking' target='_blank' rel='noopener'><span class='fas icon'>&#xf543;</span>nezos.cooking</a></div>".
 "<div class='col-s-12 col-l-8'>Rezeptsammlung meines Freundes <a href='https://nezos.wtf' target='_blank' rel='noopener'>Nezos</a>.<br>Tätigkeiten: Backend- und Frontendprogrammierung. Die Rezepte sind nicht von mir.</div>".
 "</div>";
 $content.= "<div class='spacer-m'></div>";
