@@ -99,17 +99,17 @@ h1 .icon, h2 .icon, h3 .icon {
 
 h1 {
   font-size: calc(var(--fontSize) * 2);
-  margin: calc(var(--fontSize) * 1.5) 0 calc(var(--fontSize) * 0.7);
+  margin: calc(var(--fontSize) * 2.5) 0 calc(var(--fontSize) * 1.7);
 }
 
 h2 {
   font-size: calc(var(--fontSize) * 1.5);
-  margin: calc(var(--fontSize) * 1.2) 0 calc(var(--fontSize) * 0.5);
+  margin: calc(var(--fontSize) * 2.2) 0 calc(var(--fontSize) * 1.5);
 }
 
 h3 {
   font-size: calc(var(--fontSize) * 1.2);
-  margin: calc(var(--fontSize) * 0.85) 0 calc(var(--fontSize) * 0.35);
+  margin: calc(var(--fontSize) * 1.85) 0 calc(var(--fontSize) * 1.35);
 }
 
 hr {
@@ -275,7 +275,7 @@ hr {
 #wrapper {
   max-width: 1200px;
   width: 100%;
-  margin: 0px auto 15px;
+  margin: 0px auto calc(var(--fontSize) * 3);
   flex: auto;
   text-shadow: 1px 2px 1px var(--shadowColor);
 }
