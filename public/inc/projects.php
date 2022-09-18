@@ -65,12 +65,6 @@ $content.= "<div class='row'>".
 $content.= "<div class='spacer-m'></div>";
 
 $content.= "<div class='row'>".
-"<div class='col-s-12 col-l-4'><a href='https://RundesBalli.com/pwgen' target='_blank' rel='noopener'><span class='fas icon'>&#xf084;</span>Passwortgenerator</a></div>".
-"<div class='col-s-12 col-l-8'>Ein einfacher Passwortgenerator, welcher 100 zufällig generierte Zeichenfolgen nach dem Schema <code>[0-9a-zA-Z]{64}</code> erstellt.</div>".
-"</div>";
-$content.= "<div class='spacer-m'></div>";
-
-$content.= "<div class='row'>".
 "<div class='col-s-12 col-l-4'><a href='https://github.com/RundesBalli/terminal-imager' target='_blank' rel='noopener'><span class='fas icon'>&#xf302;</span>terminal-imager</a></div>".
 "<div class='col-s-12 col-l-8'>Ein CLI-Script um Bilder in \"ANSI-Escape-Code-Bilder\" umzuwandeln, geschrieben in PHP.</div>".
 "</div>";
@@ -112,19 +106,6 @@ $content.= "<h2>Discord</h2>";
 $content.= "<div class='row'>".
 "<div class='col-s-12 col-l-4'><a href='https://github.com/RundesBalli/discord-reminderBot' target='_blank' rel='noopener'><span class='fab icon'>&#xf392;</span>Discord Reminder-Bot</a></div>".
 "<div class='col-s-12 col-l-8'>Script zum automatischen Senden eines vordefinierten Textes als Bot oder per WebHook an einen Textkanal.</div>".
-"</div>";
-$content.= "<div class='spacer-s'></div>";
-
-$content.= "<hr>";
-
-/**
- * Telegram
- */
-$content.= "<h2>Telegram</h2>";
-
-$content.= "<div class='row'>".
-"<div class='col-s-12 col-l-4'><a href='https://t.me/zufallbot' target='_blank' rel='noopener'><span class='fas icon'>&#xf522;</span>Telegram Zufallbot</a></div>".
-"<div class='col-s-12 col-l-8'>Generiert Zufallsdaten und schickt sie an den anfragenden Telegram-Clienten.<br>SourceCode bei <a href='https://github.com/RundesBalli/telegram-Zufallbot' target='_blank' rel='noopener'><span class='fab icon'>&#xf09b;</span>GitHub</a>.</div>".
 "</div>";
 $content.= "<div class='spacer-s'></div>";
 

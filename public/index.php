@@ -31,9 +31,13 @@ $pageArray = array(
   /* Standardseiten */
   'start'          => 'start.php',
   'imprint'        => 'imprint.php',
-  'pwgen'          => 'pwgen.php',
   'projects'       => 'projects.php',
   'pr0'            => 'pr0.php',
+
+  /* Tools */
+  'tools'          => 'tools.php',
+  'pwgen'          => 'pwgen.php',
+  'toiletPaper'    => 'toiletPaper.php',
 
   /* Fehlerseiten */
   '404'            => '404.php',
@@ -54,7 +58,7 @@ if(isset($pageArray[$getp])) {
  */
 $a = " class='active'";
 $nav = "<a href='/'".($getp == "start" ? $a : NULL)."><span class='fas icon'>&#xf015;</span>Startseite</a>";
-$nav.= "<a href='/pwgen'".($getp == "pwgen" ? $a : NULL)."><span class='fas icon'>&#xf084;</span>PWgen</a>";
+$nav.= "<a href='/tools'".($getp == "tools" ? $a : NULL)."><span class='fas icon'>&#xf7d9;</span>Tools</a>";
 $nav.= "<a href='/projects'".($getp == "projects" ? $a : NULL)."><span class='fas icon'>&#xf542;</span>Projekte</a>";
 $nav.= "<a href='/pr0'".($getp == "pr0" ? $a : NULL)."><span class='fas icon'>&#xf120;</span>pr0gramm</a>";
 
