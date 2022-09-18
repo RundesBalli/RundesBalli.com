@@ -1,23 +1,53 @@
-/*
-CSS stylesheet for https://RundesBalli.com/
+/**
+ * CSS stylesheet for https://RundesBalli.com/
+ * 
+ * https://RundesBalli.com/
+ * https://github.com/RundesBalli
+ * 
+ * Sources:
+ * - Font-Awesome Free: https://fontawesome.com/start
+ * 
+ * Contents:
+ * 1. General
+ * 2. Header
+ * 3. Navigation
+ * 4. Footer
+ * 5. Grid
+ */
 
-https://RundesBalli.com/
-https://github.com/RundesBalli
+/**
+ * 1. General
+ */
+:root {
+  --bgColor: #000000;
+  --bgImage: url(/assets/images/noise_hex-1b1b1b-t50-tS7-bW0-mB-mu1.2-st2.png);
+  --fontSize: 16px;
+  --fontColor: #FDE8E9;
+  --linkColor: #C3EB78;
+  --activeNavColor: #A0DF2A;
+  --linkHover: #FDE8E9;
+  --hrColor: rgba(253, 232, 233, 0.1);
+  --transitionTime: 0.4s;
+  --shadowColor: #000000;
+}
 
-Sources:
-- Font-Awesome Free: https://fontawesome.com/start
+* {
+  box-sizing: border-box;
+}
 
-Contents:
-1. General
-2. Header
-3. Navigation
-4. Footer
-5. Grid
-*/
+@media only screen and (max-width: 600px) {
+  :root {
+    --fontSize: 14px;
+  }
+}
 
-/*
-  1. General
-*/
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/assets/fonts/Roboto-Regular.ttf");
+}
 
 html, body {
   padding: 0px;
@@ -35,16 +65,14 @@ html, body {
 body {
   display: flex;
   flex-flow: column;
-  background: #000 url(/src/noise_hex-1b1b1b-t50-tS7-bW0-mB-mu1.2-st2.png) 0 0 repeat;
+  background: var(--bgColor) var(--bgImage) 0 0 repeat;
 }
 
 .navbar, .wrapper {
   text-shadow: 1px 2px 1px #000000;
 }
 
-* {
-  box-sizing: border-box;
-}
+
 
 img {
   max-width: 100%;
@@ -94,8 +122,8 @@ https://fontawesome.com/
   font-family: 'fontawesome-r';
   font-style: normal;
   font-weight: 400;
-  src: url("/src/webfonts/fa-regular-400.eot");
-  src: url("/src/webfonts/fa-regular-400.eot?#iefix") format("embedded-opentype"), url("/src/webfonts/fa-regular-400.woff2") format("woff2"), url("/src/webfonts/fa-regular-400.woff") format("woff"), url("/src/webfonts/fa-regular-400.ttf") format("truetype"), url("/src/webfonts/fa-regular-400.svg#fontawesome") format("svg");
+  src: url("/assets/fonts/fa-regular-400.eot");
+  src: url("/assets/fonts/fa-regular-400.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/fa-regular-400.woff2") format("woff2"), url("/assets/fonts/fa-regular-400.woff") format("woff"), url("/assets/fonts/fa-regular-400.ttf") format("truetype"), url("/assets/fonts/fa-regular-400.svg#fontawesome") format("svg");
 }
 
 .far {
@@ -107,8 +135,8 @@ https://fontawesome.com/
   font-family: 'fontawesome-s';
   font-style: normal;
   font-weight: 900;
-  src: url("/src/webfonts/fa-solid-900.eot");
-  src: url("/src/webfonts/fa-solid-900.eot?#iefix") format("embedded-opentype"), url("/src/webfonts/fa-solid-900.woff2") format("woff2"), url("/src/webfonts/fa-solid-900.woff") format("woff"), url("/src/webfonts/fa-solid-900.ttf") format("truetype"), url("/src/webfonts/fa-solid-900.svg#fontawesome") format("svg");
+  src: url("/assets/fonts/fa-solid-900.eot");
+  src: url("/assets/fonts/fa-solid-900.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/fa-solid-900.woff2") format("woff2"), url("/assets/fonts/fa-solid-900.woff") format("woff"), url("/assets/fonts/fa-solid-900.ttf") format("truetype"), url("/assets/fonts/fa-solid-900.svg#fontawesome") format("svg");
 }
 
 .fas {
@@ -120,8 +148,8 @@ https://fontawesome.com/
   font-family: 'fontawesome-b';
   font-style: normal;
   font-weight: normal;
-  src: url("/src/webfonts/fa-brands-400.eot");
-  src: url("/src/webfonts/fa-brands-400.eot?#iefix") format("embedded-opentype"), url("/src/webfonts/fa-brands-400.woff2") format("woff2"), url("/src/webfonts/fa-brands-400.woff") format("woff"), url("/src/webfonts/fa-brands-400.ttf") format("truetype"), url("/src/webfonts/fa-brands-400.svg#fontawesome") format("svg"); }
+  src: url("/assets/fonts/fa-brands-400.eot");
+  src: url("/assets/fonts/fa-brands-400.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/fa-brands-400.woff2") format("woff2"), url("/assets/fonts/fa-brands-400.woff") format("woff"), url("/assets/fonts/fa-brands-400.ttf") format("truetype"), url("/assets/fonts/fa-brands-400.svg#fontawesome") format("svg"); }
 
 .fab {
   font-family: 'fontawesome-b';

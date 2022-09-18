@@ -67,7 +67,7 @@ $footer.= "<a href='https://github.com/RundesBalli/RundesBalli.com' target='_bla
 /**
  * Templateeinbindung und Einsetzen der Variablen
  */
-$templatefile = __DIR__.DIRECTORY_SEPARATOR."src".DIRECTORY_SEPARATOR."template.tpl";
+$templatefile = __DIR__.DIRECTORY_SEPARATOR."assets".DIRECTORY_SEPARATOR."template".DIRECTORY_SEPARATOR."template.tpl";
 $fp = fopen($templatefile, "r");
 $output = preg_replace(
   array(
