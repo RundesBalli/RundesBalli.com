@@ -64,6 +64,7 @@ a:active, a:hover, a:focus {
 }
 
 h1, h2, h3 {
+  text-align: center;
   word-break: break-word;
 }
 

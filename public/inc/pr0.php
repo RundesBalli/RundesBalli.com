@@ -6,7 +6,7 @@
  */
 
 $title = "pr0gramm relatierte Projekte";
-$content.= "<h1 class='center'><span class='fas icon'>&#xf120;</span><a href='https://pr0gramm.com' target='_blank' rel='noopener'>pr0gramm</a> relatierte Projekte</h1>";
+$content.= "<h1><span class='fas icon'>&#xf120;</span><a href='https://pr0gramm.com' target='_blank' rel='noopener'>pr0gramm</a> relatierte Projekte</h1>";
 $content.= "<div class='spacer-m'></div>";
 
 /**
