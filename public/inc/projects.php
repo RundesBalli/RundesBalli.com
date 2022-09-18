@@ -23,12 +23,6 @@ $content.= "<div class='row'>".
 "<div class='col-s-12 col-l-4'><a href='https://tankersparnis.net' target='_blank' rel='noopener'><span class='fas icon'>&#xf52f;</span>Tankersparnis.net</a></div>".
 "<div class='col-s-12 col-l-8'>Portal zur einfachen Berechnung des gesparten Geldes beim Tanken von Gas gegenüber herkömmlichen Kraftstoffen.<br>SourceCode bei <span class='fab icon'>&#xf09b;</span><a href='https://github.com/RundesBalli/tankersparnis' target='_blank' rel='noopener'>GitHub</a></div>".
 "</div>";
-$content.= "<div class='spacer-m'></div>";
-
-$content.= "<div class='row'>".
-"<div class='col-s-12 col-l-4'><a href='https://anti-ananas.club' target='_blank' rel='noopener'><span class='fas icon'>&#xf00d;</span>Anti-Ananas Club</a></div>".
-"<div class='col-s-12 col-l-8'>Satireprojekt. Das Projekt ist als Gegenreaktion zu dem Hawaii-Pizza-Meme entstanden.</div>".
-"</div>";
 $content.= "<div class='spacer-s'></div>";
 
 $content.= "<hr>";
@@ -144,6 +138,12 @@ $content.= "<h2>Weiteres</h2>";
 $content.= "<div class='row'>".
 "<div class='col-s-12 col-l-4'><a href='https://pfandautomat.com' target='_blank' rel='noopener'><span class='fas icon'>&#xf72f;</span>Pfandautomat.com</a></div>".
 "<div class='col-s-12 col-l-8'>Ein kleines Scherzprojekt ohne Sinn.</div>".
+"</div>";
+$content.= "<div class='spacer-m'></div>";
+
+$content.= "<div class='row'>".
+"<div class='col-s-12 col-l-4'><a href='https://anti-ananas.club' target='_blank' rel='noopener'><span class='fas icon'>&#xf00d;</span>Anti-Ananas Club</a></div>".
+"<div class='col-s-12 col-l-8'>Satireprojekt. Das Projekt ist als Gegenreaktion zu dem Hawaii-Pizza-Meme entstanden.</div>".
 "</div>";
 $content.= "<div class='spacer-m'></div>";
 
