@@ -14,6 +14,7 @@
  * 3. Navigation
  * 4. Footer
  * 5. Grid
+ * 6. Forms
  */
 
 /**
@@ -26,6 +27,7 @@
   --fontColor: #CDCDCD;
   --linkColor: #FF6600;
   --linkHover: #CDCDCD;
+  --highlightColor: #FF6600;
   --hrColor: rgba(205, 205, 205, 0.1);
   --transitionTime: 0.4s;
   --shadowColor: #000000;
@@ -125,6 +127,18 @@ hr {
 
 .center {
   text-align: center;
+}
+
+.alignRightNotMobile {
+  text-align: right;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.highlight {
+  color: var(--highlightColor);
 }
 
 .spacer-s {
@@ -310,6 +324,10 @@ hr {
   #wrapper {
     padding: 10px;
   }
+
+  .alignRightNotMobile {
+    text-align: left;
+  }
 }
 
 @media only screen and (min-width: 601px) {
@@ -326,4 +344,26 @@ hr {
   .col-l-10 {width: 83.33%;}
   .col-l-11 {width: 91.66%;}
   .col-l-12 {width: 100%;}
+}
+
+/**
+ * 6. Forms
+ */
+input {
+  width: 30%;
+  border: 1px solid var(--fontColor);
+  padding: 8px;
+  background-color: transparent;
+  color: var(--fontColor);
+}
+
+input:focus {
+  border: 1px solid var(--linkHover);
+  outline-color: var(--linkHover);
+}
+
+@media only screen and (max-width: 600px) {
+  input {
+    width: 100%;
+  }
 }
