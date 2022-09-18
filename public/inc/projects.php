@@ -7,7 +7,6 @@
 
 $title = "eigene Projekte";
 $content.= "<h1><span class='fas icon'>&#xf542;</span>eigene Projekte</h1>";
-$content.= "<div class='spacer-m'></div>";
 
 /**
  * Internetpräsenzen
@@ -152,6 +151,4 @@ $content.= "<div class='row'>".
 "<div class='col-s-12 col-l-4'><a href='https://github.com/RundesBalli' target='_blank' rel='noopener'><span class='fab icon'>&#xf09b;</span>GitHub</a></div>".
 "<div class='col-s-12 col-l-8'>Weitere Projekte können auf Github eingesehen werden.</div>".
 "</div>";
-$content.= "<div class='spacer-l'></div>";
-
 ?>

@@ -7,7 +7,6 @@
 
 $title = "pr0gramm relatierte Projekte";
 $content.= "<h1><span class='fas icon'>&#xf120;</span><a href='https://pr0gramm.com' target='_blank' rel='noopener'>pr0gramm</a> relatierte Projekte</h1>";
-$content.= "<div class='spacer-m'></div>";
 
 /**
  * Internetpräsenzen
@@ -105,6 +104,4 @@ $content.= "<div class='row'>".
 "<div class='col-s-12 col-l-4'><a href='https://github.com/RundesBalli?tab=repositories&q=pr0gramm' target='_blank' rel='noopener'><span class='fas icon'>&#xf35d;</span>weitere pr0gramm-Projekte</a></div>".
 "<div class='col-s-12 col-l-8'>Viele meiner pr0gramm-Projekte stehen auf GitHub zur Verfügung.</div>".
 "</div>";
-$content.= "<div class='spacer-l'></div>";
-
 ?>
