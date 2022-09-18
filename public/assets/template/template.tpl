@@ -18,17 +18,17 @@ https://github.com/RundesBalli/RundesBalli.com
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   <body>
-    <div class="header">
+    <div id="header">
       <a href="/"><img src="/assets/images/header.png" alt="Header"></a>
     </div>
-    <div class="navbar">
+    <div id="navbar">
       {NAV}
     </div>
     <hr>
-    <div class="wrapper">
+    <div id="wrapper">
       {CONTENT}
     </div>
-    <div class="footer">
+    <div id="footer">
       {FOOTER}
     </div>
   </body>

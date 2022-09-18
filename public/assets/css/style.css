@@ -9,6 +9,7 @@
  * 
  * Contents:
  * 1. General
+ * 1.1. Font Awesome
  * 2. Header
  * 3. Navigation
  * 4. Footer
@@ -22,17 +23,17 @@
   --bgColor: #000000;
   --bgImage: url(/assets/images/noise_hex-1b1b1b-t50-tS7-bW0-mB-mu1.2-st2.png);
   --fontSize: 16px;
-  --fontColor: #FDE8E9;
-  --linkColor: #C3EB78;
-  --activeNavColor: #A0DF2A;
-  --linkHover: #FDE8E9;
-  --hrColor: rgba(253, 232, 233, 0.1);
+  --fontColor: #CDCDCD;
+  --linkColor: #FF6600;
+  --linkHover: #CDCDCD;
+  --hrColor: rgba(205, 205, 205, 0.1);
   --transitionTime: 0.4s;
   --shadowColor: #000000;
 }
 
 * {
   box-sizing: border-box;
+  outline: none;
 }
 
 @media only screen and (max-width: 600px) {
@@ -49,30 +50,26 @@
   src: url("/assets/fonts/Roboto-Regular.ttf");
 }
 
-html, body {
+html {
+  width: 100%;
+  height: 100%;
   padding: 0px;
   margin: 0px;
-  width: auto;
-  height: auto;
-  min-height: 100vh;
-  min-width: 100vw;
-  max-width: 100vw;
-  overflow-x: hidden;
-  font-family: sans-serif;
-  color: #cdcdcd;
 }
 
 body {
-  display: flex;
-  flex-flow: column;
+  width: 100%;
+  min-height: 100%;
+  padding: 0px 40px;
+  margin: 0px;
   background: var(--bgColor) var(--bgImage) 0 0 repeat;
+  font-family: 'Roboto', sans-serif;
+  color: var(--fontColor);
+  font-size: var(--fontSize);
+  display: flex;
+  flex-direction: column;
+  text-shadow: 1px 1px 1px var(--shadowColor);
 }
-
-.navbar, .wrapper {
-  text-shadow: 1px 2px 1px #000000;
-}
-
-
 
 img {
   max-width: 100%;
@@ -80,15 +77,15 @@ img {
 }
 
 a {
-  outline: none;
-  color: #ff6600;
+  color: var(--linkColor);
   text-decoration: none;
   cursor: pointer;
   transition: all 0.4s;
 }
 
 a:active, a:hover, a:focus {
-  color: #cdcdcd;
+  color: var(--linkHover);
+  text-decoration: underline;
 }
 
 h1, h2, h3 {
@@ -96,16 +93,33 @@ h1, h2, h3 {
   word-break: break-word;
 }
 
+h1 .icon, h2 .icon, h3 .icon {
+  padding: 0px 12px 0px 0px;
+}
+
+h1 {
+  font-size: calc(var(--fontSize) * 2);
+  margin: calc(var(--fontSize) * 1.5) 0 calc(var(--fontSize) * 0.7);
+}
+
+h2 {
+  font-size: calc(var(--fontSize) * 1.5);
+  margin: calc(var(--fontSize) * 1.2) 0 calc(var(--fontSize) * 0.5);
+}
+
+h3 {
+  font-size: calc(var(--fontSize) * 1.2);
+  margin: calc(var(--fontSize) * 0.85) 0 calc(var(--fontSize) * 0.35);
+}
+
 hr {
-  border: 1px solid rgba(205, 205, 205, 0.2); /* #cdcdcd */
+  border: 1px solid var(--hrColor);
   width: 100%;
+  margin: 0;
 }
 
 .pre {
   font-family: monospace;
-}
-
-.breakWord {
   word-break: break-word;
 }
 
@@ -113,11 +127,22 @@ hr {
   text-align: center;
 }
 
-/*
-1.1 Fontawesome
-https://fontawesome.com/
-*/
+.spacer-s {
+  height: 15px;
+}
 
+.spacer-m {
+  height: 30px;
+}
+
+.spacer-l {
+  height: 50px;
+}
+
+/*
+ * 1.1 Fontawesome
+ * https://fontawesome.com/
+*/
 @font-face {
   font-family: 'fontawesome-r';
   font-style: normal;
@@ -161,109 +186,113 @@ https://fontawesome.com/
 }
 
 /*
-  2. Header
-*/
-
-.header {
+ * 2. Header
+ */
+#header {
   flex: none;
   text-align: center;
-  margin: 15px auto 10px;
+  margin: var(--fontSize) auto 0px;
 }
 
 /*
-  3. Navigation
-*/
-
-.navbar {
+ * 3. Navigation
+ */
+#navbar {
   flex: none;
   text-align: center;
-  margin: 10px auto 20px;
+  margin: 15px auto;
   max-width: 1200px;
   width: 100%;
+  text-shadow: 1px 2px 1px var(--shadowColor);
 }
 
-.navbar > a {
-  color: #ff6600;
-  font-size: 24px;
-  text-decoration: none;
-  transition: all 0.3s;
-  border-left: 1px solid #ff6600;
-  padding: 0px 20px;
+#navbar > a {
+  font-size: calc(var(--fontSize) * 1.5);
+  transition: all var(--transitionTime);
+  padding: calc(var(--fontSize) * 0.6) var(--fontSize);
   display: inline-block;
+  border-left: 1px solid var(--linkColor);
+  text-decoration: none;
 }
 
-.navbar > a > span.icon {
+#navbar > a > span.icon {
   padding: 0px 12px 0px 0px;
 }
 
-.navbar > a:first-child {
+#navbar > a:first-child {
   border: 0px;
 }
 
-.navbar > a:active, .navbar > a:hover, .navbar > a:focus {
-  color: #cdcdcd;
+#navbar > a:active, #navbar > a:hover, #navbar > a:focus {
+  color: var(--linkHover);
 }
 
-.navbar > a.active {
+#navbar > a.active {
   font-weight: bold;
 }
 
 @media only screen and (max-width: 900px) {
-  .navbar > a {
+  #navbar > a {
     display: block;
     border-left: 0px;
   }
 }
 
 /*
-  4. Footer
-*/
-
-.footer {
+ * 4. Footer
+ */
+#footer {
   width: 100%;
-  background-color: rgba(55, 55, 55, 0.2);
-  overflow: hidden;
   text-align: center;
-  flex: none;
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  background-color: var(--bgColor);
   padding: 5px 0px;
-  font-size: 14px;
+  font-size: calc(var(--fontSize) * 0.65);
+  box-shadow: 0px -1px 6px var(--shadowColor);
+  text-shadow: 1px 2px 1px var(--shadowColor);
 }
 
-.footer a {
-  color: #888888;
+#footer a {
+  color: var(--fontColor);
   text-decoration: none;
-  margin: 0px 10px;
+  margin: 0px calc(var(--fontSize) * 0.6);
+  display: inline-block;
 }
 
-.footer > a:active, .footer > a:hover, .footer > a:focus {
-  color: #cdcdcd;
+#footer > a:active, #footer > a:hover, #footer > a:focus {
+  color: var(--linkColor);
 }
 
-.footer > a.active {
+#footer > a.active {
   font-weight: bold;
 }
 
 /*
-  5. Grid
-*/
-
-.wrapper {
+ * 5. Grid
+ */
+#wrapper {
   max-width: 1200px;
   width: 100%;
   margin: 0px auto 15px;
   flex: auto;
+  text-shadow: 1px 2px 1px var(--shadowColor);
 }
 
 [class*="col-"] {
   float: left;
-  padding: 5px 5px;
   border: 0;
+  padding: calc(var(--fontSize) * 0.35) calc(var(--fontSize) * 0.6);
 }
 
-@media only screen and (max-width: 900px) {
-  [class*="col-"] {
-    padding: 5px 8px;
-  }
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+@media only screen and (max-width: 600px) {
   .col-s-0 {width: 0%; display: none;}
   .col-s-1 {width: 8.33%;}
   .col-s-2 {width: 16.66%;}
@@ -278,15 +307,12 @@ https://fontawesome.com/
   .col-s-11 {width: 91.66%;}
   .col-s-12 {width: 100%;}
 
-  .wrapper {
+  #wrapper {
     padding: 10px;
   }
 }
 
-@media only screen and (min-width: 901px) {
-  [class*="col-"] {
-    padding: 8px 12px;
-  }
+@media only screen and (min-width: 601px) {
   .col-l-0 {width: 0%; display: none;}
   .col-l-1 {width: 8.33%;}
   .col-l-2 {width: 16.66%;}
@@ -300,22 +326,4 @@ https://fontawesome.com/
   .col-l-10 {width: 83.33%;}
   .col-l-11 {width: 91.66%;}
   .col-l-12 {width: 100%;}
-}
-
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-.spacer-s {
-  height: 15px;
-}
-
-.spacer-m {
-  height: 30px;
-}
-
-.spacer-l {
-  height: 50px;
 }
