@@ -11,7 +11,7 @@ $content.= "<div class='row center'>".
 $content.= "<form method='post'>";
 $content.= "<div class='row'>".
   "<div class='col-s-12 col-l-6 alignRightNotMobile'>Gesamtpreis in €</div>".
-  "<div class='col-s-12 col-l-6'><input type='number' placeholder='Bspw. 2,79' min='0.01' step='0.01' name='price' required></div>".
+  "<div class='col-s-12 col-l-6'><input type='number' placeholder='Bspw. 3,79' min='0.01' step='0.01' name='price' required></div>".
 "</div>";
 $content.= "<div class='row'>".
   "<div class='col-s-12 col-l-6 alignRightNotMobile'>Anzahl Rollen</div>".
@@ -19,7 +19,7 @@ $content.= "<div class='row'>".
 "</div>";
 $content.= "<div class='row'>".
   "<div class='col-s-12 col-l-6 alignRightNotMobile'>Blatt pro Rolle</div>".
-  "<div class='col-s-12 col-l-6'><input type='number' placeholder='Bspw. 150' min='100' step='10' name='sheets' required></div>".
+  "<div class='col-s-12 col-l-6'><input type='number' placeholder='Bspw. 150' min='100' step='5' name='sheets' required></div>".
 "</div>";
 $content.= "<div class='row'>".
   "<div class='col-s-12 col-l-6 alignRightNotMobile'>Lagen</div>".
