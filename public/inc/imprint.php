@@ -7,7 +7,7 @@
 $title = "Impressum";
 
 $content.= "<h1><span class='fas icon'>&#xf21b;</span>Impressum</h1>";
-$content.= "<div class='row'>".
+$content.= "<div class='row center'>".
 "<div class='col-s-12 col-l-12'>Kein kommerzieller Internetauftritt und demnach gemäß <a href='https://dejure.org/gesetze/TMG/5.html' target='_blank' rel='noopener'>§5 TMG</a> nicht impressumspflichtig.</div>".
 "<div class='col-s-12 col-l-12'>Kontaktmöglichkeiten: siehe <a href='/'><span class='fas icon'>&#xf015;</span>Startseite</a></div>".
 "</div>";
@@ -17,7 +17,7 @@ $content.= "<div class='spacer-m'></div>";
  * Gültigkeitsbereich
  */
 $content.= "<h2><span class='fas icon'>&#xf0e8;</span>Gültigkeitsbereich</h2>";
-$content.= "<div class='row'>".
+$content.= "<div class='row center'>".
 "<div class='col-s-12 col-l-12'>Dieses Impressum und der Haftungsausschluss gelten ausschließlich für die folgenden Internetpräsenzen:</div>".
 "<div class='col-s-12 col-l-12'>Sofern nicht anders angegeben gilt es ebenso für alle Subdomains (z.B. *.RundesBalli.com).</div>".
 "<div class='col-s-12 col-l-12'><a href='https://RundesBalli.com' target='_blank' rel='noopener'>RundesBalli.com</a></div>".
@@ -33,7 +33,7 @@ $content.= "<div class='spacer-m'></div>";
  * Quellenangaben, wie es sich gehört :-)
  */
 $content.= "<h2><span class='fas icon'>&#xf0c1;</span>Quellenangaben</h2>";
-$content.= "<div class='row'>".
+$content.= "<div class='row center'>".
 "<div class='col-s-12 col-l-12'>Icons von <a href='https://fontawesome.com' target='_blank' rel='noopener'>fontawesome</a></div>".
 "<div class='col-s-12 col-l-12'>Logo Schriftart: <a href='https://www.dafont.com/weather-sunday.font' target='_blank' rel='noopener'>Weather Sunday</a></div>".
 "<div class='col-s-12 col-l-12'>Haftungsausschluss von <a href='http://www.mustervorlage.net/disclaimer-muster' target='_blank' rel='noopener'>mustervorlage.net</a></div>".
