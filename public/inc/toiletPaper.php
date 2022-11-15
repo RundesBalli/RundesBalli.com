@@ -19,7 +19,7 @@ $content.= "<div class='row'>".
 "</div>";
 $content.= "<div class='row'>".
   "<div class='col-s-12 col-l-6 alignRightNotMobile'>Blatt pro Rolle</div>".
-  "<div class='col-s-12 col-l-6'><input type='number' placeholder='Bspw. 150' min='100' step='5' name='sheets' required></div>".
+  "<div class='col-s-12 col-l-6'><input type='number' placeholder='Bspw. 150' min='10' step='5' name='sheets' required></div>".
 "</div>";
 $content.= "<div class='row'>".
   "<div class='col-s-12 col-l-6 alignRightNotMobile'>Lagen</div>".
