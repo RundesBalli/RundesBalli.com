@@ -29,6 +29,7 @@
   --linkHover: #CDCDCD;
   --highlightColor: #FF6600;
   --hrColor: rgba(205, 205, 205, 0.1);
+  --noteColor: rgba(205, 205, 205, 0.7);
   --transitionTime: 0.4s;
   --shadowColor: #000000;
 }
@@ -151,6 +152,11 @@ hr {
 
 .spacer-l {
   height: 50px;
+}
+
+.note {
+  font-size: calc(var(--fontSize) * 0.7);
+  color: var(--noteColor);
 }
 
 /*
@@ -328,6 +334,10 @@ hr {
   .alignRightNotMobile {
     text-align: left;
   }
+
+  .marginBottomMobile {
+    margin-bottom: var(--fontSize);
+  }
 }
 
 @media only screen and (min-width: 601px) {
@@ -349,7 +359,7 @@ hr {
 /**
  * 6. Forms
  */
-input {
+input:not([type=checkbox]):not([type=radio]), select {
   width: 30%;
   border: 1px solid var(--fontColor);
   padding: 8px;
@@ -357,13 +367,12 @@ input {
   color: var(--fontColor);
 }
 
-input:focus {
-  border: 1px solid var(--linkHover);
-  outline-color: var(--linkHover);
+input:not([type=checkbox]):not([type=radio]):focus, select:focus {
+  border: 1px solid var(--highlightColor);
 }
 
 @media only screen and (max-width: 600px) {
-  input {
+  input:not([type=checkbox]):not([type=radio]), select {
     width: 100%;
   }
 }
