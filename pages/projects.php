@@ -2,134 +2,171 @@
 /**
  * projects.php
  * 
- * eigene Projekte
+ * Projects
  */
 
-$title = "eigene Projekte";
-$content.= "<h1><span class='fas icon'>&#xf542;</span>eigene Projekte</h1>";
+$title = 'Projects';
+$content.= '<h1><span class="fas icon">&#xf542;</span>Projects</h1>';
 
 /**
- * Internetpräsenzen
+ * Websites
  */
-$content.= "<h2>Internetpräsenzen</h2>";
+$content.= '<h2>Websites</h2>';
 
-$content.= "<div class='row'>".
-"<div class='col-s-12 col-l-4'><a href='https://php-noise.com' target='_blank' rel='noopener'><span class='fas icon'>&#xf1b3;</span>php-noise Bildgenerator</a></div>".
-"<div class='col-s-12 col-l-8'>Ein einfaches Script welches Hintergrundbilder mit Farbrauschen erstellt.<br>SourceCode bei <span class='fab icon'>&#xf09b;</span>GitHub: <a href='https://github.com/RundesBalli/php-noise.com' target='_blank' rel='noopener'>Frontend</a>, <a href='https://github.com/RundesBalli/php-noise' target='_blank' rel='noopener'>Backend</a></div>".
-"</div>";
-$content.= "<div class='spacer-m'></div>";
+$content.= '<div class="row">'.
+  '<div class="col-s-12 col-l-3 bold"><span class="fas icon">&#xf03e;</span><a href="https://php-noise.com" target="_blank" rel="noopener">php-noise.com</a></div>'.
+  '<div class="col-s-12 col-l-7">Generate random noise images as background images for websites, flyers and so on.</div>'.
+  '<div class="col-s-12 col-l-2"><span class="fab icon">&#xf09b;</span><a href="https://github.com/RundesBalli/php-noise.com" target="_blank" rel="noopener">SourceCode</a><br>'.BADGE['php'].BADGE['html5'].BADGE['css3'].'</div>'.
+'</div>';
+$content.= '<div class="row">'.
+  '<div class="col-s-12 col-l-3"><span class="fas icon">&#xf03e;</span>php-noise CLI</div>'.
+  '<div class="col-s-12 col-l-7">Above mentioned is also available as CLI script. This script also acts as an API for the website.</div>'.
+  '<div class="col-s-12 col-l-2"><span class="fab icon">&#xf09b;</span><a href="https://github.com/RundesBalli/php-noise" target="_blank" rel="noopener">SourceCode</a><br>'.BADGE['php'].BADGE['cli'].BADGE['api'].'</div>'.
+'</div>';
+$content.= '<div class="spacer-l"></div>';
 
-$content.= "<div class='row'>".
-"<div class='col-s-12 col-l-4'><a href='https://tankersparnis.net' target='_blank' rel='noopener'><span class='fas icon'>&#xf52f;</span>Tankersparnis.net</a></div>".
-"<div class='col-s-12 col-l-8'>Portal zur einfachen Berechnung des gesparten Geldes beim Tanken von Gas gegenüber herkömmlichen Kraftstoffen.<br>SourceCode bei <span class='fab icon'>&#xf09b;</span><a href='https://github.com/RundesBalli/tankersparnis' target='_blank' rel='noopener'>GitHub</a></div>".
-"</div>";
-$content.= "<div class='spacer-s'></div>";
+$content.= '<div class="row">'.
+  '<div class="col-s-12 col-l-3 bold"><span class="fas icon">&#xf52f;</span><a href="https://tankersparnis.net" target="_blank" rel="noopener">Tankersparnis.net</a></div>'.
+  '<div class="col-s-12 col-l-7">German portal for easy calculation of money saved when refueling with LPG compared to conventional fuels.</div>'.
+  '<div class="col-s-12 col-l-2"><span class="fab icon">&#xf09b;</span><a href="https://github.com/RundesBalli/tankersparnis" target="_blank" rel="noopener">SourceCode</a><br>'.BADGE['php'].BADGE['html5'].BADGE['css3'].BADGE['sql'].'</div>'.
+'</div>';
+$content.= '<div class="spacer-l"></div>';
 
-$content.= "<hr>";
+$content.= '<hr>';
 
 /**
- * Projekte von Freunden an denen ich mitgewirkt habe
+ * Projects of friends I have collaborated on
  */
-$content.= "<h2>Projekte von Freunden</h2>";
-$content.= "<h3>an denen ich mitgewirkt habe</h3>";
+$content.= '<h2>Projects of friends I have collaborated on</h2>';
 
-$content.= "<div class='row'>".
-"<div class='col-s-12 col-l-4'><a href='https://nezos.cooking' target='_blank' rel='noopener'><span class='fas icon'>&#xf543;</span>nezos.cooking</a></div>".
-"<div class='col-s-12 col-l-8'>Rezeptsammlung meines Freundes <a href='https://nezos.wtf' target='_blank' rel='noopener'>Nezos</a>.<br>Tätigkeiten: Backend- und Frontendprogrammierung. Die Rezepte sind nicht von mir.</div>".
-"</div>";
-$content.= "<div class='spacer-m'></div>";
+$content.= '<div class="row">'.
+  '<div class="col-s-12 col-l-3 bold"><span class="fas icon">&#xf543;</span><a href="https://nezos.cooking" target="_blank" rel="noopener">Nezos.Cooking</a></div>'.
+  '<div class="col-s-12 col-l-7">German recipe collection from my friend <a href="https://nezos.wtf" target="_blank" rel="noopener">Nezos</a>.<br><span class="bold highlight">Tasks:</span> Backend and frontend.<br><span class="bold highlight">Note:</span> The recipes are not from me.</div>'.
+  '<div class="col-s-12 col-l-2"><span class="fab icon">&#xf09b;</span><a href="https://github.com/RundesBalli/cooking" target="_blank" rel="noopener">SourceCode</a><br>'.BADGE['php'].BADGE['html5'].BADGE['css3'].BADGE['sql'].'</div>'.
+'</div>';
+$content.= '<div class="spacer-l"></div>';
 
-$content.= "<div class='row'>".
-"<div class='col-s-12 col-l-4'><a href='https://boomerparty.live' target='_blank' rel='noopener'><span class='fas icon'>&#xf144;</span>boomerparty.live</a></div>".
-"<div class='col-s-12 col-l-8'>Offizielle Internetpräsenz zum <a href='https://open.spotify.com/playlist/64WfneVI8dqmpd6T6QKAMs' target='_blank' rel='noopener'>Boomerparty-Playlist</a> Community-Projekt meines Freundes <a href='https://pr0gramm.com/user/KaiserMolay' target='_blank' rel='noopener'>KaiserMolay</a>.<br>Tätigkeiten: Gesamte Seite außer die Hintergrundbilder. Die Playlist wird von KaiserMolay gepflegt.</div>".
-"</div>";
-$content.= "<div class='spacer-s'></div>";
+$content.= '<div class="row">'.
+  '<div class="col-s-12 col-l-3 bold"><span class="fas icon">&#xf144;</span><a href="https://boomerparty.live" target="_blank" rel="noopener">Boomerparty.live</a></div>'.
+  '<div class="col-s-12 col-l-7">Official website for the <a href="https://open.spotify.com/playlist/64WfneVI8dqmpd6T6QKAMs" target="_blank" rel="noopener">Boomerparty-Playlist</a> community project of my friend <a href="https://pr0gramm.com/user/KaiserMolay" target="_blank" rel="noopener">KaiserMolay</a>.<br><span class="bold highlight">Tasks:</span> Whole website without photographs and images.<br><span class="bold highlight">Note:</span> The playlist is maintained by KaiserMolay.</div>'.
+  '<div class="col-s-12 col-l-2"><span class="fab icon">&#xf09b;</span><a href="https://github.com/RundesBalli/boomerparty.live" target="_blank" rel="noopener">SourceCode</a><br>'.BADGE['php'].BADGE['html5'].BADGE['css3'].'</div>'.
+'</div>';
+$content.= '<div class="spacer-l"></div>';
 
-$content.= "<hr>";
+$content.= '<hr>';
 
 /**
  * Tools
  */
-$content.= "<h2>Tools</h2>";
+$content.= '<h2>Tools</h2>';
 
-$content.= "<div class='row'>".
-"<div class='col-s-12 col-l-4'><a href='https://github.com/RundesBalli/lightweight-PHP-Boilerplate' target='_blank' rel='noopener'><span class='fas icon'>&#xf0ad;</span>lightweight-PHP-Boilerplate</a></div>".
-"<div class='col-s-12 col-l-8'>Eine leichte und einfach anpassbare Code-Grundlage für die einfache Erstellung sicherer und dynamischer Webseiten.</div>".
-"</div>";
-$content.= "<div class='spacer-m'></div>";
+$content.= '<div class="row">'.
+  '<div class="col-s-12 col-l-3 bold"><span class="fas icon">&#xf084;</span><a href="/pwgen" target="_blank" rel="noopener">Password generator</a></div>'.
+  '<div class="col-s-12 col-l-7">A simple password generator which creates 100 randomly generated passwords according to the scheme <code>[0-9a-zA-Z]{64}</code>.</div>'.
+  '<div class="col-s-12 col-l-2"><span class="fab icon">&#xf09b;</span><a href="https://github.com/RundesBalli/RundesBalli.com/blob/master/pages/pwgen.php" target="_blank" rel="noopener">SourceCode</a><br>'.BADGE['php'].BADGE['html5'].BADGE['css3'].'</div>'.
+'</div>';
+$content.= '<div class="spacer-l"></div>';
 
-$content.= "<div class='row'>".
-"<div class='col-s-12 col-l-4'><a href='https://github.com/RundesBalli/escpos-php-driver' target='_blank' rel='noopener'><span class='fas icon'>&#xf02f;</span>escpos-php-driver</a></div>".
-"<div class='col-s-12 col-l-8'>Ein Treiber für Epson ESC/POS Thermodrucker, geschrieben in PHP.</div>".
-"</div>";
-$content.= "<div class='spacer-m'></div>";
+$content.= '<div class="row">'.
+  '<div class="col-s-12 col-l-3 bold"><span class="fas icon">&#xf71e;</span><a href="/toiletPaper" target="_blank" rel="noopener">Toilet paper calculator</a></div>'.
+  '<div class="col-s-12 col-l-7">Calculate the price of toilet paper.</div>'.
+  '<div class="col-s-12 col-l-2"><span class="fab icon">&#xf09b;</span><a href="https://github.com/RundesBalli/RundesBalli.com/blob/master/pages/toiletPaper.php" target="_blank" rel="noopener">SourceCode</a><br>'.BADGE['php'].BADGE['html5'].BADGE['css3'].'</div>'.
+'</div>';
+$content.= '<div class="spacer-l"></div>';
 
-$content.= "<div class='row'>".
-"<div class='col-s-12 col-l-4'><a href='https://github.com/RundesBalli/terminal-imager' target='_blank' rel='noopener'><span class='fas icon'>&#xf302;</span>terminal-imager</a></div>".
-"<div class='col-s-12 col-l-8'>Ein CLI-Script um Bilder in \"ANSI-Escape-Code-Bilder\" umzuwandeln, geschrieben in PHP.</div>".
-"</div>";
-$content.= "<div class='spacer-s'></div>";
+$content.= '<div class="row">'.
+  '<div class="col-s-12 col-l-3 bold"><span class="fas icon">&#xf522;</span><a href="https://t.me/zufallbot" target="_blank" rel="noopener">Random data bot (German)</a></div>'.
+  '<div class="col-s-12 col-l-7">Generates random numbers, letters and lottery numbers and sends it to the requesting Telegram client.</div>'.
+  '<div class="col-s-12 col-l-2"><span class="fab icon">&#xf09b;</span><a href="https://github.com/RundesBalli/telegram-Zufallbot" target="_blank" rel="noopener">SourceCode</a><br>'.BADGE['php'].BADGE['telegram'].'</div>'.
+'</div>';
+$content.= '<div class="spacer-l"></div>';
 
-$content.= "<hr>";
+$content.= '<hr>';
+
+/**
+ * Scripts
+ */
+$content.= '<h2>Scripts</h2>';
+
+$content.= '<div class="row">'.
+  '<div class="col-s-12 col-l-3 bold"><span class="fas icon">&#xf0ad;</span>lightweight-PHP-Boilerplate</div>'.
+  '<div class="col-s-12 col-l-7">A lightweight PHP boilerplate and customizable code-foundation for building secure and dynamic websites with ease.</div>'.
+  '<div class="col-s-12 col-l-2"><span class="fab icon">&#xf09b;</span><a href="https://github.com/RundesBalli/lightweight-PHP-Boilerplate" target="_blank" rel="noopener">SourceCode</a><br>'.BADGE['php'].'</div>'.
+'</div>';
+$content.= '<div class="spacer-l"></div>';
+
+$content.= '<div class="row">'.
+  '<div class="col-s-12 col-l-3 bold"><span class="fas icon">&#xf02f;</span>escpos-php-driver</div>'.
+  '<div class="col-s-12 col-l-7">A driver for Epson <code>ESC/POS</code> thermal printers</div>'.
+  '<div class="col-s-12 col-l-2"><span class="fab icon">&#xf09b;</span><a href="https://github.com/RundesBalli/escpos-php-driver" target="_blank" rel="noopener">SourceCode</a><br>'.BADGE['php'].BADGE['cli'].'</div>'.
+'</div>';
+$content.= '<div class="spacer-l"></div>';
+
+$content.= '<div class="row">'.
+  '<div class="col-s-12 col-l-3 bold"><span class="fas icon">&#xf302;</span>terminal-imager</div>'.
+  '<div class="col-s-12 col-l-7">A CLI script to convert images to <code>ANSI escape code</code> images.</div>'.
+  '<div class="col-s-12 col-l-2"><span class="fab icon">&#xf09b;</span><a href="https://github.com/RundesBalli/terminal-imager" target="_blank" rel="noopener">SourceCode</a><br>'.BADGE['php'].BADGE['cli'].'</div>'.
+'</div>';
+$content.= '<div class="spacer-l"></div>';
+
+$content.= '<hr>';
+
 
 /**
  * Crawler
  */
-$content.= "<h2>Crawler</h2>";
+$content.= '<h2>Crawler</h2>';
 
-$content.= "<div class='row'>".
-"<div class='col-s-12 col-l-4'><a href='https://github.com/RundesBalli/ADR-Crawler' target='_blank' rel='noopener'><span class='fas icon'>&#xf7ba;</span>ADR Crawler</a></div>".
-"<div class='col-s-12 col-l-8'>Ambient Dose Rate (Deutsch: ODL = Ortsdosisleistung) Crawler für ~1700 Messstellen innerhalb Deutschlands.</div>".
-"</div>";
-$content.= "<div class='spacer-s'></div>";
+$content.= '<div class="row">'.
+  '<div class="col-s-12 col-l-3 bold"><span class="fas icon">&#xf7ba;</span>ADR Crawler</div>'.
+  '<div class="col-s-12 col-l-7">Ambient Dose Rate (German: ODL = Ortsdosisleistung) crawler for ~1700 monitoring sites within Germany and ~110 monitoring sites within austria.</div>'.
+  '<div class="col-s-12 col-l-2"><span class="fab icon">&#xf09b;</span><a href="https://github.com/RundesBalli/ADR-Crawler" target="_blank" rel="noopener">SourceCode</a><br>'.BADGE['php'].BADGE['cli'].'</div>'.
+'</div>';
+$content.= '<div class="spacer-l"></div>';
 
-$content.= "<hr>";
-
-/**
- * Factorio
- */
-$content.= "<h2>Factorio</h2>";
-
-$content.= "<div class='row'>".
-"<div class='col-s-12 col-l-4'><a href='https://github.com/RundesBalli/factorio-blueprints' target='_blank' rel='noopener'><span class='fas icon'>&#xf013;</span>Factorio Blueprints</a></div>".
-"<div class='col-s-12 col-l-8'>Eine Sammlung meiner Blaupausenbücher.</div>".
-"</div>";
-$content.= "<div class='spacer-s'></div>";
-
-$content.= "<hr>";
+$content.= '<hr>';
 
 /**
  * Discord
  */
-$content.= "<h2>Discord</h2>";
+$content.= '<h2>Discord</h2>';
 
-$content.= "<div class='row'>".
-"<div class='col-s-12 col-l-4'><a href='https://github.com/RundesBalli/discord-reminderBot' target='_blank' rel='noopener'><span class='fab icon'>&#xf392;</span>Discord Reminder-Bot</a></div>".
-"<div class='col-s-12 col-l-8'>Script zum automatischen Senden eines vordefinierten Textes als Bot oder per WebHook an einen Textkanal.</div>".
-"</div>";
-$content.= "<div class='spacer-s'></div>";
+$content.= '<div class="row">'.
+  '<div class="col-s-12 col-l-3 bold"><span class="fab icon">&#xf392;</span>Discord Reminder-Bot</div>'.
+  '<div class="col-s-12 col-l-7">Script to automatically send a predefined text as a bot or via WebHook to a text channel.</div>'.
+  '<div class="col-s-12 col-l-2"><span class="fab icon">&#xf09b;</span><a href="https://github.com/RundesBalli/discord-reminderBot" target="_blank" rel="noopener">SourceCode</a><br>'.BADGE['php'].BADGE['cli'].'</div>'.
+'</div>';
+$content.= '<div class="spacer-l"></div>';
 
-$content.= "<hr>";
+$content.= '<hr>';
 
 /**
- * Weiteres
+ * Satire
  */
-$content.= "<h2>Weiteres</h2>";
+$content.= '<h2>Satire</h2>';
 
-$content.= "<div class='row'>".
-"<div class='col-s-12 col-l-4'><a href='https://pfandautomat.com' target='_blank' rel='noopener'><span class='fas icon'>&#xf72f;</span>Pfandautomat.com</a></div>".
-"<div class='col-s-12 col-l-8'>Ein kleines Scherzprojekt ohne Sinn.</div>".
-"</div>";
-$content.= "<div class='spacer-m'></div>";
+$content.= '<div class="row">'.
+  '<div class="col-s-12 col-l-3 bold"><span class="fas icon">&#xf72f;</span><a href="https://pfandautomat.com" target="_blank" rel="noopener">Pfandautomat.com</a></div>'.
+  '<div class="col-s-12 col-l-7">A little fun project about the very annoying oneway-bottle deposit machines (= „Pfandautomat“) known in Germany.</div>'.
+  '<div class="col-s-12 col-l-2"><span class="fab icon">&#xf09b;</span><a href="https://github.com/RundesBalli/Pfandautomat.com" target="_blank" rel="noopener">SourceCode</a><br>'.BADGE['php'].BADGE['html5'].BADGE['css3'].'</div>'.
+'</div>';
+$content.= '<div class="spacer-l"></div>';
 
-$content.= "<div class='row'>".
-"<div class='col-s-12 col-l-4'><a href='https://anti-ananas.club' target='_blank' rel='noopener'><span class='fas icon'>&#xf00d;</span>Anti-Ananas Club</a></div>".
-"<div class='col-s-12 col-l-8'>Satireprojekt. Das Projekt ist als Gegenreaktion zu dem Hawaii-Pizza-Meme entstanden.</div>".
-"</div>";
-$content.= "<div class='spacer-m'></div>";
+$content.= '<div class="row">'.
+  '<div class="col-s-12 col-l-3 bold"><span class="fas icon">&#xf00d;</span><a href="https://anti-ananas.club" target="_blank" rel="noopener">Anti-Ananas Club</a></div>'.
+  '<div class="col-s-12 col-l-7">A German satire counter-reaction project to the Hawaii pizza meme.<br><span class="note">„Ananas“ = Pineapple</span></div>'.
+  '<div class="col-s-12 col-l-2"><span class="fab icon">&#xf09b;</span><a href="https://github.com/RundesBalli/anti-ananas.club" target="_blank" rel="noopener">SourceCode</a><br>'.BADGE['php'].BADGE['html5'].BADGE['css3'].'</div>'.
+'</div>';
+$content.= '<div class="spacer-l"></div>';
 
-$content.= "<div class='row'>".
-"<div class='col-s-12 col-l-4'><a href='https://github.com/RundesBalli' target='_blank' rel='noopener'><span class='fab icon'>&#xf09b;</span>GitHub</a></div>".
-"<div class='col-s-12 col-l-8'>Weitere Projekte können auf Github eingesehen werden.</div>".
-"</div>";
+$content.= '<hr>';
+
+/**
+ * More...
+ */
+$content.= '<h2>More...</h2>';
+
+$content.= '<div class="row">'.
+  '<div class="col-s-12 col-l-12 center">Many of my projects are available on <span class="fab icon">&#xf09b;</span><a href="https://github.com/RundesBalli" target="_blank" rel="noopener">GitHub</a></div>'.
+'</div>';
 ?>
