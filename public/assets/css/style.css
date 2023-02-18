@@ -171,6 +171,13 @@ hr {
   cursor: help;
 }
 
+code {
+  background: var(--hrColor);
+  font-family: monospace;
+  padding: calc(var(--fontSize) * 0.3);
+  border-radius: calc(var(--fontSize) * 0.4);
+}
+
 /*
  * 1.1 Fontawesome
  * https://fontawesome.com/
