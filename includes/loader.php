@@ -11,5 +11,13 @@
 require_once(__DIR__.DIRECTORY_SEPARATOR.'constants.php');
 require_once(__DIR__.DIRECTORY_SEPARATOR.'functions'.DIRECTORY_SEPARATOR.'output.php');
 
+/**
+ * Content generation and router
+ */
+require_once(__DIR__.DIRECTORY_SEPARATOR.'routing'.DIRECTORY_SEPARATOR.'router.php');
+
+/**
+ * Page generation
+ */
 require_once(__DIR__.DIRECTORY_SEPARATOR.'generation'.DIRECTORY_SEPARATOR.'tidyOutput.php');
 ?>
