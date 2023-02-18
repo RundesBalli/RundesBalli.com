@@ -1,15 +1,15 @@
 <!--
 https://RundesBalli.com
-https://github.com/RundesBalli/RundesBalli.com
+https://github.com/RundesBalli
 -->
 <!DOCTYPE html>
-<html lang="de">
+<html lang="en">
   <head>
-    <title>RundesBalli.com{TITLE}</title>
+    <title>{TITLE}RundesBalli.com</title>
     <meta charset="utf-8">
     <meta name="description" content="RundesBalli.com Homepage"/>
     <meta name="robots" content="index, follow"/>
-    <meta name="keywords" content="RundesBalli, Homepage, Projekte, Programmierung, Programmieren, projects, coding, php, code"/>
+    <meta name="keywords" content="RundesBalli, Homepage, Projects, Programming, Coding, PHP, Code, ADSB, ADS-B"/>
     <meta name="author" content="RundesBalli"/>
     <meta name="revisit-after" content="3 days"/>
     <link href="/assets/css/style.css" rel="stylesheet">
