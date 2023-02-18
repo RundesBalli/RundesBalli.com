@@ -170,13 +170,32 @@ hr {
 /*
  * 1.1 Fontawesome
  * https://fontawesome.com/
-*/
+ */
+.icon {
+  display: inline;
+  padding: 0px 5px 0px 0px;
+}
+
+.iconright {
+  display: inline;
+  padding: 0px 0px 0px 5px;
+}
+
+h1 .icon, h2 .icon, h3 .icon {
+  padding: 0px 15px 0px 0px;
+}
+
+h1 .iconright, h2 .iconright, h3 .iconright {
+  padding: 0px 0px 0px 15px;
+}
+
+/* Regular */
 @font-face {
   font-family: 'fontawesome-r';
   font-style: normal;
   font-weight: 400;
-  src: url("/assets/fonts/fa-regular-400.eot");
-  src: url("/assets/fonts/fa-regular-400.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/fa-regular-400.woff2") format("woff2"), url("/assets/fonts/fa-regular-400.woff") format("woff"), url("/assets/fonts/fa-regular-400.ttf") format("truetype"), url("/assets/fonts/fa-regular-400.svg#fontawesome") format("svg");
+  font-display: block;
+  src: url("/assets/fonts/fa-regular-400.woff2") format("woff2"), url("/assets/fonts/fa-regular-400.ttf") format("truetype");
 }
 
 .far {
@@ -184,12 +203,13 @@ hr {
   font-weight: 400;
 }
 
+/* Solid */
 @font-face {
   font-family: 'fontawesome-s';
   font-style: normal;
   font-weight: 900;
-  src: url("/assets/fonts/fa-solid-900.eot");
-  src: url("/assets/fonts/fa-solid-900.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/fa-solid-900.woff2") format("woff2"), url("/assets/fonts/fa-solid-900.woff") format("woff"), url("/assets/fonts/fa-solid-900.ttf") format("truetype"), url("/assets/fonts/fa-solid-900.svg#fontawesome") format("svg");
+  font-display: block;
+  src: url("/assets/fonts/fa-solid-900.woff2") format("woff2"), url("/assets/fonts/fa-solid-900.ttf") format("truetype");
 }
 
 .fas {
@@ -197,20 +217,18 @@ hr {
   font-weight: 900;
 }
 
+/* Brands */
 @font-face {
   font-family: 'fontawesome-b';
   font-style: normal;
-  font-weight: normal;
-  src: url("/assets/fonts/fa-brands-400.eot");
-  src: url("/assets/fonts/fa-brands-400.eot?#iefix") format("embedded-opentype"), url("/assets/fonts/fa-brands-400.woff2") format("woff2"), url("/assets/fonts/fa-brands-400.woff") format("woff"), url("/assets/fonts/fa-brands-400.ttf") format("truetype"), url("/assets/fonts/fa-brands-400.svg#fontawesome") format("svg"); }
+  font-weight: 400;
+  font-display: block;
+  src: url("/assets/fonts/fa-brands-400.woff2") format("woff2"), url("/assets/fonts/fa-brands-400.ttf") format("truetype");
+}
 
 .fab {
   font-family: 'fontawesome-b';
-}
-
-.icon {
-  display: inline;
-  padding: 0px 5px 0px 0px;
+  font-weight: 400;
 }
 
 /*
