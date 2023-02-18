@@ -18,7 +18,6 @@ $routes = [
   /**
    * Tools
    */
-  'tools' => 'tools.php',
   'pwgen' => 'pwgen.php',
   'toiletPaper' => 'toiletPaper.php',
 
