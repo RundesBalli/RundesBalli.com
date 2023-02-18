@@ -61,14 +61,14 @@ $content.= '<hr>';
 $content.= '<h2>Tools</h2>';
 
 $content.= '<div class="row">'.
-  '<div class="col-s-12 col-l-3 bold"><span class="fas icon">&#xf084;</span><a href="/pwgen" target="_blank" rel="noopener">Password generator</a></div>'.
+  '<div class="col-s-12 col-l-3 bold"><span class="fas icon">&#xf084;</span><a href="/pwgen">Password generator</a></div>'.
   '<div class="col-s-12 col-l-7">A simple password generator which creates 100 randomly generated passwords according to the scheme <code>[0-9a-zA-Z]{64}</code>.</div>'.
   '<div class="col-s-12 col-l-2"><span class="fab icon">&#xf09b;</span><a href="https://github.com/RundesBalli/RundesBalli.com/blob/master/pages/pwgen.php" target="_blank" rel="noopener">SourceCode</a><br>'.BADGE['php'].BADGE['html5'].BADGE['css3'].'</div>'.
 '</div>';
 $content.= '<div class="spacer-l"></div>';
 
 $content.= '<div class="row">'.
-  '<div class="col-s-12 col-l-3 bold"><span class="fas icon">&#xf71e;</span><a href="/toiletPaper" target="_blank" rel="noopener">Toilet paper calculator</a></div>'.
+  '<div class="col-s-12 col-l-3 bold"><span class="fas icon">&#xf71e;</span><a href="/toiletPaper">Toilet paper calculator</a></div>'.
   '<div class="col-s-12 col-l-7">Calculate the price of toilet paper.</div>'.
   '<div class="col-s-12 col-l-2"><span class="fab icon">&#xf09b;</span><a href="https://github.com/RundesBalli/RundesBalli.com/blob/master/pages/toiletPaper.php" target="_blank" rel="noopener">SourceCode</a><br>'.BADGE['php'].BADGE['html5'].BADGE['css3'].'</div>'.
 '</div>';
