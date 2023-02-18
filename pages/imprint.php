@@ -2,63 +2,63 @@
 /**
  * imprint.php
  * 
- * Impressum / Anbieterkennzeichnung
+ * Imprint
  */
-$title = "Impressum";
+$title = 'Imprint';
 
-$content.= "<h1><span class='fas icon'>&#xf21b;</span>Impressum</h1>";
-$content.= "<div class='row center'>".
-"<div class='col-s-12 col-l-12'>Kein kommerzieller Internetauftritt und demnach gemäß <a href='https://dejure.org/gesetze/TMG/5.html' target='_blank' rel='noopener'>§5 TMG</a> nicht impressumspflichtig.</div>".
-"<div class='col-s-12 col-l-12'>Kontaktmöglichkeiten: siehe <a href='/'><span class='fas icon'>&#xf015;</span>Startseite</a></div>".
-"</div>";
-$content.= "<div class='spacer-m'></div>";
-
-/**
- * Gültigkeitsbereich
- */
-$content.= "<h2><span class='fas icon'>&#xf0e8;</span>Gültigkeitsbereich</h2>";
-$content.= "<div class='row center'>".
-"<div class='col-s-12 col-l-12'>Dieses Impressum und der Haftungsausschluss gelten ausschließlich für die folgenden Internetpräsenzen:</div>".
-"<div class='col-s-12 col-l-12'>Sofern nicht anders angegeben gilt es ebenso für alle Subdomains (z.B. *.RundesBalli.com).</div>".
-"<div class='col-s-12 col-l-12'><a href='https://RundesBalli.com' target='_blank' rel='noopener'>RundesBalli.com</a></div>".
-"<div class='col-s-12 col-l-12'><a href='https://pr0p0ll.com/' target='_blank' rel='noopener'>pr0p0ll.com</a></div>".
-"<div class='col-s-12 col-l-12'><a href='https://pr0.tools/' target='_blank' rel='noopener'>pr0.tools</a></div>".
-"<div class='col-s-12 col-l-12'><a href='https://anti-ananas.club/' target='_blank' rel='noopener'>Anti-Ananas Club</a></div>".
-"<div class='col-s-12 col-l-12'><a href='https://php-noise.com/' target='_blank' rel='noopener'>php-noise.com</a></div>".
-"<div class='col-s-12 col-l-12'><a href='https://pfandautomat.com/' target='_blank' rel='noopener'>pfandautomat.com</a></div>".
-"</div>";
-$content.= "<div class='spacer-m'></div>";
+$content.= '<h1><span class="fas icon">&#xf21b;</span>Imprint</h1>';
+$content.= '<div class="row center">'.
+  '<div class="col-s-12 col-l-12">No commercial internet presence and therefore according to German law <a href="https://dejure.org/gesetze/TMG/5.html" target="_blank" rel="noopener">§5 TMG</a> not required to have an imprint.</div>'.
+  '<div class="col-s-12 col-l-12">To contact me, see the possibilities on the <a href="/"><span class="fas icon">&#xf015;</span>Homepage</a></div>'.
+'</div>';
+$content.= '<div class="spacer-m"></div>';
 
 /**
- * Quellenangaben, wie es sich gehört :-)
+ * Validity range
  */
-$content.= "<h2><span class='fas icon'>&#xf0c1;</span>Quellenangaben</h2>";
-$content.= "<div class='row center'>".
-"<div class='col-s-12 col-l-12'>Icons von <a href='https://fontawesome.com' target='_blank' rel='noopener'>fontawesome</a></div>".
-"<div class='col-s-12 col-l-12'>Logo Schriftart: <a href='https://www.dafont.com/weather-sunday.font' target='_blank' rel='noopener'>Weather Sunday</a></div>".
-"<div class='col-s-12 col-l-12'>Haftungsausschluss von <a href='http://www.mustervorlage.net/disclaimer-muster' target='_blank' rel='noopener'>mustervorlage.net</a></div>".
-"</div>";
-$content.= "<div class='spacer-m'></div>";
+$content.= '<h2><span class="fas icon">&#xf0e8;</span>Validity range</h2>';
+$content.= '<div class="row center">'.
+  '<div class="col-s-12 col-l-12">This imprint and disclaimer apply exclusively to the following websites:</div>'.
+  '<div class="col-s-12 col-l-12">Unless otherwise specified, it also applies to all subdomains (e.g. *.RundesBalli.com).</div>'.
+  '<div class="col-s-12 col-l-12"><a href="https://RundesBalli.com" target="_blank" rel="noopener">RundesBalli.com</a></div>'.
+  '<div class="col-s-12 col-l-12"><a href="https://pr0p0ll.com/" target="_blank" rel="noopener">pr0p0ll.com</a></div>'.
+  '<div class="col-s-12 col-l-12"><a href="https://pr0.tools/" target="_blank" rel="noopener">pr0.tools</a></div>'.
+  '<div class="col-s-12 col-l-12"><a href="https://anti-ananas.club/" target="_blank" rel="noopener">Anti-Ananas Club</a></div>'.
+  '<div class="col-s-12 col-l-12"><a href="https://php-noise.com/" target="_blank" rel="noopener">php-noise.com</a></div>'.
+  '<div class="col-s-12 col-l-12"><a href="https://pfandautomat.com/" target="_blank" rel="noopener">pfandautomat.com</a></div>'.
+'</div>';
+$content.= '<div class="spacer-m"></div>';
 
 /**
- * Haftungsausschluss
+ * Source citations, as it should be :-)
  */
-$content.= "<h2><span class='fas icon'>&#xf0c9;</span>Haftungsausschluss</h2>";
-$content.= "<div class='row'>".
-"<div class='col-s-12 col-l-3'>1. Haftungsbeschränkung</div>".
-"<div class='col-s-12 col-l-9'>Die Inhalte des Internetauftritts wurden mit größtmöglicher Sorgfalt und nach bestem Gewissen erstellt. Dennoch übernimmt der Anbieter dieser Webseite keine Gewähr für die Aktualität, Vollständigkeit und Richtigkeit der bereitgestellten Seiten und Inhalte.<div class='spacer-s'></div>Als Diensteanbieter ist der Anbieter dieser Webseite gemäß § 7 Abs. 1 TMG für eigene Inhalte und bereitgestellte Informationen auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich; nach den §§ 8 bis 10 TMG jedoch nicht verpflichtet, die übermittelten oder gespeicherten fremden Informationen zu überwachen. Eine Entfernung oder Sperrung dieser Inhalte erfolgt umgehend ab dem Zeitpunkt der Kenntnis einer konkreten Rechtsverletzung. Eine Haftung ist erst ab dem Zeitpunkt der Kenntniserlangung möglich.</div>".
-"</div>";
-$content.= "<div class='row'>".
-"<div class='col-s-12 col-l-3'>2. Externe Links</div>".
-"<div class='col-s-12 col-l-9'>Die Webseite enthält sog. „externe Links“ (Verlinkungen) zu anderen Webseiten, auf deren Inhalt der Anbieter der Webseite keinen Einfluss hat. Aus diesem Grund kann der Anbieter für diese Inhalte auch keine Gewähr übernehmen.<br>
-Für die Inhalte und Richtigkeit der bereitgestellten Informationen ist der jeweilige Anbieter der verlinkten Webseite verantwortlich. Zum Zeitpunkt der Verlinkung waren keine Rechtsverstöße erkennbar. Bei Bekanntwerden einer solchen Rechtsverletzung wird der Link umgehend entfernen.</div>".
-"</div>";
-$content.= "<div class='row'>".
-"<div class='col-s-12 col-l-3'>3. Urheberrecht &amp; Leistungsschutzrecht</div>".
-"<div class='col-s-12 col-l-9'>Die auf dieser Webseite veröffentlichten Inhalte, Werke und bereitgestellten Informationen unterliegen dem deutschen Urheberrecht und Leistungsschutzrecht. Jede Art der Vervielfältigung, Bearbeitung, Verbreitung, Einspeicherung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechts bedarf der vorherigen schriftlichen Zustimmung des jeweiligen Rechteinhabers. Das unerlaubte Kopieren/Speichern der bereitgestellten Informationen auf diesen Webseiten ist nicht gestattet und strafbar.</div>".
-"</div>";
-$content.= "<div class='row'>".
-"<div class='col-s-12 col-l-3'>4. Datenschutz</div>".
-"<div class='col-s-12 col-l-9'>Durch den Besuch des Internetauftritts können Informationen (Datum, Uhrzeit, aufgerufene Seite) über den Zugriff auf dem Server gespeichert werden. Es werden keine personenbezogenenen (z. B. Name, Anschrift oder E-Mail-Adresse) Daten, gespeichert.<div class='spacer-s'></div>Sofern personenbezogene Daten erhoben werden, erfolgt dies, sofern möglich, nur mit dem vorherigen Einverständnis des Nutzers der Webseite. Eine Weitergabe der Daten an Dritte findet ohne ausdrückliche Zustimmung des Nutzers nicht statt.<div class='spacer-s'></div>Der Anbieter weist darauf hin, dass die Übertragung von Daten im Internet (z. B. per E-Mail) Sicherheitslücken aufweisen und ein lückenloser Schutz der Daten vor dem Zugriff Dritter nicht gewährleistet werden kann. Der Anbieter übernimmt keine Haftung für die durch solche Sicherheitslücken entstandenen Schäden.<div class='spacer-s'></div>Der Verwendung der Kontaktdaten durch Dritte zur gewerblichen Nutzung wird ausdrücklich widersprochen. Es sei denn, der Anbieter hat zuvor seine schriftliche Einwilligung erteilt.<br>Der Anbieter behält sich rechtliche Schritte für den Fall der unverlangten Zusendung von Werbeinformationen, z. B. durch Spam-Mails, vor.</div>".
-"</div>";
+$content.= '<h2><span class="fas icon">&#xf0c1;</span>Sources</h2>';
+$content.= '<div class="row center">'.
+  '<div class="col-s-12 col-l-12"><a href="https://fontawesome.com" target="_blank" rel="noopener">Icons / Fontawesome</a></div>'.
+  '<div class="col-s-12 col-l-12">Logo font: <a href="https://www.dafont.com/weather-sunday.font" target="_blank" rel="noopener">Weather Sunday</a></div>'.
+  '<div class="col-s-12 col-l-12">Disclaimer from: <a href="http://www.mustervorlage.net/disclaimer-muster" target="_blank" rel="noopener">mustervorlage.net</a></div>'.
+  '<div class="col-s-12 col-l-12">Some translations: <a href="https://www.deepl.com/translator" target="_blank" rel="noopener">Deepl translator</a></div>'.
+'</div>';
+$content.= '<div class="spacer-m"></div>';
+
+/**
+ * Disclaimer
+ */
+$content.= '<h2><span class="fas icon">&#xf0c9;</span>Disclaimer</h2>';
+$content.= '<div class="row">'.
+  '<div class="col-s-12 col-l-3">1. Limitation of liability for internal content</div>'.
+  '<div class="col-s-12 col-l-9">The content of our website has been compiled with meticulous care and to the best of our knowledge. However, we cannot assume any liability for the up-to-dateness, completeness or accuracy of any of the pages.<br>Pursuant to section 7, para. 1 of the TMG (Telemediengesetz – Tele Media Act by German law), we as service providers are liable for our own content on these pages in accordance with general laws. However, pursuant to sections 8 to 10 of the TMG, we as service providers are not under obligation to monitor external information provided or stored on our website. Once we have become aware of a specific infringement of the law, we will immediately remove the content in question. Any liability concerning this matter can only be assumed from the point in time at which the infringement becomes known to us.</div>'.
+'</div>';
+$content.= '<div class="row">'.
+  '<div class="col-s-12 col-l-3">2. Limitation of liability for external links</div>'.
+  '<div class="col-s-12 col-l-9">Our website contains links to the websites of third parties („external links“). As the content of these websites is not under our control, we cannot assume any liability for such external content. In all cases, the provider of information of the linked websites is liable for the content and accuracy of the information provided. At the point in time when the links were placed, no infringements of the law were recognisable to us. As soon as an infringement of the law becomes known to us, we will immediately remove the link in question.</div>'.
+'</div>';
+$content.= '<div class="row">'.
+  '<div class="col-s-12 col-l-3">3. Copyright</div>'.
+  '<div class="col-s-12 col-l-9">The content and works published on this website are governed by the copyright laws of Germany. Any duplication, processing, distribution or any form of utilisation beyond the scope of copyright law shall require the prior written consent of the author or authors in question.</div>'.
+'</div>';
+$content.= '<div class="row">'.
+  '<div class="col-s-12 col-l-3">4. Data protection</div>'.
+  '<div class="col-s-12 col-l-9">A visit to our website can result in the storage on our server of information about the access (date, time, page accessed). This does not represent any analysis of personal data (e.g., name, address or e-mail address). If personal data are collected, this only occurs – to the extent possible – with the prior consent of the user of the website. Any forwarding of the data to third parties without the express consent of the user shall not take place.<br>We would like to expressly point out that the transmission of data via the Internet (e.g., by e-mail) can offer security vulnerabilities. It is therefore impossible to safeguard the data completely against access by third parties. We cannot assume any liability for damages arising as a result of such security vulnerabilities.<br>The use by third parties of all published contact details for the purpose of advertising is expressly excluded. We reserve the right to take legal steps in the case of the unsolicited sending of advertising information; e.g., by means of spam mail.</div>'.
+'</div>';
 ?>
