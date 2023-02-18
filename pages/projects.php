@@ -13,7 +13,7 @@ $content.= '<h1><span class="fas icon">&#xf542;</span>Projects</h1>';
  */
 $content.= '<h2>Websites</h2>';
 
-$content.= '<div class="row">'.
+$content.= '<div class="row marginBottomMobile">'.
   '<div class="col-s-12 col-l-3 bold"><span class="fas icon">&#xf03e;</span><a href="https://php-noise.com" target="_blank" rel="noopener">php-noise.com</a></div>'.
   '<div class="col-s-12 col-l-7">Generate random noise images as background images for websites, flyers and so on.</div>'.
   '<div class="col-s-12 col-l-2"><span class="fab icon">&#xf09b;</span><a href="https://github.com/RundesBalli/php-noise.com" target="_blank" rel="noopener">SourceCode</a><br>'.BADGE['php'].BADGE['html5'].BADGE['css3'].'</div>'.
