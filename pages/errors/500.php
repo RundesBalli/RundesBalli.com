@@ -17,7 +17,7 @@ if(!empty($error)) {
 } else {
   $errorMessage = 'Unknown error.';
 }
-$content.= '<div class="row">'.
+$content.= '<div class="row center">'.
   '<div class="col-s-12 col-l-12">'.$errorMessage.'</div>'.
 '</div>';
 ?>
