@@ -111,7 +111,6 @@ $content.= '<div class="spacer-l"></div>';
 
 $content.= '<hr>';
 
-
 /**
  * Crawler
  */
