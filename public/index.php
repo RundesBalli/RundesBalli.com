@@ -54,15 +54,6 @@ if(isset($pageArray[$getp])) {
 }
 
 /**
- * Navigation
- */
-$a = " class='active'";
-$nav = "<a href='/'".($getp == "start" ? $a : NULL)."><span class='fas icon'>&#xf015;</span>Startseite</a>";
-$nav.= "<a href='/tools'".($getp == "tools" ? $a : NULL)."><span class='fas icon'>&#xf7d9;</span>Tools</a>";
-$nav.= "<a href='/projects'".($getp == "projects" ? $a : NULL)."><span class='fas icon'>&#xf542;</span>Projekte</a>";
-$nav.= "<a href='/pr0'".($getp == "pr0" ? $a : NULL)."><span class='fas icon'>&#xf120;</span>pr0gramm</a>";
-
-/**
  * Templateeinbindung und Einsetzen der Variablen
  */
 $templatefile = __DIR__.DIRECTORY_SEPARATOR."assets".DIRECTORY_SEPARATOR."template".DIRECTORY_SEPARATOR."template.tpl";
