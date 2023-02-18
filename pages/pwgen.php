@@ -2,11 +2,11 @@
 /**
  * pwgen.php
  * 
- * Passwortgenerator
+ * Password generator
  */
 
-$title = 'Passwortgenerator';
-$content.= '<h1><span class="fas icon">&#xf084;</span>Passwortgenerator <code>[0-9a-zA-Z]{64}</code></h1>';
+$title = 'Password generator';
+$content.= '<h1><span class="fas icon">&#xf084;</span>Password generator<br><code>[0-9a-zA-Z]{64}</code></h1>';
 
 $alphabet = 'abcdefghijklmnopqrstuwxyzABCDEFGHIJKLMNOPQRSTUWXYZ0123456789';
 
