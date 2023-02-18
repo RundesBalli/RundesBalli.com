@@ -63,12 +63,6 @@ $nav.= "<a href='/projects'".($getp == "projects" ? $a : NULL)."><span class='fa
 $nav.= "<a href='/pr0'".($getp == "pr0" ? $a : NULL)."><span class='fas icon'>&#xf120;</span>pr0gramm</a>";
 
 /**
- * Footer
- */
-$footer = "<a href='/imprint'".($getp == "imprint" ? $a : NULL)."><span class='fas icon'>&#xf21b;</span>Impressum</a>";
-$footer.= "<a href='https://github.com/RundesBalli/RundesBalli.com' target='_blank' rel='noopener'><span class='fab icon'>&#xf09b;</span>GitHub</a>";
-
-/**
  * Templateeinbindung und Einsetzen der Variablen
  */
 $templatefile = __DIR__.DIRECTORY_SEPARATOR."assets".DIRECTORY_SEPARATOR."template".DIRECTORY_SEPARATOR."template.tpl";
