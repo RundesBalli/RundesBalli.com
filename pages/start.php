@@ -1,8 +1,8 @@
 <?php
 /**
- * start.php
+ * pages/start.php
  * 
- * Startseite
+ * Home page
  */
 
 /**

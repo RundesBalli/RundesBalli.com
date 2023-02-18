@@ -1,6 +1,6 @@
 <?php
 /**
- * toiletPaper.php
+ * pages/toiletPaper.php
  * 
  * Toilet paper calculator
  */

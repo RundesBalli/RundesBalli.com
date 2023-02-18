@@ -1,6 +1,6 @@
 <?php
 /**
- * pr0.php
+ * pages/pr0.php
  * 
  * pr0gramm projects
  */

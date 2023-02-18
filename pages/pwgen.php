@@ -1,6 +1,6 @@
 <?php
 /**
- * pwgen.php
+ * pages/pwgen.php
  * 
  * Password generator
  */
