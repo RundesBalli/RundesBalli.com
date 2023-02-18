@@ -1,95 +1,26 @@
 <?php
 /**
- * RundesBalli.com
+ * RundesBalli.com Website
  * 
  * @author    RundesBalli <webspam@rundesballi.com>
- * @copyright 2020 RundesBalli
- * @version   3.0
+ * @copyright 2023 RundesBalli
+ * @version   4.0
  * @see       https://github.com/RundesBalli/RundesBalli.com
  */
 
 /**
- * Initialisieren des Outputs und des Standardtitels
+ * Initialize the output and the default title.
  */
-$content = "";
-$title = "";
+$content = '';
+$title = '';
 
 /**
- * Herausfinden welche Seite angefordert wurde
+ * Including the configuration and function loader, the page generation elements, the router and the output generation.
  */
-if(!isset($_GET['p']) OR empty($_GET['p'])) {
-  $getp = "start";
-} else {
-  preg_match("/([\d\w-]+)/i", $_GET['p'], $match);
-  $getp = $match[1];
-}
+require_once(__DIR__.DIRECTORY_SEPARATOR.'..'.DIRECTORY_SEPARATOR.'includes'.DIRECTORY_SEPARATOR.'loader.php');
 
 /**
- * Das Seitenarray für die Seitenzuordnung
+ * Output the generated and tidied output.
  */
-$pageArray = array(
-  /* Standardseiten */
-  'start'          => 'start.php',
-  'imprint'        => 'imprint.php',
-  'projects'       => 'projects.php',
-  'pr0'            => 'pr0.php',
-
-  /* Tools */
-  'tools'          => 'tools.php',
-  'pwgen'          => 'pwgen.php',
-  'toiletPaper'    => 'toiletPaper.php',
-
-  /* Fehlerseiten */
-  '404'            => '404.php',
-  '403'            => '403.php'
-);
-
-/**
- * Prüfung ob die Unterseite im Array existiert, falls nicht 404
- */
-if(isset($pageArray[$getp])) {
-  require_once(__DIR__.DIRECTORY_SEPARATOR."inc".DIRECTORY_SEPARATOR.$pageArray[$getp]);
-} else {
-  require_once(__DIR__.DIRECTORY_SEPARATOR."inc".DIRECTORY_SEPARATOR."404.php");
-}
-
-/**
- * Templateeinbindung und Einsetzen der Variablen
- */
-$templatefile = __DIR__.DIRECTORY_SEPARATOR."assets".DIRECTORY_SEPARATOR."template".DIRECTORY_SEPARATOR."template.tpl";
-$fp = fopen($templatefile, "r");
-$output = preg_replace(
-  array(
-    "/{TITLE}/im",
-    "/{NAV}/im",
-    "/{FOOTER}/im",
-    "/{CONTENT}/im"
-  ),
-  array(
-    (empty($title) ? "" : " - ".$title),
-    $nav,
-    $footer,
-    $content
-  ),
-  fread($fp, filesize($templatefile)));
-fclose($fp);
-
-/**
- * Tidy HTML Output
- * @see https://gist.github.com/RundesBalli/a5d20a8c92a9a004803980654e638cbb
- * @see https://api.html-tidy.org/tidy/quickref_5.6.0.html
- */
-
-$tidyOptions = array(
-  'indent' => TRUE,
-  'output-xhtml' => TRUE,
-  'wrap' => 200,
-  'newline' => 'LF', /* LF = \n */
-  'output-encoding' => 'utf8',
-  'drop-empty-elements' => FALSE /* e.g. for placeholders */
-);
-
-$tidy = tidy_parse_string($output, $tidyOptions, 'UTF8');
-tidy_clean_repair($tidy);
-echo $tidy;
+echo $output;
 ?>
