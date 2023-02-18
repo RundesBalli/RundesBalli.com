@@ -167,6 +167,10 @@ hr {
   color: var(--noteColor);
 }
 
+.help {
+  cursor: help;
+}
+
 /*
  * 1.1 Fontawesome
  * https://fontawesome.com/
