@@ -23,7 +23,7 @@
 :root {
   --bgColor: #000000;
   --bgImage: url(/assets/images/noise_hex-1b1b1b-t50-tS7-bW0-mB-mu1.2-st2.png);
-  --fontSize: 16px;
+  --fontSize: 18px;
   --fontColor: #CDCDCD;
   --linkColor: #FF6600;
   --linkHover: #CDCDCD;
@@ -41,7 +41,7 @@
 
 @media only screen and (max-width: 600px) {
   :root {
-    --fontSize: 14px;
+    --fontSize: 16px;
   }
 }
 
