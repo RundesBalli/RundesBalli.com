@@ -140,6 +140,20 @@ $content.= '<div class="spacer-l"></div>';
 $content.= '<hr>';
 
 /**
+ * Snippets
+ */
+$content.= '<h2>Snippets</h2>';
+
+$content.= '<div class="row">'.
+  '<div class="col-s-12 col-l-3 bold"><span class="fas icon">&#xf0c1;</span>clickableLinks</div>'.
+  '<div class="col-s-12 col-l-7">Function to automatically link URLs in texts.</div>'.
+  '<div class="col-s-12 col-l-2"><span class="fab icon">&#xf09b;</span><a href="https://gist.github.com/RundesBalli/3c49de99e16c776c9cf733ffb9f2ebf9" target="_blank" rel="noopener">SourceCode</a><br>'.BADGE['php'].'</div>'.
+'</div>';
+$content.= '<div class="spacer-l"></div>';
+
+$content.= '<hr>';
+
+/**
  * Crawler
  */
 $content.= '<h2>Crawler</h2>';
