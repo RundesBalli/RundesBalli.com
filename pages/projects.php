@@ -158,6 +158,13 @@ $content.= '<div class="row">'.
 '</div>';
 $content.= '<div class="spacer-l"></div>';
 
+$content.= '<div class="row">'.
+  '<div class="col-s-12 col-l-3 bold"><span class="fas icon">&#xf51a;</span>Tidy function call</div>'.
+  '<div class="col-s-12 col-l-7">Parameterised function call of the tidy function.</div>'.
+  '<div class="col-s-12 col-l-2"><span class="fab icon">&#xf09b;</span><a href="https://gist.github.com/RundesBalli/a5d20a8c92a9a004803980654e638cbb" target="_blank" rel="noopener">SourceCode</a><br>'.BADGE['php'].'</div>'.
+'</div>';
+$content.= '<div class="spacer-l"></div>';
+
 $content.= '<hr>';
 
 /**
