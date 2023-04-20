@@ -123,6 +123,13 @@ $content.= '<div class="row">'.
 '</div>';
 $content.= '<div class="spacer-l"></div>';
 
+$content.= '<div class="row">'.
+  '<div class="col-s-12 col-l-3 bold"><span class="fas icon">&#xf793;</span>jsonDumper</div>'.
+  '<div class="col-s-12 col-l-7">Simple JSON dumper with token and file listing.</div>'.
+  '<div class="col-s-12 col-l-2"><span class="fab icon">&#xf09b;</span><a href="https://github.com/RundesBalli/jsonDumper" target="_blank" rel="noopener">SourceCode</a><br>'.BADGE['php'].BADGE['json'].'</div>'.
+'</div>';
+$content.= '<div class="spacer-l"></div>';
+
 $content.= '<hr>';
 
 /**
