@@ -95,6 +95,13 @@ $content.= '<div class="row">'.
 '</div>';
 $content.= '<div class="spacer-l"></div>';
 
+$content.= '<div class="row">'.
+  '<div class="col-s-12 col-l-3 bold"><span class="fas icon">&#xf06e;</span>Server online-status check with reporting to telegram</div>'.
+  '<div class="col-s-12 col-l-7">Simple <code>netcat</code> script to check the online status of certain services on a remote server.</div>'.
+  '<div class="col-s-12 col-l-2"><span class="fab icon">&#xf09b;</span><a href="https://gist.github.com/RundesBalli/4bdcf555c78c17a7b917de31cd7b4df0" target="_blank" rel="noopener">SourceCode</a><br>'.BADGE['php'].BADGE['cli'].BADGE['telegram'].'</div>'.
+'</div>';
+$content.= '<div class="spacer-l"></div>';
+
 $content.= '<hr>';
 
 /**
