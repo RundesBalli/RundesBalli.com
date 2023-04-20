@@ -74,9 +74,16 @@ $content.= '<div class="row">'.
 '</div>';
 $content.= '<div class="spacer-l"></div>';
 
+$content.= '<hr>';
+
+/**
+ * Telegram bots
+ */
+$content.= '<h2>Telegram bots</h2>';
+
 $content.= '<div class="row">'.
-  '<div class="col-s-12 col-l-3 bold"><span class="fas icon">&#xf522;</span><a href="https://t.me/zufallbot" target="_blank" rel="noopener">Random data bot (German)</a></div>'.
-  '<div class="col-s-12 col-l-7">Generates random numbers, letters and lottery numbers and sends it to the requesting Telegram client.</div>'.
+  '<div class="col-s-12 col-l-3 bold"><span class="fas icon">&#xf522;</span><a href="https://t.me/zufallbot" target="_blank" rel="noopener">Random data bot</a></div>'.
+  '<div class="col-s-12 col-l-7">German random number, letter and lottery number generator.</div>'.
   '<div class="col-s-12 col-l-2"><span class="fab icon">&#xf09b;</span><a href="https://github.com/RundesBalli/telegram-Zufallbot" target="_blank" rel="noopener">SourceCode</a><br>'.BADGE['php'].BADGE['telegram'].'</div>'.
 '</div>';
 $content.= '<div class="spacer-l"></div>';
