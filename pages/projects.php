@@ -165,6 +165,13 @@ $content.= '<div class="row">'.
 '</div>';
 $content.= '<div class="spacer-l"></div>';
 
+$content.= '<div class="row">'.
+  '<div class="col-s-12 col-l-3 bold"><span class="fas icon">&#x25;</span>Fractionizer</div>'.
+  '<div class="col-s-12 col-l-7">Simple number format function with quarter, half and three quarter fraction output.</div>'.
+  '<div class="col-s-12 col-l-2"><span class="fab icon">&#xf09b;</span><a href="https://gist.github.com/RundesBalli/a987971322ce7122e223393901fd90ec" target="_blank" rel="noopener">SourceCode</a><br>'.BADGE['php'].'</div>'.
+'</div>';
+$content.= '<div class="spacer-l"></div>';
+
 $content.= '<hr>';
 
 /**
