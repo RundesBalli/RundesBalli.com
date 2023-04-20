@@ -36,6 +36,7 @@ define('BADGE', [
   'sql' => '<span class="fas icon help" title="SQL as database">&#xf1c0;</span>',
   'api' => '<span class="fas icon help" title="provides an API">&#xf6ff;</span>',
   'cli' => '<span class="fas icon help" title="CLI script">&#xf120;</span>',
-  'telegram' => '<span class="fab icon help" title="Telegram bot">&#xf2c6;</span>'
+  'telegram' => '<span class="fab icon help" title="Telegram bot">&#xf2c6;</span>',
+  'json' => '<span class="fas icon help" title="JSON">&#xe477;</span>'
 ]);
 ?>
