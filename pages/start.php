@@ -32,7 +32,7 @@ $content.= '<hr>';
 $content.= '<h2><span class="fas icon">&#xf2bb;</span>Contact me</h2>';
 $content.= '<div class="row center">'.
   '<div class="col-s-12 col-l-12"><span class="fab icon">&#xf2c6;</span><a href="https://t.me/RundesBalli" target="_blank" rel="noopener">RundesBalli</a></div>'.
-  '<div class="col-s-12 col-l-12"><span class="fab icon">&#xf392;</span> RundesBalli#9985</div>'.
+  '<div class="col-s-12 col-l-12"><span class="fab icon">&#xf392;</span><a href="https://discord.com/users/456171575641636889" target="_blank" rel="noopener">RundesBalli#9985</a></div>'.
   '<div class="col-s-12 col-l-12"><span class="fas icon">&#xf120;</span><a href="https://pr0gramm.com/user/RundesBalli" target="_blank" rel="noopener">RundesBalli</a></div>'.
   '<div class="col-s-12 col-l-12"><span class="fas icon">&#xf0e0;</span><a href="mailto:webspam@RundesBalli.com" target="_blank">Email</a></div>'.
 '</div>';
