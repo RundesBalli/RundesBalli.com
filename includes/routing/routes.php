@@ -13,6 +13,7 @@ $routes = [
   'start' => 'start.php',
   'imprint' => 'imprint.php',
   'projects' => 'projects.php',
+  'adsb' => 'adsb.php',
   'factorio' => 'factorio.php',
   'pr0' => 'pr0.php',
 
