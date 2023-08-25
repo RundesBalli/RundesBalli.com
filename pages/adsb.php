@@ -28,7 +28,7 @@ $content.= '<hr>';
 /**
  * Bratwurst ADS-B
  */
-$content.= '<h2>Bratwurst ADS-B</h2>';
+$content.= '<h2>Bratwurst ADS-B project</h2>';
 
 $content.= '<div class="row center">'.
   '<div class="col-s-12 col-l-12">We are an European group of people interested in the observation of local and international air traffic. My responsibilities include project management, marketing, and technical administration.</div>'.
@@ -36,12 +36,12 @@ $content.= '<div class="row center">'.
 $content.= '<div class="spacer-m"></div>';
 
 $content.= '<div class="row center">'.
-  '<div class="col-s-12 col-l-12"><a href="https://info.bratwurst.network" target="_blank" rel="noopener">Bratwurst ADS-B Info Website</a></div>'.
+  '<div class="col-s-12 col-l-12"><a href="https://info.bratwurst.network" target="_blank" rel="noopener">Bratwurst ADS-B information website</a></div>'.
 '</div>';
 $content.= '<div class="spacer-m"></div>';
 
 $content.= '<div class="row center">'.
-  '<div class="col-s-12 col-l-12"><span class="bold">Feel free to join us!</span> Check out the contact options on the info website.</div>'.
+  '<div class="col-s-12 col-l-12"><span class="bold">Feel free to join us!</span> Check out the contact options on the information website.</div>'.
 '</div>';
 $content.= '<div class="spacer-m"></div>';
 
