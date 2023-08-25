@@ -8,6 +8,11 @@ $title = 'Toilet Paper Calculator';
 $content.= "<h1><span class='fas icon'>&#xf71e;</span>Toilet Paper Calculator</h1>";
 
 /**
+ * OG Tags
+ */
+$ogDescription = 'Calculate the price per sheet and layer of various toilet paper packages!';
+
+/**
  * Calculate
  */
 if(isset($_POST['submit'])) {

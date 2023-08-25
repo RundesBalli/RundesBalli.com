@@ -9,6 +9,11 @@ $title = 'ADS-B';
 $content.= '<h1><span class="fas icon">&#xf542;</span>ADS-B</h1>';
 
 /**
+ * OG Tags
+ */
+$ogDescription = 'The Bratwurst ADS-B project! We are an European group of people interested in the observation of local and international air traffic.';
+
+/**
  * What is ADS-B?
  */
 $content.= '<h2>What is ADS-B?</h2>';

@@ -9,6 +9,11 @@ $title = 'Projects';
 $content.= '<h1><span class="fas icon">&#xf542;</span>Projects</h1>';
 
 /**
+ * OG Tags
+ */
+$ogDescription = 'A collection of all my public projects. Websites, tools, scripts, telegram bots, snippets and more...';
+
+/**
  * Websites
  */
 $content.= '<h2>Websites</h2>';

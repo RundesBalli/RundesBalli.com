@@ -7,6 +7,12 @@
 
 $title = 'pr0gramm related projects';
 $content.= '<h1><span class="fas icon">&#xf120;</span><a href="https://pr0gramm.com" target="_blank" rel="noopener">pr0gramm</a> related projects</h1>';
+
+/**
+ * OG Tags
+ */
+$ogDescription = 'A collection of my pr0gramm related projects.';
+
 $content.= '<div class="row center">'.
   '<div class="col-s-12 col-l-12">As information for international guests: pr0gramm is a German imageboard, similar to Reddit or others, but better.</div>'.
 '</div>';

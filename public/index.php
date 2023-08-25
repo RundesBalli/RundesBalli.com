@@ -9,10 +9,11 @@
  */
 
 /**
- * Initialize the output and the default title.
+ * Initialize the output, the default title and default ogTags.
  */
 $content = '';
 $title = '';
+$ogDescription = '';
 
 /**
  * Including the configuration and function loader, the page generation elements, the router and the output generation.

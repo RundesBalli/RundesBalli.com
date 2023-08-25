@@ -8,6 +8,11 @@
 $title = 'Factorio Blueprints';
 $content.= '<h1><span class="fas icon">&#xf013;</span>Factorio Blueprints</h1>';
 
+/**
+ * OG Tags
+ */
+$ogDescription = 'A collection of my factorio blueprints. Mining drill arrays, rail system, various furnace setups and more...';
+
 $content.= '<div class="row center">'.
   '<div class="col-s-12 col-l-12">Here you\'ll find a collection of my <span class="fab icon">&#xf09b;</span><a href="https://github.com/RundesBalli/factorio-blueprints" target="_blank" rel="noopener">Factorio blueprint books</a>.</div>'.
 '</div>';

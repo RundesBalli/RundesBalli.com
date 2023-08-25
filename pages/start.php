@@ -6,6 +6,11 @@
  */
 
 /**
+ * OG Tags
+ */
+$ogDescription = 'My name is RundesBalli and I am a hobbyist developer from Germany. I like procedural PHP coding, without doing this for a living.';
+
+/**
  * About me
  */
 $content.= '<h2><span class="fas icon">&#xf507;</span>About me</h2>';
