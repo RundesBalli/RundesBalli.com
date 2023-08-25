@@ -26,7 +26,7 @@ $content.= '<div class="row center">'.
   '<div class="col-s-12 col-l-12"><a href="https://anti-ananas.club/" target="_blank" rel="noopener">Anti-Ananas Club</a></div>'.
   '<div class="col-s-12 col-l-12"><a href="https://php-noise.com/" target="_blank" rel="noopener">php-noise.com</a></div>'.
   '<div class="col-s-12 col-l-12"><a href="https://pfandautomat.com/" target="_blank" rel="noopener">pfandautomat.com</a></div>'.
-  '<div class="col-s-12 col-l-12">bratwurst.network (only info-de and auth Subdomains)</div>'.
+  '<div class="col-s-12 col-l-12">bratwurst.network (only info and auth Subdomains)</div>'.
 '</div>';
 $content.= '<div class="spacer-m"></div>';
 
