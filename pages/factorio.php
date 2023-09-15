@@ -5,17 +5,37 @@
  * Factorio blueprints
  */
 
-$title = 'Factorio Blueprints';
-$content.= '<h1><span class="fas icon">&#xf013;</span>Factorio Blueprints</h1>';
+$title = 'Factorio blueprints and mods';
+$content.= '<h1><span class="fas icon">&#xf013;</span>Factorio blueprints and mods</h1>';
 
 /**
  * OG Tags
  */
-$ogDescription = 'A collection of my factorio blueprints. Mining drill arrays, rail system, various furnace setups and more...';
+$ogDescription = 'A collection of my factorio blueprints and mods. Mining drill arrays, rail system, various furnace setups, tweaks and more...';
 
 /**
- * Description
+ * Heading mods
  */
+$content.= '<h2>Mods</h2>';
+$content.= '<hr>';
+
+/**
+ * SimpleRocketParts
+ */
+$content.= '<h3>SimpleRocketParts</h3>';
+$content.= '<div class="row">'.
+  '<div class="col-s-12 col-l-4 bold"><a href="https://mods.factorio.com/mod/SimpleRocketParts" target="_blank" rel="noopener"><img class="imgShadow" src="/assets/images/factorio/simpleRocketParts.png" alt="SimpleRocketParts"></a></div>'.
+  '<div class="col-s-12 col-l-6">A mod that simplifies the recipes for rocket parts, so that in the end game, your main concern is procuring a vast amount of raw materials rather than managing the factory.</div>'.
+  '<div class="col-s-12 col-l-2"><span class="fab icon">&#xf09b;</span><a href="https://github.com/RundesBalli/factorio-simpleRocketParts" target="_blank" rel="noopener">SourceCode</a></div>'.
+'</div>';
+$content.= '<div class="spacer-l"></div>';
+
+$content.= '<hr>';
+
+/**
+ * Heading blueprints
+ */
+$content.= '<h2>Blueprints</h2>';
 $content.= '<div class="row center">'.
   '<div class="col-s-12 col-l-12">Below you\'ll find a collection of my <span class="fab icon">&#xf09b;</span><a href="https://github.com/RundesBalli/factorio-blueprints" target="_blank" rel="noopener">Factorio blueprints</a>.</div>'.
 '</div>';
