@@ -177,6 +177,13 @@ $content.= '<div class="row">'.
 '</div>';
 $content.= '<div class="spacer-l"></div>';
 
+$content.= '<div class="row">'.
+  '<div class="col-s-12 col-l-3 bold"><span class="fas icon">&#xf017;</span>formatTime function</div>'.
+  '<div class="col-s-12 col-l-7">Simple PHP function to format a given time in seconds to a readable time.</div>'.
+  '<div class="col-s-12 col-l-2"><span class="fab icon">&#xf09b;</span><a href="https://gist.github.com/RundesBalli/10e62a74c08dc2818f7a7f061e9306dd" target="_blank" rel="noopener">SourceCode</a><br>'.BADGE['php'].'</div>'.
+'</div>';
+$content.= '<div class="spacer-l"></div>';
+
 $content.= '<hr>';
 
 /**
