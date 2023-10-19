@@ -23,10 +23,11 @@ $content.= '<div class="row center">'.
   '<div class="col-s-12 col-l-12"><a href="https://RundesBalli.com" target="_blank" rel="noopener">RundesBalli.com</a></div>'.
   '<div class="col-s-12 col-l-12"><a href="https://pr0p0ll.com/" target="_blank" rel="noopener">pr0p0ll.com</a></div>'.
   '<div class="col-s-12 col-l-12"><a href="https://pr0.tools/" target="_blank" rel="noopener">pr0.tools</a></div>'.
+  '<div class="col-s-12 col-l-12"><a href="https://tankersparnis.net/" target="_blank" rel="noopener">Tankersparnis.net</a></div>'.
   '<div class="col-s-12 col-l-12"><a href="https://anti-ananas.club/" target="_blank" rel="noopener">Anti-Ananas.Club</a></div>'.
   '<div class="col-s-12 col-l-12"><a href="https://php-noise.com/" target="_blank" rel="noopener">php-noise.com</a></div>'.
   '<div class="col-s-12 col-l-12"><a href="https://pfandautomat.com/" target="_blank" rel="noopener">pfandautomat.com</a></div>'.
-  '<div class="col-s-12 col-l-12">bratwurst.network (only info and auth Subdomains)</div>'.
+  '<div class="col-s-12 col-l-12">bratwurst.network (only the following subdomains: info, auth, api, files)</div>'.
 '</div>';
 $content.= '<div class="spacer-m"></div>';
 
