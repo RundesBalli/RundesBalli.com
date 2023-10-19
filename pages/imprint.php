@@ -9,7 +9,7 @@ $title = 'Imprint';
 $content.= '<h1><span class="fas icon">&#xf21b;</span>Imprint</h1>';
 $content.= '<div class="row center">'.
   '<div class="col-s-12 col-l-12">No commercial internet presence and therefore according to German law <a href="https://dejure.org/gesetze/TMG/5.html" target="_blank" rel="noopener">§5 TMG</a> not required to have an imprint.</div>'.
-  '<div class="col-s-12 col-l-12">To contact me, see the possibilities on the <a href="/"><span class="fas icon">&#xf015;</span>Homepage</a></div>'.
+  '<div class="col-s-12 col-l-12">To contact me, see the possibilities on the <a href="/"><span class="fas icon">&#xf015;</span>Homepage</a>.</div>'.
 '</div>';
 $content.= '<div class="spacer-m"></div>';
 
@@ -23,7 +23,7 @@ $content.= '<div class="row center">'.
   '<div class="col-s-12 col-l-12"><a href="https://RundesBalli.com" target="_blank" rel="noopener">RundesBalli.com</a></div>'.
   '<div class="col-s-12 col-l-12"><a href="https://pr0p0ll.com/" target="_blank" rel="noopener">pr0p0ll.com</a></div>'.
   '<div class="col-s-12 col-l-12"><a href="https://pr0.tools/" target="_blank" rel="noopener">pr0.tools</a></div>'.
-  '<div class="col-s-12 col-l-12"><a href="https://anti-ananas.club/" target="_blank" rel="noopener">Anti-Ananas Club</a></div>'.
+  '<div class="col-s-12 col-l-12"><a href="https://anti-ananas.club/" target="_blank" rel="noopener">Anti-Ananas.Club</a></div>'.
   '<div class="col-s-12 col-l-12"><a href="https://php-noise.com/" target="_blank" rel="noopener">php-noise.com</a></div>'.
   '<div class="col-s-12 col-l-12"><a href="https://pfandautomat.com/" target="_blank" rel="noopener">pfandautomat.com</a></div>'.
   '<div class="col-s-12 col-l-12">bratwurst.network (only info and auth Subdomains)</div>'.
@@ -37,7 +37,7 @@ $content.= '<h2><span class="fas icon">&#xf0c1;</span>Sources</h2>';
 $content.= '<div class="row center">'.
   '<div class="col-s-12 col-l-12"><a href="https://fontawesome.com" target="_blank" rel="noopener">Icons / Fontawesome</a></div>'.
   '<div class="col-s-12 col-l-12">Logo font: <a href="https://www.dafont.com/weather-sunday.font" target="_blank" rel="noopener">Weather Sunday</a></div>'.
-  '<div class="col-s-12 col-l-12">Disclaimer from: <a href="http://www.mustervorlage.net/disclaimer-muster" target="_blank" rel="noopener">mustervorlage.net</a></div>'.
+  '<div class="col-s-12 col-l-12">Disclaimer: <a href="http://www.mustervorlage.net/disclaimer-muster" target="_blank" rel="noopener">mustervorlage.net</a></div>'.
   '<div class="col-s-12 col-l-12">Some translations: <a href="https://www.deepl.com/translator" target="_blank" rel="noopener">Deepl translator</a></div>'.
 '</div>';
 $content.= '<div class="spacer-m"></div>';
