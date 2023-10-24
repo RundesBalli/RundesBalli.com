@@ -407,6 +407,12 @@ h1 .iconright, h2 .iconright, h3 .iconright {
   .col-l-10 {width: 83.33%;}
   .col-l-11 {width: 91.66%;}
   .col-l-12 {width: 100%;}
+
+  .vCenter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
 
 /**
