@@ -21,13 +21,16 @@
  * 1. General
  */
 :root {
-  --bgColor: #000000;
+  --bgColor: #1b1b1b;
   --bgImage: url(/assets/images/noise_hex-1b1b1b-t50-tS7-bW0-mB-mu1.2-st2.png);
   --fontSize: 18px;
   --fontColor: #CDCDCD;
+  --fontColorDimmed: rgba(205, 205, 205, 0.5);
   --linkColor: #FF6600;
   --linkHover: #CDCDCD;
   --highlightColor: #FF6600;
+  --highlightColorDimmed: rgba(255, 102, 0, 0.2);
+  --iconColorDimmed: rgba(255, 138, 60, 0.692);
   --hrColor: rgba(205, 205, 205, 0.1);
   --noteColor: rgba(205, 205, 205, 0.7);
   --transitionTime: 0.4s;
@@ -188,11 +191,13 @@ code {
 .icon {
   display: inline;
   padding: 0px 5px 0px 0px;
+  user-select: none;
 }
 
 .iconright {
   display: inline;
   padding: 0px 0px 0px 5px;
+  user-select: none;
 }
 
 h1 .icon, h2 .icon, h3 .icon {
@@ -263,38 +268,45 @@ h1 .iconright, h2 .iconright, h3 .iconright {
   margin: 15px auto;
   max-width: 1200px;
   width: 100%;
-  text-shadow: 2px 2px 2px var(--shadowColor);
 }
 
 #navbar > a {
   font-size: calc(var(--fontSize) * 1.5);
-  transition: all var(--transitionTime);
-  padding: calc(var(--fontSize) * 0.6) var(--fontSize);
   display: inline-block;
-  border-left: 1px solid var(--linkColor);
+  transition: all var(--transitionTime);
+  border-bottom: 2px solid var(--highlightColorDimmed);
+  color: var(--fontColorDimmed);
   text-decoration: none;
+  text-shadow: 2px 2px 2px var(--shadowColor);
+  margin: calc(var(--fontSize) * 0.6) 0px;
+  padding: 0px var(--fontSize) calc(var(--fontSize) * 0.5);
 }
 
 #navbar > a > span.icon {
   padding: 0px 12px 0px 0px;
 }
 
-#navbar > a:first-child {
-  border: 0px;
-}
-
 #navbar > a:active, #navbar > a:hover, #navbar > a:focus {
-  color: var(--linkHover);
+  color: var(--fontColor);
+  border-bottom: 2px solid var(--highlightColor);
 }
 
 #navbar > a.active {
-  font-weight: bold;
+  color: var(--fontColor);
+}
+
+#navbar > a.active > .icon {
+  color: var(--iconColorDimmed);
 }
 
 @media only screen and (max-width: 900px) {
   #navbar > a {
     display: block;
-    border-left: 0px;
+    border-bottom: 0px;
+  }
+
+  #navbar > a:active, #navbar > a:hover, #navbar > a:focus {
+    border-bottom: 0px;
   }
 }
 

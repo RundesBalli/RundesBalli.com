@@ -35,7 +35,6 @@ https://github.com/RundesBalli
     <div id="navbar">
       {NAV}
     </div>
-    <hr>
     <div id="wrapper">
       {CONTENT}
     </div>
