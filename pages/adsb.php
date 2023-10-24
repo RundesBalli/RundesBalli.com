@@ -46,7 +46,7 @@ $content.= '<div class="row center">'.
 $content.= '<div class="spacer-m"></div>';
 
 $content.= '<div class="row center">'.
-  '<div class="col-s-12 col-l-12"><img src="/assets/images/adsb/adsbMap.png" alt="Bratwurst ADS-B" title="Bratwurst ADS-B" width="650" height="379"></div>'.
+  '<div class="col-s-12 col-l-12"><img class="imgGlow" src="/assets/images/adsb/adsbMap.png" alt="Bratwurst ADS-B" title="Bratwurst ADS-B" width="650" height="379"></div>'.
 '</div>';
 
 $content.= '<div class="spacer-l"></div>';
