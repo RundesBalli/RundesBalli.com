@@ -40,6 +40,27 @@ $content.= '<div class="spacer-l"></div>';
 $content.= '<hr>';
 
 /**
+ * Online Tools
+ */
+$content.= '<h2>Online Tools</h2>';
+
+$content.= '<div class="row">'.
+  '<div class="col-s-12 col-l-3 bold"><span class="fas icon">&#xf084;</span><a href="/pwgen">Password generator</a></div>'.
+  '<div class="col-s-12 col-l-7">A simple password generator which creates 100 randomly generated passwords according to the scheme <code>[0-9a-zA-Z]{64}</code>.</div>'.
+  '<div class="col-s-12 col-l-2"><span class="fab icon">&#xf09b;</span><a href="https://github.com/RundesBalli/RundesBalli.com/blob/master/pages/pwgen.php" target="_blank" rel="noopener">SourceCode</a><br>'.BADGE['php'].BADGE['html5'].BADGE['css3'].'</div>'.
+'</div>';
+$content.= '<div class="spacer-l"></div>';
+
+$content.= '<div class="row">'.
+  '<div class="col-s-12 col-l-3 bold"><span class="fas icon">&#xf71e;</span><a href="/toiletPaper">Toilet paper calculator</a></div>'.
+  '<div class="col-s-12 col-l-7">Calculate the price of toilet paper.</div>'.
+  '<div class="col-s-12 col-l-2"><span class="fab icon">&#xf09b;</span><a href="https://github.com/RundesBalli/RundesBalli.com/blob/master/pages/toiletPaper.php" target="_blank" rel="noopener">SourceCode</a><br>'.BADGE['php'].BADGE['html5'].BADGE['css3'].'</div>'.
+'</div>';
+$content.= '<div class="spacer-l"></div>';
+
+$content.= '<hr>';
+
+/**
  * Projects of friends I have collaborated on
  */
 $content.= '<h2>Projects of friends I have collaborated on</h2>';
@@ -55,27 +76,6 @@ $content.= '<div class="row">'.
   '<div class="col-s-12 col-l-3 bold"><span class="fas icon">&#xf144;</span><a href="https://boomerparty.live" target="_blank" rel="noopener">Boomerparty.live</a></div>'.
   '<div class="col-s-12 col-l-7">Official website for the <a href="https://open.spotify.com/playlist/64WfneVI8dqmpd6T6QKAMs" target="_blank" rel="noopener">Boomerparty-Playlist</a> community project of my friend <a href="https://pr0gramm.com/user/KaiserMolay" target="_blank" rel="noopener">KaiserMolay</a>.<br><span class="bold highlight">Tasks:</span> Whole website without photographs and images.<br><span class="bold highlight">Note:</span> The playlist is maintained by KaiserMolay.</div>'.
   '<div class="col-s-12 col-l-2"><span class="fab icon">&#xf09b;</span><a href="https://github.com/RundesBalli/boomerparty.live" target="_blank" rel="noopener">SourceCode</a><br>'.BADGE['php'].BADGE['html5'].BADGE['css3'].'</div>'.
-'</div>';
-$content.= '<div class="spacer-l"></div>';
-
-$content.= '<hr>';
-
-/**
- * Tools
- */
-$content.= '<h2>Tools</h2>';
-
-$content.= '<div class="row">'.
-  '<div class="col-s-12 col-l-3 bold"><span class="fas icon">&#xf084;</span><a href="/pwgen">Password generator</a></div>'.
-  '<div class="col-s-12 col-l-7">A simple password generator which creates 100 randomly generated passwords according to the scheme <code>[0-9a-zA-Z]{64}</code>.</div>'.
-  '<div class="col-s-12 col-l-2"><span class="fab icon">&#xf09b;</span><a href="https://github.com/RundesBalli/RundesBalli.com/blob/master/pages/pwgen.php" target="_blank" rel="noopener">SourceCode</a><br>'.BADGE['php'].BADGE['html5'].BADGE['css3'].'</div>'.
-'</div>';
-$content.= '<div class="spacer-l"></div>';
-
-$content.= '<div class="row">'.
-  '<div class="col-s-12 col-l-3 bold"><span class="fas icon">&#xf71e;</span><a href="/toiletPaper">Toilet paper calculator</a></div>'.
-  '<div class="col-s-12 col-l-7">Calculate the price of toilet paper.</div>'.
-  '<div class="col-s-12 col-l-2"><span class="fab icon">&#xf09b;</span><a href="https://github.com/RundesBalli/RundesBalli.com/blob/master/pages/toiletPaper.php" target="_blank" rel="noopener">SourceCode</a><br>'.BADGE['php'].BADGE['html5'].BADGE['css3'].'</div>'.
 '</div>';
 $content.= '<div class="spacer-l"></div>';
 
