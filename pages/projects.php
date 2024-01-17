@@ -94,7 +94,7 @@ $content.= '<div class="row">'.
 $content.= '<div class="spacer-l"></div>';
 
 $content.= '<div class="row">'.
-  '<div class="col-s-12 col-l-3 bold"><span class="fas icon">&#xf47f;</span><a href="https://t.me/zufallbot" target="_blank" rel="noopener">Chat-Id bot</a></div>'.
+  '<div class="col-s-12 col-l-3 bold"><span class="fas icon">&#xf47f;</span><a href="https://t.me/rb_chatId_bot" target="_blank" rel="noopener">Chat-Id bot</a></div>'.
   '<div class="col-s-12 col-l-7">Returns the Chat ID in Groups and private chats.</div>'.
   '<div class="col-s-12 col-l-2"><span class="fab icon">&#xf09b;</span><a href="https://github.com/RundesBalli/telegramChatIdBot" target="_blank" rel="noopener">SourceCode</a><br>'.BADGE['php'].BADGE['telegram'].'</div>'.
 '</div>';
