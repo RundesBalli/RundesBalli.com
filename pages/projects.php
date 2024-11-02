@@ -152,35 +152,35 @@ $content.= '<h2>Snippets</h2>';
 $content.= '<div class="row">'.
   '<div class="col-s-12 col-l-3 bold"><span class="fas icon">&#xf0c1;</span>clickableLinks</div>'.
   '<div class="col-s-12 col-l-7">Function to automatically link URLs in texts.</div>'.
-  '<div class="col-s-12 col-l-2"><span class="fab icon">&#xf09b;</span><a href="https://gist.github.com/RundesBalli/3c49de99e16c776c9cf733ffb9f2ebf9" target="_blank" rel="noopener">SourceCode</a><br>'.BADGE['php'].'</div>'.
+  '<div class="col-s-12 col-l-2"><span class="fab icon">&#xf09b;</span><a href="https://github.com/RundesBalli/phpSnippets/tree/master/clickableLinks" target="_blank" rel="noopener">SourceCode</a><br>'.BADGE['php'].'</div>'.
 '</div>';
 $content.= '<div class="spacer-l"></div>';
 
 $content.= '<div class="row">'.
   '<div class="col-s-12 col-l-3 bold"><span class="fas icon">&#x23;</span>hex2rgb</div>'.
   '<div class="col-s-12 col-l-7">Simple PHP function based on the <a href="https://www.php.net/manual/en/function.hexdec.php" target="_blank" rel="noopener">hexdec</a> function and RegEx.</div>'.
-  '<div class="col-s-12 col-l-2"><span class="fab icon">&#xf09b;</span><a href="https://gist.github.com/RundesBalli/32f5491df25abb7fe0864e6447a26b75" target="_blank" rel="noopener">SourceCode</a><br>'.BADGE['php'].'</div>'.
+  '<div class="col-s-12 col-l-2"><span class="fab icon">&#xf09b;</span><a href="https://github.com/RundesBalli/phpSnippets/tree/master/hex2rgb" target="_blank" rel="noopener">SourceCode</a><br>'.BADGE['php'].'</div>'.
 '</div>';
 $content.= '<div class="spacer-l"></div>';
 
 $content.= '<div class="row">'.
   '<div class="col-s-12 col-l-3 bold"><span class="fas icon">&#xf51a;</span>Tidy function call</div>'.
   '<div class="col-s-12 col-l-7">Parameterised function call of the tidy function.</div>'.
-  '<div class="col-s-12 col-l-2"><span class="fab icon">&#xf09b;</span><a href="https://gist.github.com/RundesBalli/a5d20a8c92a9a004803980654e638cbb" target="_blank" rel="noopener">SourceCode</a><br>'.BADGE['php'].'</div>'.
+  '<div class="col-s-12 col-l-2"><span class="fab icon">&#xf09b;</span><a href="https://github.com/RundesBalli/phpSnippets/blob/master/tidyOutput" target="_blank" rel="noopener">SourceCode</a><br>'.BADGE['php'].'</div>'.
 '</div>';
 $content.= '<div class="spacer-l"></div>';
 
 $content.= '<div class="row">'.
   '<div class="col-s-12 col-l-3 bold"><span class="fas icon">&#x25;</span>Fractionizer</div>'.
   '<div class="col-s-12 col-l-7">Simple number format function with quarter, half and three quarter fraction output.</div>'.
-  '<div class="col-s-12 col-l-2"><span class="fab icon">&#xf09b;</span><a href="https://gist.github.com/RundesBalli/a987971322ce7122e223393901fd90ec" target="_blank" rel="noopener">SourceCode</a><br>'.BADGE['php'].'</div>'.
+  '<div class="col-s-12 col-l-2"><span class="fab icon">&#xf09b;</span><a href="https://github.com/RundesBalli/phpSnippets/tree/master/fractionizer" target="_blank" rel="noopener">SourceCode</a><br>'.BADGE['php'].'</div>'.
 '</div>';
 $content.= '<div class="spacer-l"></div>';
 
 $content.= '<div class="row">'.
   '<div class="col-s-12 col-l-3 bold"><span class="fas icon">&#xf017;</span>formatTime function</div>'.
   '<div class="col-s-12 col-l-7">Simple PHP function to format a given time in seconds to a readable time.</div>'.
-  '<div class="col-s-12 col-l-2"><span class="fab icon">&#xf09b;</span><a href="https://gist.github.com/RundesBalli/10e62a74c08dc2818f7a7f061e9306dd" target="_blank" rel="noopener">SourceCode</a><br>'.BADGE['php'].'</div>'.
+  '<div class="col-s-12 col-l-2"><span class="fab icon">&#xf09b;</span><a href="https://github.com/RundesBalli/phpSnippets/tree/master/formatTime" target="_blank" rel="noopener">SourceCode</a><br>'.BADGE['php'].'</div>'.
 '</div>';
 $content.= '<div class="spacer-l"></div>';
 
