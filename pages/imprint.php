@@ -8,7 +8,7 @@ $title = 'Imprint';
 
 $content.= '<h1><span class="fas icon">&#xf21b;</span>Imprint</h1>';
 $content.= '<div class="row center">'.
-  '<div class="col-s-12 col-l-12">No commercial internet presence and therefore according to German law <a href="https://dejure.org/gesetze/TMG/5.html" target="_blank" rel="noopener">§5 TMG</a> not required to have an imprint.</div>'.
+  '<div class="col-s-12 col-l-12">No commercial internet presence and therefore according to German law <a href="https://www.buzer.de/5_DDG.htm" target="_blank" rel="noopener">§5 DDG</a> not required to have an imprint.</div>'.
   '<div class="col-s-12 col-l-12">To contact me, see the possibilities on the <a href="/"><span class="fas icon">&#xf015;</span>Homepage</a>.</div>'.
 '</div>';
 $content.= '<div class="spacer-m"></div>';
