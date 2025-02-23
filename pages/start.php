@@ -14,20 +14,11 @@ $ogDescription = 'My name is RundesBalli and I am a hobbyist developer from Germ
  * About me
  */
 $content.= '<h2><span class="fas icon">&#xf507;</span>About me</h2>';
-$content.= '<div class="row center">'.
-  '<div class="col-s-12 col-l-12">My name is RundesBalli and I am a hobbyist developer from Germany. I like <span class="bold">procedural PHP coding</span>, without doing this for a living.</div>'.
-'</div>';
-$content.= '<div class="spacer-m"></div>';
+$content.= '<p>My name is <b>RundesBalli</b> and I am a hobbyist developer from Germany. I like <b>procedural PHP coding</b>, without doing this for a living.</p>';
 
-$content.= '<div class="row center">'.
-  '<div class="col-s-12 col-l-12">Most of my public projects are <span class="bold">small tools</span>, <span class="bold">scripts</span>, <span class="bold">boilerplates</span> and <span class="bold">websites</span>, which are commented, documented and coded in English.</div>'.
-'</div>';
-$content.= '<div class="spacer-m"></div>';
+$content.= '<p>Most of my public projects are <b>small tools</b>, <b>scripts</b>, <b>boilerplates</b> and <b>websites</b>, which are commented, documented and coded in English.</p>';
 
-$content.= '<div class="row center">'.
-  '<div class="col-s-12 col-l-12">Some of the projects are for use with the German imageboard pr0gramm.com and because of the majority of the target group of pr0gramm is German-speaking, the projects are partially commented and documented in German.</div>'.
-'</div>';
-$content.= '<div class="spacer-l"></div>';
+$content.= '<p>Some of the projects are for use with the German imageboard pr0gramm.com and because of the majority of the target group of pr0gramm is German-speaking, the projects are partially commented and documented in German.</p>';
 
 $content.= '<hr>';
 
