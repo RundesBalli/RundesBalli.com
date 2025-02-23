@@ -26,15 +26,41 @@ $content.= '<hr>';
  * Contact
  */
 $content.= '<h2><span class="fas icon">&#xf2bb;</span>Contact me</h2>';
-$content.= '<div class="row center">'.
-  '<div class="col-s-12 col-l-3"><span class="fab icon">&#xf2c6;</span><a href="https://t.me/RundesBalli" target="_blank" rel="noopener">RundesBalli</a></div>'.
-  '<div class="col-s-12 col-l-3"><span class="fab icon">&#xf392;</span><a href="https://discord.com/users/456171575641636889" target="_blank" rel="noopener">rundesballi</a></div>'.
-  '<div class="col-s-12 col-l-3"><span class="fas icon">&#xf120;</span><a href="https://pr0gramm.com/user/RundesBalli" target="_blank" rel="noopener">RundesBalli</a></div>'.
-  '<div class="col-s-12 col-l-3"><span class="fas icon">&#xf0e0;</span><a href="mailto:webspam@RundesBalli.com" target="_blank">Email</a></div>'.
-'</div>';
-$content.= '<div class="spacer-m"></div>';
-$content.= '<div class="row center note">'.
-  '<div class="col-s-12 col-l-12">I will ignore automated emails and I am not interested in studies or full-time job offers.</div>'.
-  '<div class="col-s-12 col-l-12">If you think I\'d be the right person for your project, feel free to email me! Likewise, If you have any comments, criticism, questions, etc. about my projects - or just want to say "hi" - don\'t hesitate to contact me.</div>'.
-'</div>';
+$contact = [
+  [
+    'faClass' => 'fab',
+    'faSymbol' => 'f2c6',
+    'url' => 'https://t.me/RundesBalli',
+    'name' => 'RundesBalli',
+    'title' => 'Telegram',
+  ],
+  [
+    'faClass' => 'fab',
+    'faSymbol' => 'f392',
+    'url' => 'https://discord.com/users/456171575641636889',
+    'name' => 'rundesballi',
+    'title' => 'Discord',
+  ],
+  [
+    'faClass' => 'fas',
+    'faSymbol' => 'f120',
+    'url' => 'https://pr0gramm.com/user/RundesBalli',
+    'name' => 'RundesBalli',
+    'title' => 'pr0gramm',
+  ],
+  [
+    'faClass' => 'fas',
+    'faSymbol' => 'f0e0',
+    'url' => 'mailto:webspam@RundesBalli.com',
+    'name' => 'webspam@RundesBalli.com',
+    'title' => 'Email',
+  ],
+];
+$content.= '<table>';
+foreach($contact as $val) {
+  $content.= '<tr><td><span class="'.$val['faClass'].' icon">&#x'.$val['faSymbol'].';</span>'.$val['title'].'</td><td><a href="'.$val['url'].'" target="_blank" rel="noopener">'.$val['name'].'</a></td></tr>';
+}
+$content.= '</table>';
+$content.= '<p class="note">I will ignore automated emails and I am not interested in studies or full-time job offers.</p>';
+$content.= '<p>If you think I\'d be the right person for your project, feel free to contact me! Likewise, If you have any comments, criticism, questions, etc. about my projects - or just want to say "hi" - don\'t hesitate to contact me.</p>';
 ?>
