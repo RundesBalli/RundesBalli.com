@@ -20,7 +20,7 @@ $content.= '<h2>Mods</h2>';
 
 $content.= '<div class="row vCenter">'.
   '<div class="col-s-12 col-l-3 bold"><a href="https://mods.factorio.com/mod/SimpleRocketParts" target="_blank" rel="noopener"><img class="imgGlow" src="/assets/images/factorio/simpleRocketParts.png" alt="SimpleRocketParts"></a></div>'.
-  '<div class="col-s-12 col-l-7">A mod that simplifies the recipes for rocket parts, so that in the end game, your main concern is procuring a vast amount of raw materials rather than managing the factory.</div>'.
+  '<div class="col-s-12 col-l-7">A mod for the 1.1 version of the game that simplifies the recipes for rocket parts, so that in the end game, your main concern is procuring a vast amount of raw materials rather than managing the factory.</div>'.
   '<div class="col-s-12 col-l-2"><span class="fab icon">&#xf09b;</span><a href="https://github.com/RundesBalli/factorio-simpleRocketParts" target="_blank" rel="noopener">SourceCode</a></div>'.
 '</div>';
 $content.= '<div class="spacer-l"></div>';
