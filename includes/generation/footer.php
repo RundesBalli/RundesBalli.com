@@ -5,6 +5,22 @@
  * Footer generation
  */
 $footerElements = [
+  [
+    'faSet' => 'fas',
+    'faIcon' => 'f21b',
+    'url' => '/imprint',
+    'route' => 'imprint',
+    'text' => 'Imprint',
+    'newTab' => FALSE,
+  ],
+  [
+    'faSet' => 'fab',
+    'faIcon' => 'f09b',
+    'url' => 'https://github.com/RundesBalli',
+    'route' => NULL,
+    'text' => 'GitHub',
+    'newTab' => TRUE,
+  ],
 ];
 
 $footer = '';
