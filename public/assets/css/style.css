@@ -28,7 +28,7 @@
   /**
    * Times
    */
-  --transitionTime: 0.4s;
+  --transitionTime: 0.2s;
 }
 
 @media only screen and (max-width: 960px) {
@@ -165,7 +165,6 @@ a {
 
 a:active, a:hover, a:focus {
   color: var(--fontColor);
-  text-decoration: none;
 }
 
 p {
@@ -177,6 +176,7 @@ h1, h2, h3 {
   font-family: 'RobotoCondensed';
   text-align: center;
   word-break: break-word;
+  text-shadow: 3px 3px 2px var(--shadowColor);
 }
 
 h1 .icon, h2 .icon, h3 .icon {
@@ -262,7 +262,7 @@ header {
 
 @media only screen and (min-width: 1001px) {
   #logo:hover {
-    transform: scale(1.15);
+    transform: scale(1.02);
   }
 }
 
