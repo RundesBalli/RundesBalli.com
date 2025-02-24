@@ -8,6 +8,11 @@
  */
 $routes = [
   /**
+   * Pages
+   */
+  'default' => 'default.php',
+
+  /**
    * Error pages
    */
   '404' => 'errors'.DIRECTORY_SEPARATOR.'404.php',
