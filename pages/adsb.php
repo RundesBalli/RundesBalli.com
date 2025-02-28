@@ -43,7 +43,6 @@ $availableProjects = [
         'faClass' => 'fas',
         'faSymbol' => 'f0f3',
         'thumb' => 'adsbTelegramNotifier',
-        'url' => NULL,
         'description' => 'Notifies via Telegram when an aircraft passes over a certain area.',
         'sourceUrl' => 'https://github.com/RundesBalli/adsbTelegramNotifier',
         'badges' => [
@@ -51,8 +50,6 @@ $availableProjects = [
           'api',
           'telegram',
         ],
-        'tasks' => NULL,
-        'note' => NULL,
       ],
     ],
   ],
