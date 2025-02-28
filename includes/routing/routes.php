@@ -13,6 +13,7 @@ $routes = [
   'default' => 'default.php',
   'projects' => 'projects.php',
   'adsb' => 'adsb.php',
+  'pwgen' => 'pwgen.php',
 
   /**
    * Error pages
