@@ -13,6 +13,9 @@
   --highlightColor2Dimmed: #002e8a;
 
   --buttonBackgroundColor: #0E273C;
+  --tileBackgroundColor: #0E273C;
+  --tileBorderColor: rgba(255, 248, 240, 0.2);
+  --tileHoverColor: rgba(0, 0, 0, 0.2);
 
   --shadowColor: #000000;
   --hrColor: rgba(255, 248, 240, 0.75);
@@ -25,6 +28,7 @@
   --fontSize: 20px;
   --basicSpacingSize: 20px;
   --headerHeight: 150px;
+  --tileWidth: 300px;
 
   /**
    * Times
@@ -224,6 +228,10 @@ code {
 
 .spacer {
   height: var(--basicSpacingSize);
+}
+
+.spacer-s {
+  height: calc(var(--basicSpacingSize) * 0.5);
 }
 
 .note {
@@ -455,4 +463,58 @@ tr:not(th):hover {
 
 .tFullWidth {
   width: 100%;
+}
+
+/**
+ * Item Tile Grid
+ */
+.items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.item {
+  background-color: var(--tileBackgroundColor);
+  width: var(--tileWidth);
+  margin: calc(var(--basicSpacingSize) * 0.7);
+  padding: 0px;
+  border-radius: var(--basicSpacingSize);
+  border: 2px solid var(--tileBorderColor);
+  box-shadow: 5px 5px 5px var(--shadowColor);
+  overflow: hidden;
+  transition: all var(--transitionTime);
+}
+
+.item:hover {
+  background-color: var(--tileHoverColor);
+}
+
+.item > .infos {
+  padding: calc(var(--fontSize) * 1.4);
+  text-align: left;
+}
+
+.item > .infos > .project {
+  text-align: center;
+  margin-bottom: var(--fontSize);
+}
+
+.item > .infos > .project > .name {
+  font-family: 'RobotoCondensed';
+  color: var(--fontColor);
+  font-size: calc(var(--fontSize) * 1.4);
+}
+
+.item > .infos > .project > .name > a {
+  color: var(--highlightColor1);
+  text-decoration: underline;
+}
+
+.item > .infos > .project > .name > a:active, .item > .infos > .project > .name > a:hover, .item > .infos > .project > .name > a:focus {
+  color: var(--fontColor);
+}
+
+.item > .infos > .description {
+  font-size: calc(var(--fontSize) * 0.8);
 }

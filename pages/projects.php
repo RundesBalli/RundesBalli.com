@@ -466,7 +466,7 @@ foreach($availableProjects as $projects) {
   /**
    * Iterate through projects
    */
-  $content.= '<div class="overflowXAuto"><table class="tFullWidth">';
+  $content.= '<div class="items">';
   foreach($projects['projects'] as $project) {
     /**
      * Check whether a project website has to be linked.
@@ -475,12 +475,18 @@ foreach($availableProjects as $projects) {
       /**
        * There is no website to be linked.
        */
-      $projectTitle = output($project['title']);
+      $projectName = '<a href="'.output($project['sourceUrl']).'" target="_blank" rel="noopener">'.output($project['name']).'</a>';
+      $image = '<a href="'.$project['sourceUrl'].'" target="_blank" rel="noopener">
+        <img src="/assets/images/projects/'.$project['thumb'].'.png" alt="'.$project['name'].'">
+      </a>';
     } else {
       /**
        * There is a website to be linked.
        */
-      $projectTitle = '<a href="'.output($project['url']).'" target="_blank" rel="noopener">'.output($project['title']).'</a>';
+      $projectName = '<a href="'.output($project['url']).'" target="_blank" rel="noopener">'.output($project['name']).'</a>';
+      $image = '<a href="'.$project['url'].'" target="_blank" rel="noopener">
+        <img src="/assets/images/projects/'.$project['thumb'].'.png" alt="'.$project['name'].'">
+      </a>';
     }
 
     /**
@@ -488,35 +494,43 @@ foreach($availableProjects as $projects) {
      */
     $description = $project['description'];
     if(!empty($project['tasks'])) {
-      $description.= '<br><span class="highlight">Tasks:</span> '.output($project['tasks']);
+      $description.= '<div class="spacer-s"></div><span class="highlight">Tasks:</span> '.output($project['tasks']);
     }
     if(!empty($project['note'])) {
-      $description.= '<br><span class="highlight">Note:</span> '.output($project['note']);
+      $description.= '<div class="spacer-s"></div><span class="highlight">Note:</span> '.output($project['note']);
     }
 
     /**
      * Check whether there are any badges to display.
      */
-    $badges = '';
+    $badges = [];
     if(!empty($project['badges'])) {
       foreach($project['badges'] as $badge) {
-        $badges.= BADGE[$badge];
+        $badges[] = BADGE[$badge];
       }
     }
 
-    $content.= '
-    <tr>
-      <td><span class="'.output($project['faClass']).' icon">&#x'.output($project['faSymbol']).';</span>'.$projectTitle.'</td>
-      <td>'.$description.'</td>
-      <td><span class="fab icon">&#xf09b;</span><a href="'.output($project['sourceUrl']).'" target="_blank" rel="noopener">SourceCode</a></td>
-      <td>'.$badges.'</td>
-    </tr>';
+    /**
+     * Show as tile/item
+     */
+    $content.=
+    '<div class="item">
+      '.$image.'
+      <div class="infos">
+        <div class="project">
+          <div class="name"><span class="'.output($project['faClass']).' icon">&#x'.output($project['faSymbol']).';</span>'.$projectName.'</div>
+          '.(!empty($badges) ? '<div class="note">'.implode($badges).'</div>' : NULL).'
+          <div class="note"><span class="fab icon">&#xf09b;</span><a href="'.output($project['sourceUrl']).'" target="_blank" rel="noopener">SourceCode</a></div>
+        </div>
+        <div class="description">'.$description.'</div>
+      </div>
+    </div>';
   }
-  $content.= '</table></div>';
+  $content.= '</div>';
 }
 
 /**
  * More
  */
-$content.= 'Many of my projects are available on <span class="fab icon">&#xf09b;</span><a href="https://github.com/RundesBalli" target="_blank" rel="noopener">GitHub</a>.';
+$content.= '<p>Many of my projects are also available on <span class="fab icon">&#xf09b;</span><a href="https://github.com/RundesBalli" target="_blank" rel="noopener">GitHub</a>.</p>';
 ?>
