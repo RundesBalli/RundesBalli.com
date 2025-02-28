@@ -12,6 +12,7 @@ $routes = [
    */
   'default' => 'default.php',
   'projects' => 'projects.php',
+  'adsb' => 'adsb.php',
 
   /**
    * Error pages
