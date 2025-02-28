@@ -76,7 +76,7 @@ foreach($availableProjects as $projects) {
       /**
        * There is no website to be linked.
        */
-      $projectName = '<a href="'.output($project['sourceUrl']).'" target="_blank" rel="noopener">'.output($project['name']).'</a>';
+      $projectName = '<a href="'.output($project['sourceUrl']).'" '.(stripos($project['sourceUrl'], 'http') !== FALSE ? 'target="_blank" rel="noopener"' : NULL).'>'.output($project['name']).'</a>';
       $image = '<a href="'.$project['sourceUrl'].'" target="_blank" rel="noopener">
         <img src="/assets/images/adsb/'.$project['thumb'].'.png" alt="'.$project['name'].'">
       </a>';
@@ -84,7 +84,7 @@ foreach($availableProjects as $projects) {
       /**
        * There is a website to be linked.
        */
-      $projectName = '<a href="'.output($project['url']).'" target="_blank" rel="noopener">'.output($project['name']).'</a>';
+      $projectName = '<a href="'.output($project['url']).'" '.(stripos($project['url'], 'http') !== FALSE ? 'target="_blank" rel="noopener"' : NULL).'>'.output($project['name']).'</a>';
       $image = '<a href="'.$project['url'].'" target="_blank" rel="noopener">
         <img src="/assets/images/adsb/'.$project['thumb'].'.png" alt="'.$project['name'].'">
       </a>';
