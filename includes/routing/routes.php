@@ -11,6 +11,7 @@ $routes = [
    * Pages
    */
   'default' => 'default.php',
+  'projects' => 'projects.php',
 
   /**
    * Error pages
