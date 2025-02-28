@@ -29,7 +29,7 @@ $availableProjects = [
        * PHP-Noise website
        */
       [
-        'title' => 'PHP-Noise.com',
+        'name' => 'PHP-Noise.com',
         'faClass' => 'fas',
         'faSymbol' => 'f03e',
         'url' => 'https://php-noise.com',
@@ -48,7 +48,7 @@ $availableProjects = [
        * PHP-Noise CLI/API
        */
       [
-        'title' => 'PHP-Noise CLI',
+        'name' => 'PHP-Noise CLI',
         'faClass' => 'fas',
         'faSymbol' => 'f03e',
         'url' => NULL,
@@ -67,7 +67,7 @@ $availableProjects = [
        * Tankersparnis.net
        */
       [
-        'title' => 'Tankersparnis.net',
+        'name' => 'Tankersparnis.net',
         'faClass' => 'fas',
         'faSymbol' => 'f52f',
         'url' => 'https://tankersparnis.net',
@@ -97,7 +97,7 @@ $availableProjects = [
        * Nezos.Cooking
        */
       [
-        'title' => 'Nezos.Cooking',
+        'name' => 'Nezos.Cooking',
         'faClass' => 'fas',
         'faSymbol' => 'f543',
         'url' => 'https://nezos.cooking',
@@ -117,7 +117,7 @@ $availableProjects = [
        * Boomerparty.live
        */
       [
-        'title' => 'Boomerparty.live',
+        'name' => 'Boomerparty.live',
         'faClass' => 'fas',
         'faSymbol' => 'f144',
         'url' => 'https://boomerparty.live',
@@ -146,7 +146,7 @@ $availableProjects = [
        * Anti-Ananas Club
        */
       [
-        'title' => 'Anti-Ananas Club',
+        'name' => 'Anti-Ananas Club',
         'faClass' => 'fas',
         'faSymbol' => 'f00d',
         'url' => 'https://anti-ananas.club',
@@ -166,7 +166,7 @@ $availableProjects = [
        * Anti-Ananas Club pr0gramm bot
        */
       [
-        'title' => 'Anti-Ananas pr0gramm bot',
+        'name' => 'Anti-Ananas pr0gramm bot',
         'faClass' => 'fas',
         'faSymbol' => 'f544',
         'url' => NULL,
@@ -184,7 +184,7 @@ $availableProjects = [
        * Pfandautomat.com
        */
       [
-        'title' => 'Pfandautomat.com',
+        'name' => 'Pfandautomat.com',
         'faClass' => 'fas',
         'faSymbol' => 'f72f',
         'url' => 'https://pfandautomat.com',
@@ -211,7 +211,7 @@ $availableProjects = [
     'faSymbol' => 'f70e',
     'projects' => [
       [
-        'title' => 'lightweight-PHP-Boilerplate',
+        'name' => 'lightweight-PHP-Boilerplate',
         'faClass' => 'fas',
         'faSymbol' => 'f0ad',
         'url' => NULL,
@@ -224,7 +224,7 @@ $availableProjects = [
         'note' => NULL,
       ],
       [
-        'title' => 'escpos-php-driver',
+        'name' => 'escpos-php-driver',
         'faClass' => 'fas',
         'faSymbol' => 'f02f',
         'url' => NULL,
@@ -238,7 +238,7 @@ $availableProjects = [
         'note' => NULL,
       ],
       [
-        'title' => 'terminal-imager',
+        'name' => 'terminal-imager',
         'faClass' => 'fas',
         'faSymbol' => 'f302',
         'url' => NULL,
@@ -252,7 +252,7 @@ $availableProjects = [
         'note' => NULL,
       ],
       [
-        'title' => 'jsonDumper',
+        'name' => 'jsonDumper',
         'faClass' => 'fas',
         'faSymbol' => 'f793',
         'url' => NULL,
@@ -277,7 +277,7 @@ $availableProjects = [
     'faSymbol' => 'f121',
     'projects' => [
       [
-        'title' => 'clickableLinks',
+        'name' => 'clickableLinks',
         'faClass' => 'fas',
         'faSymbol' => 'f0c1',
         'url' => NULL,
@@ -290,7 +290,7 @@ $availableProjects = [
         'note' => NULL,
       ],
       [
-        'title' => 'hex2rgb',
+        'name' => 'hex2rgb',
         'faClass' => 'fas',
         'faSymbol' => '23',
         'url' => NULL,
@@ -303,7 +303,7 @@ $availableProjects = [
         'note' => NULL,
       ],
       [
-        'title' => 'Tidy function call',
+        'name' => 'Tidy function call',
         'faClass' => 'fas',
         'faSymbol' => 'f51a',
         'url' => NULL,
@@ -316,7 +316,7 @@ $availableProjects = [
         'note' => NULL,
       ],
       [
-        'title' => 'Fractionizer',
+        'name' => 'Fractionizer',
         'faClass' => 'fas',
         'faSymbol' => '25',
         'url' => NULL,
@@ -329,7 +329,7 @@ $availableProjects = [
         'note' => NULL,
       ],
       [
-        'title' => 'formatTime',
+        'name' => 'formatTime',
         'faClass' => 'fas',
         'faSymbol' => 'f017',
         'url' => NULL,
@@ -353,7 +353,7 @@ $availableProjects = [
     'faSymbol' => 'f2c6',
     'projects' => [
       [
-        'title' => 'Random data bot',
+        'name' => 'Random data bot',
         'faClass' => 'fas',
         'faSymbol' => 'f522',
         'url' => 'https://t.me/zufallbot',
@@ -368,7 +368,7 @@ $availableProjects = [
         'note' => NULL,
       ],
       [
-        'title' => 'Chat-Id bot',
+        'name' => 'Chat-Id bot',
         'faClass' => 'fas',
         'faSymbol' => 'f47f',
         'url' => 'https://t.me/rb_chatId_bot',
@@ -383,7 +383,7 @@ $availableProjects = [
         'note' => NULL,
       ],
       [
-        'title' => 'Server online-status check with reporting to telegram',
+        'name' => 'Server online-status check with reporting to telegram',
         'faClass' => 'fas',
         'faSymbol' => 'f06e',
         'url' => NULL,
@@ -410,7 +410,7 @@ $availableProjects = [
     'faSymbol' => 'f717',
     'projects' => [
       [
-        'title' => 'ADR Crawler',
+        'name' => 'ADR Crawler',
         'faClass' => 'fas',
         'faSymbol' => 'f7ba',
         'url' => NULL,
@@ -436,7 +436,7 @@ $availableProjects = [
     'faSymbol' => 'f392',
     'projects' => [
       [
-        'title' => 'Reminder Bot',
+        'name' => 'Reminder Bot',
         'faClass' => 'fas',
         'faSymbol' => 'f0a1',
         'url' => NULL,
