@@ -410,7 +410,7 @@ footer > a.active {
  * Forms
  */
 input:not([type=checkbox]):not([type=radio]), select {
-  width: 30%;
+  width: 100%;
   border: 1px solid var(--fontColor);
   padding: calc(var(--basicSpacingSize) * 0.3);
   background-color: transparent;
@@ -419,12 +419,6 @@ input:not([type=checkbox]):not([type=radio]), select {
 
 input:not([type=checkbox]):not([type=radio]):focus, select:focus {
   border: 1px solid var(--highlightColor1);
-}
-
-@media only screen and (max-width: 960px) {
-  input:not([type=checkbox]):not([type=radio]), select {
-    width: 100%;
-  }
 }
 
 /**
