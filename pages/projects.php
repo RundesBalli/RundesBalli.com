@@ -89,6 +89,56 @@ $availableProjects = [
   ],
 
   /**
+   * Online tools
+   */
+  [
+    'title' => 'Online tools',
+    'faClass' => 'fas',
+    'faSymbol' => 'f7d9',
+    'projects' => [
+      /**
+       * Password generator
+       */
+      [
+        'name' => 'Password generator',
+        'faClass' => 'fas',
+        'faSymbol' => 'f084',
+        'thumb' => 'pwgen',
+        'url' => '/pwgen',
+        'description' => 'A simple password generator which creates 100 randomly generated passwords according to the scheme <code>[0-9a-zA-Z]{64}</code>.',
+        'sourceUrl' => 'https://github.com/RundesBalli/RundesBalli.com/blob/master/pages/pwgen.php',
+        'badges' => [
+          'php',
+          'html5',
+          'css3',
+        ],
+        'tasks' => NULL,
+        'note' => NULL,
+      ],
+
+      /**
+       * Toilet paper calculator
+       */
+      [
+        'name' => 'Toilet paper calculator',
+        'faClass' => 'fas',
+        'faSymbol' => 'f71e',
+        'thumb' => 'toiletPaper',
+        'url' => '/toiletPaper',
+        'description' => 'Calculate the price of toilet paper.',
+        'sourceUrl' => 'https://github.com/RundesBalli/RundesBalli.com/blob/master/pages/toiletPaper.php',
+        'badges' => [
+          'php',
+          'html5',
+          'css3',
+        ],
+        'tasks' => NULL,
+        'note' => NULL,
+      ],
+    ],
+  ],
+
+  /**
    * Projects of friends I have collaborated on
    */
   [
