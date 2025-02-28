@@ -409,7 +409,7 @@ footer > a.active {
 /**
  * Forms
  */
-input:not([type=checkbox]):not([type=radio]), select {
+input:not([type=checkbox]):not([type=radio]), select, textarea {
   width: 100%;
   border: 1px solid var(--fontColor);
   padding: calc(var(--basicSpacingSize) * 0.3);
@@ -417,8 +417,12 @@ input:not([type=checkbox]):not([type=radio]), select {
   color: var(--fontColor);
 }
 
-input:not([type=checkbox]):not([type=radio]):focus, select:focus {
+input:not([type=checkbox]):not([type=radio]):focus, select:focus, textarea:focus {
   border: 1px solid var(--highlightColor1);
+}
+
+textarea {
+  resize: vertical;
 }
 
 /**
