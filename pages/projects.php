@@ -90,10 +90,10 @@ $availableProjects = [
     'faSymbol' => 'f7d9',
     'projects' => [
       /**
-       * Password generator
+       * Password Generator
        */
       [
-        'name' => 'Password generator',
+        'name' => 'Password Generator',
         'faClass' => 'fas',
         'faSymbol' => 'f084',
         'thumb' => 'pwgen',
@@ -111,7 +111,7 @@ $availableProjects = [
        * Toilet paper calculator
        */
       [
-        'name' => 'Toilet paper calculator',
+        'name' => 'Toilet Paper Calculator',
         'faClass' => 'fas',
         'faSymbol' => 'f71e',
         'thumb' => 'toiletPaper',

@@ -8,9 +8,9 @@
 /**
  * OG Tags
  */
-$ogDescription = 'Calculate the price of toilet paper.';
+$ogDescription = 'Passwort generator that creates 100 passwords.';
 
-$title = 'Password generator';
+$title = 'Password Generator';
 $content.= '<h1><span class="fas icon">&#xf084;</span>Password generator</h1>';
 $content.= '<p><code>[0-9a-zA-Z]{64}</code></p>';
 
