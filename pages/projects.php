@@ -150,7 +150,7 @@ $availableProjects = [
         'faClass' => 'fas',
         'faSymbol' => 'f00d',
         'url' => 'https://anti-ananas.club',
-        'description' => 'A German satire counter-reaction project to the Hawaii pizza meme. („Ananas“ = Pineapple)',
+        'description' => 'A multilingual satire counter-reaction project to the Hawaii pizza meme. („Ananas“ = Pineapple)',
         'sourceUrl' => 'https://github.com/RundesBalli/anti-ananas.club',
         'badges' => [
           'php',
@@ -170,7 +170,7 @@ $availableProjects = [
         'faClass' => 'fas',
         'faSymbol' => 'f544',
         'url' => NULL,
-        'description' => 'Anti-Ananas.Club comment-autoresponse bot for the German imageboard pr0gramm.com',
+        'description' => 'Anti-Ananas.Club comment-autoresponse bot for the German imageboard <a href="https://pr0gramm.com" target="_blank" rel="noopener">pr0gramm.com</a>',
         'sourceUrl' => 'https://github.com/RundesBalli/pr0gramm-antiAnanas',
         'badges' => [
           'php',
