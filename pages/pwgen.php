@@ -10,7 +10,6 @@
  */
 $ogDescription = 'Calculate the price of toilet paper.';
 
-
 $title = 'Password generator';
 $content.= '<h1><span class="fas icon">&#xf084;</span>Password generator</h1>';
 $content.= '<p><code>[0-9a-zA-Z]{64}</code></p>';
