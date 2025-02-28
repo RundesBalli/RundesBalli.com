@@ -15,6 +15,7 @@ $routes = [
   'adsb' => 'adsb.php',
   'pwgen' => 'pwgen.php',
   'toiletPaper' => 'toiletPaper.php',
+  'mockingText' => 'mockingText.php',
 
   /**
    * Error pages

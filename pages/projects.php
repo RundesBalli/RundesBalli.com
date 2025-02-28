@@ -124,6 +124,24 @@ $availableProjects = [
           'css3',
         ],
       ],
+
+      /**
+       * Mocking Text Generator
+       */
+      [
+        'name' => 'Mocking Text Generator',
+        'faClass' => 'fas',
+        'faSymbol' => 'f58b',
+        'thumb' => 'mockingText',
+        'url' => '/mockingText',
+        'description' => 'A tool to customise a text according to the <a href="https://knowyourmeme.com/memes/mocking-spongebob" target="_blank" rel="noopener">"Mocking SpongeBob"</a> meme.',
+        'sourceUrl' => 'https://github.com/RundesBalli/RundesBalli.com/blob/master/pages/mockingText.php',
+        'badges' => [
+          'php',
+          'html5',
+          'css3',
+        ],
+      ],
     ],
   ],
 
