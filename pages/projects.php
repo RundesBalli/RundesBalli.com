@@ -2,11 +2,11 @@
 /**
  * pages/projects.php
  * 
- * Project page
+ * Project and tool page
  */
 
-$title = 'Projects';
-$content.= '<h1><span class="fas icon">&#xf542;</span>Projects</h1>';
+$title = 'Projects and Tools';
+$content.= '<h1><span class="fas icon">&#xf542;</span>Projects and <span class="fas icon">&#xf7d9;</span>Tools</h1>';
 
 /**
  * OG Tags

@@ -18,7 +18,7 @@ $navElements = [
     'faIcon' => 'f542',
     'url' => '/projects',
     'route' => 'projects',
-    'text' => 'Projects',
+    'text' => 'Projects and Tools',
     'newTab' => FALSE,
   ],
   [
@@ -35,14 +35,6 @@ $navElements = [
     'url' => '/factorio',
     'route' => 'factorio',
     'text' => 'Factorio',
-    'newTab' => FALSE,
-  ],
-  [
-    'faSet' => 'fas',
-    'faIcon' => 'f7d9',
-    'url' => '/tools',
-    'route' => 'tools',
-    'text' => 'Online Tools',
     'newTab' => FALSE,
   ],
 ];
