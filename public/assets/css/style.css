@@ -214,7 +214,7 @@ hr {
 code {
   background: var(--codeBackgroundColor);
   font-family: monospace;
-  padding: calc(var(--fontSize) * 0.3);
+  padding: calc(var(--fontSize) * 0.1) calc(var(--fontSize) * 0.35);
   border-radius: calc(var(--fontSize) * 0.4);
 }
 
