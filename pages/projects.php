@@ -16,7 +16,7 @@ $ogDescription = 'A collection of all my public projects. Websites, tools, scrip
 /**
  * Project array
  */
-$projects = [
+$availableProjects = [
   /**
    * Websites
    */
@@ -150,15 +150,16 @@ $projects = [
         'faClass' => 'fas',
         'faSymbol' => 'f00d',
         'url' => 'https://anti-ananas.club',
-        'description' => 'A German satire counter-reaction project to the Hawaii pizza meme.',
+        'description' => 'A German satire counter-reaction project to the Hawaii pizza meme. („Ananas“ = Pineapple)',
         'sourceUrl' => 'https://github.com/RundesBalli/anti-ananas.club',
         'badges' => [
           'php',
           'html5',
           'css3',
+          'js',
         ],
         'tasks' => NULL,
-        'note' => '„Ananas“ = Pineapple',
+        'note' => NULL,
       ],
 
       /**
