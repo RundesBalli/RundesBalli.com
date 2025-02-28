@@ -452,3 +452,7 @@ tr:not(th):hover {
 .noBreak {
   white-space: nowrap;
 }
+
+.tFullWidth {
+  width: 100%;
+}
