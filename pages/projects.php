@@ -455,6 +455,67 @@ $availableProjects = [
 ];
 
 /**
+ * List view
+ */
+foreach($availableProjects as $projects) {
+  /**
+   * Heading
+   */
+  $content.= '<h2><span class="'.output($projects['faClass']).' icon">&#x'.output($projects['faSymbol']).';</span>'.output($projects['title']).'</h2>';
+
+  /**
+   * Iterate through projects
+   */
+  $content.= '<div class="overflowXAuto"><table class="tFullWidth">';
+  foreach($projects['projects'] as $project) {
+    /**
+     * Check whether a project website has to be linked.
+     */
+    if(empty($project['url'])) {
+      /**
+       * There is no website to be linked.
+       */
+      $projectTitle = output($project['title']);
+    } else {
+      /**
+       * There is a website to be linked.
+       */
+      $projectTitle = '<a href="'.output($project['url']).'" target="_blank" rel="noopener">'.output($project['title']).'</a>';
+    }
+
+    /**
+     * Check whether there are any notes or tasks.
+     */
+    $description = $project['description'];
+    if(!empty($project['tasks'])) {
+      $description.= '<br><span class="highlight">Tasks:</span> '.output($project['tasks']);
+    }
+    if(!empty($project['note'])) {
+      $description.= '<br><span class="highlight">Note:</span> '.output($project['note']);
+    }
+
+    /**
+     * Check whether there are any badges to display.
+     */
+    $badges = '';
+    if(!empty($project['badges'])) {
+      foreach($project['badges'] as $badge) {
+        $badges.= BADGE[$badge];
+      }
+    }
+
+    $content.= '
+    <tr>
+      <td><span class="'.output($project['faClass']).' icon">&#x'.output($project['faSymbol']).';</span>'.$projectTitle.'</td>
+      <td>'.$description.'</td>
+      <td><span class="fab icon">&#xf09b;</span><a href="'.output($project['sourceUrl']).'" target="_blank" rel="noopener">SourceCode</a></td>
+      <td>'.$badges.'</td>
+    </tr>';
+  }
+  $content.= '</table></div>';
+}
+
+/**
  * More
  */
 $content.= 'Many of my projects are available on <span class="fab icon">&#xf09b;</span><a href="https://github.com/RundesBalli" target="_blank" rel="noopener">GitHub</a>.';
