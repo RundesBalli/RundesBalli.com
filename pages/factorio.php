@@ -52,6 +52,9 @@ $availableProjects = [
     'faClass' => 'fas',
     'faSymbol' => 'f02d',
     'projects' => [
+      /**
+       * Electric mining drill arrays
+       */
       [
         'name' => 'Electric mining drill arrays',
         'faClass' => 'fas',
