@@ -550,8 +550,8 @@ $availableProjects = [
    * Crawler
    */
   [
-    'title' => 'Crawler',
-    'anchor' => 'crawler',
+    'title' => 'Crawler / Scraper',
+    'anchor' => 'crawlerScraper',
     'faClass' => 'fas',
     'faSymbol' => 'f717',
     'projects' => [
