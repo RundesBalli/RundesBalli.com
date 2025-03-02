@@ -42,6 +42,28 @@ $availableProjects = [
       ],
     ],
   ],
+
+  /**
+   * Blueprints
+   */
+  [
+    'title' => 'Blueprints & Blueprint Books',
+    'anchor' => 'blueprints',
+    'faClass' => 'fas',
+    'faSymbol' => 'f02d',
+    'projects' => [
+      [
+        'name' => 'Electric mining drill arrays',
+        'faClass' => 'fas',
+        'faSymbol' => 'e4c3',
+        'thumb' => 'miningArrays',
+        'url' => 'https://github.com/RundesBalli/factorio-blueprints/tree/master/electric-mining-drill-arrays',
+        'flag' => 'en',
+        'description' => 'Space saving setup of electric mining drills in various array-sizes and all belt speeds.',
+        'sourceUrl' => 'https://raw.githubusercontent.com/RundesBalli/factorio-blueprints/master/electric-mining-drill-arrays/blueprint-book.txt',
+        'badges' => NULL,
+      ],
+  ],
 ];
 
 /**
