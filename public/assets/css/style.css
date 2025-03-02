@@ -491,6 +491,7 @@ tr:not(th):hover {
 
 .item:hover {
   background-color: var(--tileHoverColor);
+  transform: scale(1.03);
 }
 
 .item > .infos {
@@ -547,4 +548,5 @@ tr:not(th):hover {
 .buttonGroup > a:hover {
   background-color: var(--highlightColor2Dimmed);
   border: 2px solid var(--highlightColor2);
+  transform: scale(1.05);
 }
