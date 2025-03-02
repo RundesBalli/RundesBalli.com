@@ -551,6 +551,23 @@ $availableProjects = [
           'api',
         ],
       ],
+
+      /**
+       * pr0gramm Spendenraid Tool
+       */
+      [
+        'name' => 'pr0gramm-Spendenraid',
+        'faClass' => 'fas',
+        'faSymbol' => 'f53b',
+        'thumb' => 'pr0grammSpendenraid',
+        'description' => 'A tool for analysing the posts that fall into a certain search pattern during the annual fundraid on the German imageboard <a href="https://pr0gramm.com" target="_blank" rel="noopener">pr0gramm.com</a>.',
+        'sourceUrl' => 'https://github.com/RundesBalli/pr0gramm-Spendenraid/',
+        'badges' => [
+          'php',
+          'cli',
+          'api',
+        ],
+      ],
     ],
   ],
 
