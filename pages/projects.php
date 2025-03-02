@@ -565,7 +565,7 @@ $availableProjects = [
   ],
 
   /**
-   * Crawler
+   * Crawler / Scraper
    */
   [
     'title' => 'Crawler / Scraper',
