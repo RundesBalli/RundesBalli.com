@@ -138,6 +138,22 @@ $availableProjects = [
         'sourceUrl' => 'https://raw.githubusercontent.com/RundesBalli/factorio-blueprints/master/kovarex-enrichment-process/blueprint%2Cblue.txt',
         'badges' => NULL,
       ],
+      /**
+       * 480 MW nuclear power plant
+       */
+      [
+        'name' => '480 MW nuclear power plant',
+        'faClass' => 'fas',
+        'faSymbol' => 'f7b9',
+        'thumb' => 'nuclearPowerPlant',
+        'url' => 'https://github.com/RundesBalli/factorio-blueprints/tree/master/nuclear-power',
+        'flag' => 'en',
+        'description' => 'Symmetric 480 MW Nuclear Power Plant with automatic fuel supply on demand.',
+        'sourceUrl' => 'https://raw.githubusercontent.com/RundesBalli/factorio-blueprints/master/nuclear-power/blueprint.txt',
+        'badges' => NULL,
+        'note' => 'On the first run, you must insert one (!) single uranium fuel cell per reactor, to start the plant.',
+      ],
+    ],
   ],
 ];
 
