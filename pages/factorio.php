@@ -17,6 +17,31 @@ $ogDescription = 'A collection of my factorio blueprints and mods. Mining drill 
  * Factorio projects
  */
 $availableProjects = [
+  /**
+   * Mods
+   */
+  [
+    'title' => 'Mods',
+    'anchor' => 'mods',
+    'faClass' => 'fas',
+    'faSymbol' => 'f085',
+    'projects' => [
+      /**
+       * SimpleRocketParts
+       */
+      [
+        'name' => 'SimpleRocketParts',
+        'faClass' => 'fas',
+        'faSymbol' => 'f197',
+        'thumb' => 'simpleRocketParts',
+        'url' => 'https://mods.factorio.com/mod/SimpleRocketParts',
+        'flag' => 'en',
+        'description' => 'A mod for the 1.1 version of the game that simplifies the recipes for rocket parts, so that in the end game, your main concern is procuring a vast amount of raw materials rather than managing the factory.',
+        'sourceUrl' => 'https://github.com/RundesBalli/factorio-simpleRocketParts',
+        'badges' => NULL,
+      ],
+    ],
+  ],
 ];
 
 /**
