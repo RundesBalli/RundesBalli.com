@@ -521,3 +521,30 @@ tr:not(th):hover {
 .item > .infos > .description {
   font-size: calc(var(--fontSize) * 0.8);
 }
+
+/**
+ * Buttons
+ */
+.buttonGroup {
+  text-align: center;
+  max-width: 1200px;
+  margin: 0px auto;
+}
+
+.buttonGroup > a {
+  border-radius: calc(var(--basicSpacingSize) * 0.6);
+  border: 2px solid var(--highlightColor2Dimmed);
+  display: inline-block;
+  color: var(--fontColor);
+  padding: calc(var(--basicSpacingSize) * 0.6) calc(var(--basicSpacingSize) * 0.8);
+  text-decoration: none;
+  box-shadow: 2px 2px 5px var(--shadowColor);
+  background-color: var(--buttonBackgroundColor);
+  transition: all var(--transitionTime);
+  margin: 0px calc(var(--basicSpacingSize) * 0.5) var(--basicSpacingSize);
+}
+
+.buttonGroup > a:hover {
+  background-color: var(--highlightColor2Dimmed);
+  border: 2px solid var(--highlightColor2);
+}
