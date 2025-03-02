@@ -142,6 +142,10 @@ html, body {
   margin: 0px;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background: var(--backgroundColor) var(--backgroundImage) 0 0 repeat;
   font-family: 'Roboto', sans-serif;
