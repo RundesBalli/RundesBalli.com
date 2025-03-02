@@ -108,6 +108,20 @@ $availableProjects = [
         'sourceUrl' => 'https://raw.githubusercontent.com/RundesBalli/factorio-blueprints/master/7-segment-displays/blueprint-book.txt',
         'badges' => NULL,
       ],
+      /**
+       * Power sources
+       */
+      [
+        'name' => 'Power sources',
+        'faClass' => 'fas',
+        'faSymbol' => 'f0e7',
+        'thumb' => 'power',
+        'url' => 'https://github.com/RundesBalli/factorio-blueprints/tree/master/power-sources',
+        'flag' => 'en',
+        'description' => 'Some early- and lategame power sources.',
+        'sourceUrl' => 'https://raw.githubusercontent.com/RundesBalli/factorio-blueprints/master/power-sources/blueprint-book.txt',
+        'badges' => NULL,
+      ],
   ],
 ];
 
