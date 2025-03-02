@@ -651,6 +651,26 @@ $availableProjects = [
         ],
       ],
 
+      /**
+       * pr0gramm Telegram Inbox Bot
+       */
+      [
+        'name' => 'pr0gramm Telegram Inbox Bot',
+        'faClass' => 'fas',
+        'faSymbol' => 'f0e0',
+        'thumb' => 'pr0grammTelegramInboxBot',
+        'flag' => 'de',
+        'description' => 'Bot to read the own inbox on the German imageboard <a href="https://pr0gramm.com" target="_blank" rel="noopener">pr0gramm.com</a> and then notify via Telegram.',
+        'sourceUrl' => 'https://github.com/RundesBalli/pr0gramm-inbox-telegram-bot',
+        'badges' => [
+          'php',
+          'cli',
+          'json',
+          'api',
+          'telegram',
+        ],
+      ],
+
     ],
   ],
 
