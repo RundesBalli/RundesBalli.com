@@ -338,7 +338,7 @@ nav > #toggleElement {
     display: block;
     text-align: center;
   }
-  
+
   nav a {
     display: none;
     margin: calc(var(--fontSize) * 0.3);

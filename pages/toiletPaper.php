@@ -121,11 +121,11 @@ if(!empty($_COOKIE['toiletPaper'])) {
       $content.= '<h3>Previous calculations</h3>';
       $content.= '<div class="overflowXAuto"><table>';
       $content.= '<tr><th>Name</th><th>100 Sheets</th><th>1000 Layers</th><th>Special offer</th></tr>';
-      
+
       foreach($tpVal as $val) {
         $content.= '<tr><td>'.output($val['desc'], FALSE).'<br><span class="note">'.date('d.m.Y, H:i:s', intval($val['ts'])).'</span></td><td>'.number_format($val['100s'], 4, ',', '.').'€</td><td>'.number_format($val['1000l'], 4, ',', '.').'€</td><td>'.($val['off'] ? 'Yes' : 'No').'</td></tr>';
       }
-      
+
       $content.= '</table></div>';
     }
   } else {
