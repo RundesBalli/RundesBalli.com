@@ -101,7 +101,7 @@ $availableProjects = [
         'thumb' => 'pwgen',
         'url' => '/pwgen',
         'description' => 'A simple password generator which creates 100 randomly generated passwords according to the scheme <code>[0-9a-zA-Z]{64}</code>.',
-        'sourceUrl' => 'https://github.com/RundesBalli/RundesBalli.com/blob/master/pages/pwgen.php',
+        'sourceUrl' => 'https://github.com/RundesBalli/RundesBalli.com/tree/master/pages/pwgen.php',
         'badges' => [
           'php',
           'html5',
@@ -119,7 +119,7 @@ $availableProjects = [
         'thumb' => 'toiletPaper',
         'url' => '/toiletPaper',
         'description' => 'Calculate the price of toilet paper.',
-        'sourceUrl' => 'https://github.com/RundesBalli/RundesBalli.com/blob/master/pages/toiletPaper.php',
+        'sourceUrl' => 'https://github.com/RundesBalli/RundesBalli.com/tree/master/pages/toiletPaper.php',
         'badges' => [
           'php',
           'html5',
@@ -137,7 +137,7 @@ $availableProjects = [
         'thumb' => 'mockingText',
         'url' => '/mockingText',
         'description' => 'A tool to customise a text according to the <a href="https://knowyourmeme.com/memes/mocking-spongebob" target="_blank" rel="noopener">"Mocking SpongeBob"</a> meme.',
-        'sourceUrl' => 'https://github.com/RundesBalli/RundesBalli.com/blob/master/pages/mockingText.php',
+        'sourceUrl' => 'https://github.com/RundesBalli/RundesBalli.com/tree/master/pages/mockingText.php',
         'badges' => [
           'php',
           'html5',
@@ -360,7 +360,7 @@ $availableProjects = [
         'faSymbol' => 'f51a',
         'thumb' => 'tidy',
         'description' => 'Parameterised function call of the tidy function.',
-        'sourceUrl' => 'https://github.com/RundesBalli/phpSnippets/blob/master/tidyOutput',
+        'sourceUrl' => 'https://github.com/RundesBalli/phpSnippets/tree/master/tidyOutput',
         'badges' => [
           'php',
         ],
