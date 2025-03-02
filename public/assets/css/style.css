@@ -525,7 +525,7 @@ tr:not(th):hover {
 
 .item > .infos > .project > .note > .flag {
   height: calc(var(--fontSize) * 0.6);
-  cursor: pointer;
+  cursor: help;
 }
 
 .item > .infos > .project > .name > a:active, .item > .infos > .project > .name > a:hover, .item > .infos > .project > .name > a:focus {
