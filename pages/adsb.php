@@ -44,6 +44,7 @@ $availableProjects = [
         'faClass' => 'fas',
         'faSymbol' => 'f0f3',
         'thumb' => 'adsbTelegramNotifier',
+        'flag' => 'en',
         'description' => 'Notifies via Telegram when an aircraft passes over a certain area.',
         'sourceUrl' => 'https://github.com/RundesBalli/adsbTelegramNotifier',
         'badges' => [
@@ -111,6 +112,7 @@ foreach($availableProjects as $projects) {
         $badges[] = BADGE[$badge];
       }
     }
+    $badges[] = ((!empty($project['flag']) AND !empty(FLAGS[$project['flag']])) ? FLAGS[$project['flag']] : NULL);
 
     /**
      * Show as tile/item
