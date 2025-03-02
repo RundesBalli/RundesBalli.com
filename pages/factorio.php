@@ -66,6 +66,20 @@ $availableProjects = [
         'sourceUrl' => 'https://raw.githubusercontent.com/RundesBalli/factorio-blueprints/master/electric-mining-drill-arrays/blueprint-book.txt',
         'badges' => NULL,
       ],
+      /**
+       * Rail system
+       */
+      [
+        'name' => 'Rail system',
+        'faClass' => 'fas',
+        'faSymbol' => 'f238',
+        'thumb' => 'rail',
+        'url' => 'https://github.com/RundesBalli/factorio-blueprints/tree/master/rail-system',
+        'flag' => 'en',
+        'description' => 'Right-hand rail system for five part trains (e.g. 2x locomotive, 3x cargo-wagon).',
+        'sourceUrl' => 'https://raw.githubusercontent.com/RundesBalli/factorio-blueprints/master/rail-system/blueprint-book.txt',
+        'badges' => NULL,
+      ],
   ],
 ];
 
