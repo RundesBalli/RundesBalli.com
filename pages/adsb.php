@@ -35,6 +35,7 @@ $content.= '<p><img class="imgGlow" src="/assets/images/adsb/adsbMap.png" alt="B
 $availableProjects = [
   [
     'title' => 'Notifier',
+    'anchor' => 'notifier',
     'faClass' => 'fas',
     'faSymbol' => 'f0f3',
     'projects' => [
@@ -62,7 +63,7 @@ foreach($availableProjects as $projects) {
   /**
    * Heading
    */
-  $content.= '<h2><span class="'.output($projects['faClass']).' icon">&#x'.output($projects['faSymbol']).';</span>'.output($projects['title']).'</h2>';
+  $content.= '<h2 id="'.output($projects['anchor']).'"><span class="'.output($projects['faClass']).' icon">&#x'.output($projects['faSymbol']).';</span>'.output($projects['title']).'</h2>';
 
   /**
    * Iterate through projects
@@ -95,10 +96,10 @@ foreach($availableProjects as $projects) {
      */
     $description = $project['description'];
     if(!empty($project['tasks'])) {
-      $description.= '<div class="spacer-s"></div><span class="highlight">Tasks:</span> '.output($project['tasks']);
+      $description.= '<div class="spacer-s"></div><span class="highlight">Tasks:</span> '.$project['tasks'];
     }
     if(!empty($project['note'])) {
-      $description.= '<div class="spacer-s"></div><span class="highlight">Note:</span> '.output($project['note']);
+      $description.= '<div class="spacer-s"></div><span class="highlight">Note:</span> '.$project['note'];
     }
 
     /**
