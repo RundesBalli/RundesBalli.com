@@ -395,7 +395,7 @@ $availableProjects = [
         'faSymbol' => 'e561',
         'thumb' => 'pr0grammShowScore',
         'flag' => 'de',
-        'description' => 'Script to display the users profile score (e.g. for microcontrollers that cannot process the entire response).',
+        'description' => 'Script to display the users profile score (e.g. for microcontrollers that cannot process the entire response) on the German imageboard <a href="https://pr0gramm.com" target="_blank" rel="noopener">pr0gramm.com</a>.',
         'sourceUrl' => 'https://github.com/RundesBalli/pr0gramm-showscore',
         'badges' => [
           'php',
