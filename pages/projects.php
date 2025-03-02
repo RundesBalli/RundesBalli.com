@@ -623,6 +623,28 @@ $availableProjects = [
         ],
       ],
 
+      /**
+       * pr0gramm-Bondrucker
+       */
+      [
+        'name' => 'pr0gramm Bondrucker',
+        'faClass' => 'fas',
+        'faSymbol' => 'e53d',
+        'thumb' => 'pr0grammBondrucker',
+        'flag' => 'de',
+        'description' => 'Small gimmick to allow users from the German imageboard <a href="https://pr0gramm.com" target="_blank" rel="noopener">pr0gramm.com</a> to print on my receipt printer («Bondrucker»).',
+        'sourceUrl' => 'https://github.com/RundesBalli/pr0gramm-bondrucker',
+        'badges' => [
+          'php',
+          'cli',
+          'html5',
+          'css3',
+          'sql',
+        ],
+      ],
+    ],
+  ],
+
   /**
    * Discord
    */
