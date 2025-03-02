@@ -594,6 +594,26 @@ $availableProjects = [
           'api',
         ],
       ],
+
+      /**
+       * pr0gramm post statistics
+       */
+      [
+        'name' => 'pr0gramm-Poststats',
+        'faClass' => 'fas',
+        'faSymbol' => 'f201',
+        'thumb' => 'pr0grammPoststats',
+        'flag' => 'de',
+        'description' => 'A tool to quickly analyze a post on the German imageboard <a href="https://pr0gramm.com" target="_blank" rel="noopener">pr0gramm.com</a>.',
+        'sourceUrl' => 'https://github.com/RundesBalli/pr0gramm-poststats',
+        'badges' => [
+          'php',
+          'html5',
+          'css3',
+          'sql',
+          'api',
+        ],
+      ],
     ],
   ],
 
