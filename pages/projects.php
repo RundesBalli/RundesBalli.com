@@ -271,7 +271,7 @@ $availableProjects = [
         'faClass' => 'fas',
         'faSymbol' => 'f544',
         'thumb' => 'antiAnanasBot',
-        'description' => 'Anti-Ananas.Club comment-autoresponse bot for the German imageboard <a href="https://pr0gramm.com" target="_blank" rel="noopener">pr0gramm.com</a>',
+        'description' => 'Anti-Ananas.Club comment-autoresponse bot for the German imageboard <a href="https://pr0gramm.com" target="_blank" rel="noopener">pr0gramm.com</a>.',
         'sourceUrl' => 'https://github.com/RundesBalli/pr0gramm-antiAnanas',
         'badges' => [
           'php',
