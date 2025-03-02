@@ -27,6 +27,24 @@ $availableProjects = [
     'faSymbol' => 'f0ac',
     'projects' => [
       /**
+       * RundesBalli.com website
+       */
+      [
+        'name' => 'RundesBalli.com',
+        'faClass' => 'fas',
+        'faSymbol' => 'f118',
+        'thumb' => 'rundesballiCom',
+        'url' => 'https://RundesBalli.com',
+        'description' => 'This website. My projects, factorio stuff, and more.',
+        'sourceUrl' => 'https://github.com/RundesBalli/RundesBalli.com',
+        'badges' => [
+          'php',
+          'html5',
+          'css3',
+        ],
+      ],
+
+      /**
        * PHP-Noise website
        */
       [
