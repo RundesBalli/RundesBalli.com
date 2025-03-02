@@ -54,4 +54,22 @@ foreach($domains as $domain) {
   $content.= '<tr><td><a href="'.$domain[1].'" target="_blank" rel="noopener">'.$domain[0].'</a></td><td class="small">'.(!empty($domain[2]) ? $domain[2] : './.').'</td></tr>';
 }
 $content.= '</table></div>';
+
+/**
+ * Honorable mentions
+ */
+$content.= '<h2><span class="fas icon">&#xf559;</span>Honorable mentions</h2>';
+$mentions = [
+  [
+    'NullDev',
+    'https://github.com/NullDev',
+    'JavaScript help',
+  ],
+];
+$content.= '<div class="overflowXAuto"><table>';
+$content.= '<tr><th>Person</th><th>Notes</th></tr>';
+foreach($mentions as $mention) {
+  $content.= '<tr><td><a href="'.$mention[1].'" target="_blank" rel="noopener">'.$mention[0].'</a></td><td class="small">'.(!empty($mention[2]) ? $mention[2] : './.').'</td></tr>';
+}
+$content.= '</table></div>';
 ?>
