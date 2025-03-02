@@ -369,6 +369,24 @@ $availableProjects = [
       ],
 
       /**
+       * pr0gramm-apiCall
+       */
+      [
+        'name' => 'pr0gramm-apiCall',
+        'faClass' => 'fas',
+        'faSymbol' => 'f0c1',
+        'thumb' => 'pr0grammApiCall',
+        'flag' => 'de',
+        'description' => 'The apiCall is a standalone function to use the API of the German imageboard <a href="https://pr0gramm.com" target="_blank" rel="noopener">pr0gramm.com</a>. It provides autologin for bot accounts and is used by many of my scripts.',
+        'sourceUrl' => 'https://github.com/RundesBalli/pr0gramm-apiCall',
+        'badges' => [
+          'php',
+          'json',
+          'api',
+        ],
+      ],
+
+      /**
        * pr0gramm-showScore
        */
       [
