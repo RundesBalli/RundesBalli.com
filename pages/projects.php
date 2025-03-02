@@ -564,6 +564,10 @@ $availableProjects = [
         'sourceUrl' => 'https://github.com/RundesBalli/pr0gramm-Spendenraid/',
         'badges' => [
           'php',
+          'html5',
+          'css3',
+          'json',
+          'sql',
           'cli',
           'api',
         ],
