@@ -17,6 +17,7 @@ $routes = [
   'toiletPaper' => 'toiletPaper.php',
   'mockingText' => 'mockingText.php',
   'factorio' => 'factorio.php',
+  'imprint' => 'imprint.php',
 
   /**
    * Error pages
