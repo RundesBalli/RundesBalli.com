@@ -80,6 +80,20 @@ $availableProjects = [
         'sourceUrl' => 'https://raw.githubusercontent.com/RundesBalli/factorio-blueprints/master/rail-system/blueprint-book.txt',
         'badges' => NULL,
       ],
+      /**
+       * Furnaces
+       */
+      [
+        'name' => 'Furnaces',
+        'faClass' => 'fas',
+        'faSymbol' => 'e4f1',
+        'thumb' => 'furnaces',
+        'url' => 'https://github.com/RundesBalli/factorio-blueprints/tree/master/furnaces',
+        'flag' => 'en',
+        'description' => 'Various furnace setups.',
+        'sourceUrl' => 'https://raw.githubusercontent.com/RundesBalli/factorio-blueprints/master/furnaces/blueprint-book.txt',
+        'badges' => NULL,
+      ],
   ],
 ];
 
