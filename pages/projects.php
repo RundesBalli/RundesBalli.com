@@ -744,10 +744,10 @@ foreach($availableProjects as $projects) {
      */
     $description = $project['description'];
     if(!empty($project['tasks'])) {
-      $description.= '<div class="spacer-s"></div><span class="highlight">Tasks:</span> '.output($project['tasks']);
+      $description.= '<div class="spacer-s"></div><span class="highlight">Tasks:</span> '.$project['tasks'];
     }
     if(!empty($project['note'])) {
-      $description.= '<div class="spacer-s"></div><span class="highlight">Note:</span> '.output($project['note']);
+      $description.= '<div class="spacer-s"></div><span class="highlight">Note:</span> '.$project['note'];
     }
 
     /**
