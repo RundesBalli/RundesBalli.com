@@ -1,4 +1,5 @@
 User-agent: *
 Disallow: /imprint
 Disallow: /assets/images/adsb/
+Disallow: /assets/images/flags/
 Disallow: /assets/images/projects/

@@ -41,4 +41,12 @@ define('BADGE', [
   'json' => '<span class="fas icon help" title="JSON">&#xe477;</span>',
   'js' => '<span class="fab icon help" title="JavaScript">&#xf3b8;</span>',
 ]);
+
+/**
+ * Flags
+ */
+define('FLAGS', [
+  'de' => '<img class="flag" src="/assets/images/flags/de.svg" title="German"></span>',
+  'en' => '<img class="flag" src="/assets/images/flags/gb.svg" title="English"></span>',
+]);
 ?>

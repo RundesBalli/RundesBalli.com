@@ -515,6 +515,11 @@ tr:not(th):hover {
   text-decoration: underline;
 }
 
+.item > .infos > .project > .note > .flag {
+  height: calc(var(--fontSize) * 0.6);
+  cursor: pointer;
+}
+
 .item > .infos > .project > .name > a:active, .item > .infos > .project > .name > a:hover, .item > .infos > .project > .name > a:focus {
   color: var(--fontColor);
 }
