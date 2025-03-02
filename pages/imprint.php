@@ -72,4 +72,53 @@ foreach($mentions as $mention) {
   $content.= '<tr><td><a href="'.$mention[1].'" target="_blank" rel="noopener">'.$mention[0].'</a></td><td class="small">'.(!empty($mention[2]) ? $mention[2] : './.').'</td></tr>';
 }
 $content.= '</table></div>';
+
+/**
+ * Source citations, as it should be :-)
+ */
+$content.= '<h2><span class="fas icon">&#xf0c1;</span>Sources</h2>';
+$sources = [
+  [
+    'Alex Brush font',
+    'https://fonts.google.com/specimen/Alex+Brush',
+    'Header & Logo font',
+    'https://fonts.google.com/specimen/Alex+Brush/license',
+  ],
+  [
+    'Fontawesome',
+    'https://github.com/FortAwesome/Font-Awesome',
+    'Icons',
+    'https://github.com/FortAwesome/Font-Awesome/blob/6.x/LICENSE.txt',
+  ],
+  [
+    'Roboto font',
+    'https://fonts.google.com/specimen/Roboto',
+    'Normal text font',
+    'https://fonts.google.com/specimen/Roboto/license',
+  ],
+  [
+    'Roboto Condensed font',
+    'https://fonts.google.com/specimen/Roboto+Condensed',
+    'Font for headings',
+    'https://fonts.google.com/specimen/Roboto+Condensed/license',
+  ],
+  [
+    'Roboto Mono font',
+    'https://fonts.google.com/specimen/Roboto+Mono',
+    'Font for monofont texts',
+    'https://fonts.google.com/specimen/Roboto+Mono/license',
+  ],
+  [
+    'Flag-Icons',
+    'https://github.com/lipis/flag-icons',
+    'Flag Icons',
+    'https://github.com/lipis/flag-icons/blob/main/LICENSE',
+  ],
+];
+$content.= '<div class="overflowXAuto"><table>';
+$content.= '<tr><th>Source</th><th>Notes</th><th>License</th></tr>';
+foreach($sources as $source) {
+  $content.= '<tr><td><a href="'.$source[1].'" target="_blank" rel="noopener">'.$source[0].'</a></td><td class="small">'.(!empty($source[2]) ? $source[2] : './.').'</td><td class="small">'.(!empty($source[3]) ? '<a href="'.$source[3].'" target="_blank" rel="noopener">License</a>' : NULL).'</td></tr>';
+}
+$content.= '</table></div>';
 ?>
