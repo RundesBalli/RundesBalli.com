@@ -122,6 +122,20 @@ $availableProjects = [
         'sourceUrl' => 'https://raw.githubusercontent.com/RundesBalli/factorio-blueprints/master/power-sources/blueprint-book.txt',
         'badges' => NULL,
       ],
+      /**
+       * 
+       */
+      [
+        'name' => 'Automatic Kovarex Enrichment Process',
+        'faClass' => 'fas',
+        'faSymbol' => 'f7ba',
+        'thumb' => 'kovarex',
+        'url' => 'https://github.com/RundesBalli/factorio-blueprints/tree/master/kovarex-enrichment-process',
+        'flag' => 'en',
+        'description' => 'Automatic Kovarex Enrichment Process with automatic feeding of additional machines when the first machines are running at the limit.',
+        'sourceUrl' => 'https://raw.githubusercontent.com/RundesBalli/factorio-blueprints/master/kovarex-enrichment-process/blueprint%2Cblue.txt',
+        'badges' => NULL,
+      ],
   ],
 ];
 
