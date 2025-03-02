@@ -22,6 +22,7 @@ $availableProjects = [
    */
   [
     'title' => 'Websites',
+    'anchor' => 'websites',
     'faClass' => 'fas',
     'faSymbol' => 'f0ac',
     'projects' => [
@@ -86,6 +87,7 @@ $availableProjects = [
    */
   [
     'title' => 'Online tools',
+    'anchor' => 'tools',
     'faClass' => 'fas',
     'faSymbol' => 'f7d9',
     'projects' => [
@@ -150,6 +152,7 @@ $availableProjects = [
    */
   [
     'title' => 'Projects of friends I have collaborated on',
+    'anchor' => 'collaborations',
     'faClass' => 'fas',
     'faSymbol' => 'e533',
     'projects' => [
@@ -201,6 +204,7 @@ $availableProjects = [
    */
   [
     'title' => 'Satire and Fun',
+    'anchor' => 'satire',
     'faClass' => 'fas',
     'faSymbol' => 'f59b',
     'projects' => [
@@ -265,6 +269,7 @@ $availableProjects = [
    */
   [
     'title' => 'Scripts',
+    'anchor' => 'scripts',
     'faClass' => 'fas',
     'faSymbol' => 'f70e',
     'projects' => [
@@ -323,6 +328,7 @@ $availableProjects = [
    */
   [
     'title' => 'Snippets',
+    'anchor' => 'snippets',
     'faClass' => 'fas',
     'faSymbol' => 'f121',
     'projects' => [
@@ -389,6 +395,7 @@ $availableProjects = [
    */
   [
     'title' => 'Telegram Bots',
+    'anchor' => 'telegram',
     'faClass' => 'fab',
     'faSymbol' => 'f2c6',
     'projects' => [
@@ -442,6 +449,7 @@ $availableProjects = [
    */
   [
     'title' => 'Crawler',
+    'anchor' => 'crawler',
     'faClass' => 'fas',
     'faSymbol' => 'f717',
     'projects' => [
@@ -466,6 +474,7 @@ $availableProjects = [
    */
   [
     'title' => 'Discord',
+    'anchor' => 'discord',
     'faClass' => 'fab',
     'faSymbol' => 'f392',
     'projects' => [
@@ -493,7 +502,7 @@ foreach($availableProjects as $projects) {
   /**
    * Heading
    */
-  $content.= '<h2><span class="'.output($projects['faClass']).' icon">&#x'.output($projects['faSymbol']).';</span>'.output($projects['title']).'</h2>';
+  $content.= '<h2 id="'.output($projects['anchor']).'"><span class="'.output($projects['faClass']).' icon">&#x'.output($projects['faSymbol']).';</span>'.output($projects['title']).'</h2>';
 
   /**
    * Iterate through projects
