@@ -79,6 +79,7 @@ $availableProjects = [
         'description' => 'Right-hand rail system for five part trains (e.g. 2x locomotive, 3x cargo-wagon).',
         'sourceUrl' => 'https://raw.githubusercontent.com/RundesBalli/factorio-blueprints/master/rail-system/blueprint-book.txt',
         'badges' => NULL,
+        'note' => 'Please refer to the notes in the GitHub Repository at the end of the ReadMe file.',
       ],
       /**
        * Furnaces
@@ -100,13 +101,14 @@ $availableProjects = [
       [
         'name' => '7-segment displays',
         'faClass' => 'fas',
-        'faSymbol' => '38',
+        'faSymbol' => '23',
         'thumb' => '7segment',
         'url' => 'https://github.com/RundesBalli/factorio-blueprints/tree/master/7-segment-displays',
         'flag' => 'en',
-        'description' => '7-segment-displays in various sizes and digit counts. The display color is adjustable via a constant combinator.',
+        'description' => '7-segment-displays in various sizes and digit counts.',
         'sourceUrl' => 'https://raw.githubusercontent.com/RundesBalli/factorio-blueprints/master/7-segment-displays/blueprint-book.txt',
         'badges' => NULL,
+        'note' => 'The display color is adjustable via a constant combinator.',
       ],
       /**
        * Power sources
@@ -118,12 +120,12 @@ $availableProjects = [
         'thumb' => 'power',
         'url' => 'https://github.com/RundesBalli/factorio-blueprints/tree/master/power-sources',
         'flag' => 'en',
-        'description' => 'Some early- and lategame power sources.',
+        'description' => 'Some early- and lategame power sources. Boiler and solar power.',
         'sourceUrl' => 'https://raw.githubusercontent.com/RundesBalli/factorio-blueprints/master/power-sources/blueprint-book.txt',
         'badges' => NULL,
       ],
       /**
-       * 
+       * Kovarex
        */
       [
         'name' => 'Automatic Kovarex Enrichment Process',
