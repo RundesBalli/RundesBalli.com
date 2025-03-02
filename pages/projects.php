@@ -671,6 +671,24 @@ $availableProjects = [
         ],
       ],
 
+      /**
+       * pr0gramm Inbox Autoresponse
+       */
+      [
+        'name' => 'pr0gramm Inbox Autoresponse',
+        'faClass' => 'fas',
+        'faSymbol' => 'f201',
+        'thumb' => 'pr0grammInboxAutoresponse',
+        'flag' => 'de',
+        'description' => 'Bot to read the own inbox on the German imageboard <a href="https://pr0gramm.com" target="_blank" rel="noopener">pr0gramm.com</a> and to forward messages and to respond to mentions in comments.',
+        'sourceUrl' => 'https://github.com/RundesBalli/pr0gramm-inbox-autoresponse',
+        'badges' => [
+          'php',
+          'cli',
+          'json',
+          'api',
+        ],
+      ],
     ],
   ],
 
