@@ -309,6 +309,9 @@ $availableProjects = [
     'faClass' => 'fas',
     'faSymbol' => 'f70e',
     'projects' => [
+      /**
+       * PHP Boilerplate
+       */
       [
         'name' => 'lightweight-PHP-Boilerplate',
         'faClass' => 'fas',
@@ -320,6 +323,10 @@ $availableProjects = [
           'php',
         ],
       ],
+
+      /**
+       * ESC/POS PHP Driver
+       */
       [
         'name' => 'escpos-php-driver',
         'faClass' => 'fas',
@@ -332,6 +339,10 @@ $availableProjects = [
           'cli',
         ],
       ],
+
+      /**
+       * terminal-imager
+       */
       [
         'name' => 'terminal-imager',
         'faClass' => 'fas',
@@ -344,6 +355,10 @@ $availableProjects = [
           'cli',
         ],
       ],
+
+      /**
+       * jsonDumper
+       */
       [
         'name' => 'jsonDumper',
         'faClass' => 'fas',
@@ -368,6 +383,10 @@ $availableProjects = [
     'faClass' => 'fas',
     'faSymbol' => 'f121',
     'projects' => [
+
+      /**
+       * clickableLinks function
+       */
       [
         'name' => 'clickableLinks',
         'faClass' => 'fas',
@@ -379,6 +398,10 @@ $availableProjects = [
           'php',
         ],
       ],
+
+      /**
+       * hex2rgb function
+       */
       [
         'name' => 'hex2rgb',
         'faClass' => 'fas',
@@ -390,6 +413,10 @@ $availableProjects = [
           'php',
         ],
       ],
+
+      /**
+       * Tidy
+       */
       [
         'name' => 'Tidy function call',
         'faClass' => 'fas',
@@ -401,6 +428,10 @@ $availableProjects = [
           'php',
         ],
       ],
+
+      /**
+       * Fractionizer function
+       */
       [
         'name' => 'Fractionizer',
         'faClass' => 'fas',
@@ -412,6 +443,10 @@ $availableProjects = [
           'php',
         ],
       ],
+
+      /**
+       * formatTime function
+       */
       [
         'name' => 'formatTime',
         'faClass' => 'fas',
@@ -435,6 +470,9 @@ $availableProjects = [
     'faClass' => 'fab',
     'faSymbol' => 'f2c6',
     'projects' => [
+      /**
+       * Random Data Bot
+       */
       [
         'name' => 'Random data bot',
         'faClass' => 'fas',
@@ -449,6 +487,10 @@ $availableProjects = [
           'telegram',
         ],
       ],
+
+      /**
+       * Chat Id Bot
+       */
       [
         'name' => 'Chat-Id bot',
         'faClass' => 'fas',
@@ -463,6 +505,10 @@ $availableProjects = [
           'telegram',
         ],
       ],
+
+      /**
+       * Server online check
+       */
       [
         'name' => 'Server online-status check with reporting to telegram',
         'faClass' => 'fas',
@@ -489,6 +535,9 @@ $availableProjects = [
     'faClass' => 'fas',
     'faSymbol' => 'f717',
     'projects' => [
+      /**
+       * ADR Crawler
+       */
       [
         'name' => 'ADR Crawler',
         'faClass' => 'fas',
@@ -515,6 +564,9 @@ $availableProjects = [
     'faSymbol' => 'f392',
     'projects' => [
       [
+        /**
+         * Reminder Bot
+         */
         'name' => 'Reminder Bot',
         'faClass' => 'fas',
         'faSymbol' => 'f0a1',
