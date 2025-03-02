@@ -65,7 +65,7 @@ foreach($availableProjects as $projects) {
   /**
    * Iterate through projects
    */
-  $content.= '<div class="items">';
+  $content.= '<div class="widerItems">';
   foreach($projects['projects'] as $project) {
     /**
      * Check whether a project website has to be linked.

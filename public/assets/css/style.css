@@ -29,6 +29,7 @@
   --basicSpacingSize: 20px;
   --headerHeight: 150px;
   --tileWidth: 300px;
+  --widerTileWidth: 350px;
 
   /**
    * Times
@@ -471,15 +472,22 @@ tr:not(th):hover {
 /**
  * Item Tile Grid
  */
-.items {
+.items, .widerItems {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 
+.items > .item {
+  width: var(--tileWidth);
+}
+
+.widerItems > .item {
+  width: var(--widerTileWidth);
+}
+
 .item {
   background-color: var(--tileBackgroundColor);
-  width: var(--tileWidth);
   margin: calc(var(--basicSpacingSize) * 0.7);
   padding: 0px;
   border-radius: var(--basicSpacingSize);
