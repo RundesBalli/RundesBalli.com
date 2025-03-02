@@ -442,7 +442,6 @@ table {
   min-width: 40%;
   max-width: 100%;
   border-collapse: collapse;
-  box-shadow: 2px 2px 5px var(--shadowColor);
   transition: all var(--transitionTime);
   margin: 0 auto;
 }
