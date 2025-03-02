@@ -371,6 +371,23 @@ $availableProjects = [
           'json',
         ],
       ],
+
+      /**
+       * pr0gramm-showScore
+       */
+      [
+        'name' => 'pr0gramm-showScore',
+        'faClass' => 'fas',
+        'faSymbol' => 'e561',
+        'thumb' => 'pr0grammShowScore',
+        'description' => 'Script to display the users profile score (e.g. for microcontrollers that cannot process the entire response).',
+        'sourceUrl' => 'https://github.com/RundesBalli/pr0gramm-showscore',
+        'badges' => [
+          'php',
+          'json',
+          'api',
+        ],
+      ],
     ],
   ],
 
