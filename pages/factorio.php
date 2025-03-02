@@ -94,6 +94,20 @@ $availableProjects = [
         'sourceUrl' => 'https://raw.githubusercontent.com/RundesBalli/factorio-blueprints/master/furnaces/blueprint-book.txt',
         'badges' => NULL,
       ],
+      /**
+       * 7-segment displays
+       */
+      [
+        'name' => '7-segment displays',
+        'faClass' => 'fas',
+        'faSymbol' => '38',
+        'thumb' => '7segment',
+        'url' => 'https://github.com/RundesBalli/factorio-blueprints/tree/master/7-segment-displays',
+        'flag' => 'en',
+        'description' => '7-segment-displays in various sizes and digit counts. The display color is adjustable via a constant combinator.',
+        'sourceUrl' => 'https://raw.githubusercontent.com/RundesBalli/factorio-blueprints/master/7-segment-displays/blueprint-book.txt',
+        'badges' => NULL,
+      ],
   ],
 ];
 
