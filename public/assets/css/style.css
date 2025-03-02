@@ -196,7 +196,8 @@ h1 {
 
 h2 {
   font-size: calc(var(--fontSize) * 1.5);
-  margin: calc(var(--basicSpacingSize) * 2.2) 0 calc(var(--basicSpacingSize) * 1.5);
+  margin: calc(var(--basicSpacingSize) * 1.5) 0 calc(var(--basicSpacingSize) * 1.5);
+  padding-top: calc(var(--basicSpacingSize) * 0.7); /* For the h2 elements e.g. in projects, for better anchors. */
 }
 
 h3 {
