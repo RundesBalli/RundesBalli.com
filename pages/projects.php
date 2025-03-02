@@ -496,6 +496,15 @@ $availableProjects = [
 ];
 
 /**
+ * Buttons for fast navigation
+ */
+$content.= '<div class="buttonGroup">';
+foreach($availableProjects as $projects) {
+  $content.= '<a href="#'.output($projects['anchor']).'"><span class="'.output($projects['faClass']).' icon">&#x'.output($projects['faSymbol']).';</span>'.output($projects['title']).'</a>';
+}
+$content.= '</div>';
+
+/**
  * List view
  */
 foreach($availableProjects as $projects) {
