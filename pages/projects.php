@@ -97,6 +97,24 @@ $availableProjects = [
           'sql',
         ],
       ],
+
+      /**
+       * pr0.tools
+       */
+      [
+        'name' => 'pr0.tools',
+        'faClass' => 'fas',
+        'faSymbol' => 'f013',
+        'thumb' => 'pr0tools',
+        'url' => 'https://pr0.tools',
+        'description' => 'A collection of links for useful tools and stuff relating to the German imageboard <a href="https://pr0gramm.com" target="_blank" rel="noopener">pr0gramm.com</a>.',
+        'sourceUrl' => 'https://github.com/RundesBalli/pr0tools',
+        'badges' => [
+          'php',
+          'html5',
+          'css3',
+        ],
+      ],
     ],
   ],
 
