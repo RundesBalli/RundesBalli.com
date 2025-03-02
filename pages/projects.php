@@ -510,7 +510,7 @@ $availableProjects = [
        * Server online check
        */
       [
-        'name' => 'Server online-status check with reporting to telegram',
+        'name' => 'Server online-status check',
         'faClass' => 'fas',
         'faSymbol' => 'f06e',
         'thumb' => 'serverStatus',
