@@ -632,6 +632,25 @@ $availableProjects = [
           'api',
         ],
       ],
+
+      /**
+       * pr0gramm comment2txt
+       */
+      [
+        'name' => 'pr0gramm-comment2txt',
+        'faClass' => 'fas',
+        'faSymbol' => 'f02d',
+        'thumb' => 'pr0grammComment2Txt',
+        'flag' => 'de',
+        'description' => ' CLI script to export all comments of a user on the German imageboard <a href="https://pr0gramm.com" target="_blank" rel="noopener">pr0gramm.com</a>.',
+        'sourceUrl' => 'https://github.com/RundesBalli/pr0gramm-comment2txt',
+        'badges' => [
+          'php',
+          'cli',
+          'api',
+        ],
+      ],
+
     ],
   ],
 
