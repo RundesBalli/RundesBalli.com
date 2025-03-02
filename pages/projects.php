@@ -661,6 +661,7 @@ $availableProjects = [
           'css3',
           'sql',
         ],
+        'note' => 'See the <a href="https://pr0gramm.com/user/RundesBalli/projekt-bondrucker" target="_blank" rel="noopener">related posts</a> on the German imageboard <a href="https://pr0gramm.com" target="_blank" rel="noopener">pr0gramm.com</a> (only for registered members).',
       ],
     ],
   ],
