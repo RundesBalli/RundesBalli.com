@@ -16,6 +16,7 @@ $routes = [
   'pwgen' => 'pwgen.php',
   'toiletPaper' => 'toiletPaper.php',
   'mockingText' => 'mockingText.php',
+  'factorio' => 'factorio.php',
 
   /**
    * Error pages
