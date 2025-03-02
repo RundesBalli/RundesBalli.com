@@ -335,23 +335,6 @@ $availableProjects = [
       ],
 
       /**
-       * ESC/POS PHP Driver
-       */
-      [
-        'name' => 'escpos-php-driver',
-        'faClass' => 'fas',
-        'faSymbol' => 'f02f',
-        'thumb' => 'escpos',
-        'flag' => 'en',
-        'description' => 'A driver for Epson <code>ESC/POS</code> thermal printers.',
-        'sourceUrl' => 'https://github.com/RundesBalli/escpos-php-driver',
-        'badges' => [
-          'php',
-          'cli',
-        ],
-      ],
-
-      /**
        * terminal-imager
        */
       [
@@ -613,6 +596,32 @@ $availableProjects = [
       ],
     ],
   ],
+
+  /**
+   * ESC/POS
+   */
+  [
+    'title' => 'ESC/POS',
+    'anchor' => 'escpos',
+    'faClass' => 'fas',
+    'faSymbol' => 'f543',
+    'projects' => [
+      /**
+       * ESC/POS PHP Driver
+       */
+      [
+        'name' => 'escpos-php-driver',
+        'faClass' => 'fas',
+        'faSymbol' => 'f02f',
+        'thumb' => 'escpos',
+        'flag' => 'en',
+        'description' => 'A driver for Epson <code>ESC/POS</code> thermal printers.',
+        'sourceUrl' => 'https://github.com/RundesBalli/escpos-php-driver',
+        'badges' => [
+          'php',
+          'cli',
+        ],
+      ],
 
   /**
    * Discord
