@@ -10,6 +10,7 @@
 
 ## Thanks to
 - [NullDev](https://github.com/NullDev) for the JavaScript help.
+- [Mellow Violet](https://linktr.ee/mellowviolet) for tips and consulting in design questions.
 
 ## Requirements
 - Apache2

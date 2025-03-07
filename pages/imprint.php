@@ -65,6 +65,11 @@ $mentions = [
     'https://github.com/NullDev',
     'JavaScript help',
   ],
+  [
+    'Mellow Violet',
+    'https://linktr.ee/mellowviolet',
+    'Tips and consulting in design questions',
+  ],
 ];
 $content.= '<div class="overflowXAuto"><table>';
 $content.= '<tr><th>Person</th><th>Notes</th></tr>';
