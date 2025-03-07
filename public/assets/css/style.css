@@ -280,7 +280,7 @@ header {
   filter: drop-shadow(3px 3px 3px var(--shadowColor));
 }
 
-@media only screen and (min-width: 1001px) {
+@media only screen and (min-width: 961px) {
   #logo:hover {
     transform: scale(1.02);
   }
@@ -327,7 +327,7 @@ nav > #toggleElement {
   display: none;
 }
 
-@media only screen and (min-width: 1001px) {
+@media only screen and (min-width: 961px) {
   nav a:not(:last-of-type) {
     margin-right: calc(var(--basicSpacingSize) * 0.6);
   }
