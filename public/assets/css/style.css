@@ -168,7 +168,7 @@ img {
 
 a {
   color: var(--highlightColor1);
-  text-decoration: underline;
+  text-decoration: none;
   cursor: pointer;
   transition: all 0.4s;
 }
@@ -523,7 +523,6 @@ tr:not(th):hover {
 
 .item > .infos > .project > .name > a {
   color: var(--highlightColor1);
-  text-decoration: underline;
 }
 
 .item > .infos > .project > .note > .flag {
