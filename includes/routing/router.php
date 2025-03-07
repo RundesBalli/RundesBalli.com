@@ -4,51 +4,48 @@
  * 
  * Router for the requested page.
  */
-
-/**
- * Check if an error occoured already.
- */
-if(!empty($error)) {
-  require_once(PAGE_INCLUDE_DIR.'errors'.DIRECTORY_SEPARATOR.'500.php');
-} else {
+if(!empty($_GET['page']) AND preg_match('/([a-z-\d]+)/i', $_GET['page'], $pageMatch) === 1) {
   /**
-   * No error occurred so far. Find out which page was requested and if the requested page matches the pattern.
+   * Check if the requested page exist in the routes.
    */
-  if(!empty($_GET['page']) AND preg_match('/([a-z-\d]+)/i', $_GET['page'], $pageMatch) === 1) {
+  if(array_key_exists($pageMatch[1], $routes)) {
     /**
-     * Check if the requested page exist in the routes.
+     * The route exists. Include the file.
      */
-    if(array_key_exists($pageMatch[1], $routes)) {
+    $route = $pageMatch[1];
+    $fileToInclude = __DIR__.DIRECTORY_SEPARATOR.'..'.DIRECTORY_SEPARATOR.'..'.DIRECTORY_SEPARATOR.'pages'.DIRECTORY_SEPARATOR.$routes[$route];
+    if(!file_exists($fileToInclude)) {
       /**
-       * The route exists. Include the file.
+       * File doesn't exist.
        */
-      $route = $pageMatch[1];
-      $fileToInclude = PAGE_INCLUDE_DIR.$routes[$route];
-      if(file_exists($fileToInclude)) {
-        /**
-         * File exists
-         */
-        require_once($fileToInclude);
-      } else {
-        /**
-         * File doesn't exist.
-         */
-        $error = 'includeFileNotFound';
-        require_once(PAGE_INCLUDE_DIR.'errors'.DIRECTORY_SEPARATOR.'500.php');
-      }
-    } else {
-      /**
-       * The requested page doesn't exist in the routes.
-       */
-      require_once(PAGE_INCLUDE_DIR.'errors'.DIRECTORY_SEPARATOR.'404.php');
+      header('Location: /'); die();
     }
+    /**
+     * File exists
+     */
+    require_once($fileToInclude);
   } else {
     /**
-     * No page was requested or the requested page doesn't match the pattern.
-     * Redirection to the home page.
+     * The requested page doesn't exist in the routes.
      */
-    header('Location: /start');
-    die();
+    header('Location: /'); die();
   }
+} else {
+  /**
+   * No page was requested or the requested page doesn't match the pattern.
+   * So the default page is requested.
+   */
+  $route = 'default';
+  $fileToInclude = __DIR__.DIRECTORY_SEPARATOR.'..'.DIRECTORY_SEPARATOR.'..'.DIRECTORY_SEPARATOR.'pages'.DIRECTORY_SEPARATOR.$routes[$route];
+  if(!file_exists($fileToInclude)) {
+    /**
+     * File doesn't exist.
+     */
+    die('No default page found.');
+  }
+  /**
+   * File exists
+   */
+  require_once($fileToInclude);
 }
 ?>

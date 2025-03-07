@@ -5,19 +5,22 @@
  * Password generator
  */
 
-$title = 'Password generator';
-$content.= '<h1><span class="fas icon">&#xf084;</span>Password generator<br><code>[0-9a-zA-Z]{64}</code></h1>';
+/**
+ * OG Tags
+ */
+$ogDescription = 'Passwort generator that creates 100 passwords.';
 
-$alphabet = 'abcdefghijklmnopqrstuwxyzABCDEFGHIJKLMNOPQRSTUWXYZ0123456789';
+$title = 'Password Generator';
+$content.= '<h1><span class="fas icon">&#xf084;</span>Password generator</h1>';
+$content.= '<p><code>[0-9a-zA-Z]{64}</code></p>';
 
-$content.= '<div class="center">';
+$alphabet = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789';
+
 for($x = 0; $x < 100; $x++) {
   $content.= '<p class="pre">';
   for ($i = 0; $i < 64; $i++) {
-    $n = mt_rand(0, strlen($alphabet)-1);
-    $content.= $alphabet[$n];
+    $content.= $alphabet[mt_rand(0, strlen($alphabet)-1)];
   }
-  $content.= '</pre></p>';
+  $content.= '</p>';
 }
-$content.= '</div>';
 ?>

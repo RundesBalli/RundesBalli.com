@@ -8,7 +8,5 @@
 $title = '404 Not Found';
 http_response_code(404);
 $content.= '<h1>404 Not Found</h1>';
-$content.= '<div class="row center">'.
-  '<div class="col-s-12 col-l-12">The resource <code>'.output($_SERVER['REQUEST_URI']).'</code> you have requested does not exist.</div>'.
-'</div>';
+$content.= '<p>The resource <code>'.output($_SERVER['REQUEST_URI']).'</code> you have requested does not exist.</p>';
 ?>

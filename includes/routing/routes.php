@@ -10,23 +10,19 @@ $routes = [
   /**
    * Pages
    */
-  'start' => 'start.php',
-  'imprint' => 'imprint.php',
+  'default' => 'default.php',
   'projects' => 'projects.php',
   'adsb' => 'adsb.php',
-  'factorio' => 'factorio.php',
-  'pr0' => 'pr0.php',
-
-  /**
-   * Tools
-   */
   'pwgen' => 'pwgen.php',
   'toiletPaper' => 'toiletPaper.php',
+  'mockingText' => 'mockingText.php',
+  'factorio' => 'factorio.php',
+  'imprint' => 'imprint.php',
 
   /**
    * Error pages
    */
   '404' => 'errors'.DIRECTORY_SEPARATOR.'404.php',
-  '403' => 'errors'.DIRECTORY_SEPARATOR.'403.php'
+  '403' => 'errors'.DIRECTORY_SEPARATOR.'403.php',
 ];
 ?>

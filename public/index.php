@@ -3,8 +3,8 @@
  * RundesBalli.com Website
  * 
  * @author    RundesBalli <webspam@rundesballi.com>
- * @copyright 2023 RundesBalli
- * @version   4.0
+ * @copyright 2025 RundesBalli
+ * @version   5.0
  * @see       https://github.com/RundesBalli/RundesBalli.com
  */
 
@@ -21,7 +21,7 @@ $ogDescription = '';
 require_once(__DIR__.DIRECTORY_SEPARATOR.'..'.DIRECTORY_SEPARATOR.'includes'.DIRECTORY_SEPARATOR.'loader.php');
 
 /**
- * Output the generated and tidied output.
+ * Output the generated output.
  */
 echo $output;
 ?>

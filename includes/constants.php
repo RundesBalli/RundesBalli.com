@@ -27,16 +27,26 @@ const PAGE_INCLUDE_DIR = INCLUDE_DIR.'..'.DIRECTORY_SEPARATOR.'pages'.DIRECTORY_
 const COOKIE_DURATION = 86400*45;
 
 /**
- * Language badges
+ * Badges
  */
 define('BADGE', [
   'php' => '<span class="fab icon help" title="PHP">&#xf457;</span>',
   'html5' => '<span class="fab icon help" title="HTML5">&#xf13b;</span>',
   'css3' => '<span class="fab icon help" title="CSS3">&#xf13c;</span>',
   'sql' => '<span class="fas icon help" title="SQL as database">&#xf1c0;</span>',
-  'api' => '<span class="fas icon help" title="provides an API">&#xf6ff;</span>',
+  'api' => '<span class="fas icon help" title="uses or provides an API">&#xf6ff;</span>',
   'cli' => '<span class="fas icon help" title="CLI script">&#xf120;</span>',
   'telegram' => '<span class="fab icon help" title="Telegram bot">&#xf2c6;</span>',
-  'json' => '<span class="fas icon help" title="JSON">&#xe477;</span>'
+  'discord' => '<span class="fab icon help" title="uses Discord">&#xf392;</span>',
+  'json' => '<span class="fas icon help" title="JSON">&#xe477;</span>',
+  'js' => '<span class="fab icon help" title="JavaScript">&#xf3b8;</span>',
+]);
+
+/**
+ * Flags
+ */
+define('FLAGS', [
+  'de' => '<img class="flag" src="/assets/images/flags/de.svg" title="German"></span>',
+  'en' => '<img class="flag" src="/assets/images/flags/gb.svg" title="English"></span>',
 ]);
 ?>

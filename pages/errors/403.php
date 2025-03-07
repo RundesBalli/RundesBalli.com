@@ -8,7 +8,5 @@
 $title = '403 Forbidden';
 http_response_code(403);
 $content.= '<h1>403 Forbidden</h1>';
-$content.= '<div class="row center">'.
-  '<div class="col-s-12 col-l-12">You do not have permission to access the resource <code>'.output($_SERVER['REQUEST_URI']).'</code> you have requested.</div>'.
-'</div>';
+$content.= '<p>You do not have permission to access the resource <code>'.output($_SERVER['REQUEST_URI']).'</code> you have requested.</p>';
 ?>

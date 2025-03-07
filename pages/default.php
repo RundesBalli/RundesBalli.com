@@ -1,8 +1,8 @@
 <?php
 /**
- * pages/start.php
+ * pages/default.php
  * 
- * Home page
+ * About me page
  */
 
 /**
@@ -13,19 +13,15 @@ $ogDescription = 'My name is RundesBalli and I am a hobbyist developer from Germ
 /**
  * About me
  */
-$content.= '<h2><span class="fas icon">&#xf507;</span>About me</h2>';
+$content.= '<h1><span class="far icon">&#xf2c2;</span>About me</h1>';
 $content.= '<p>My name is <b>RundesBalli</b> and I am a hobbyist developer from Germany. I like <b>procedural PHP coding</b>, without doing this for a living.</p>';
 
-$content.= '<p>Most of my public projects are <b>small tools</b>, <b>scripts</b>, <b>boilerplates</b> and <b>websites</b>, which are commented, documented and coded in English.</p>';
-
-$content.= '<p>Some of the projects are for use with the German imageboard pr0gramm.com and because of the majority of the target group of pr0gramm is German-speaking, the projects are partially commented and documented in German.</p>';
-
-$content.= '<hr>';
+$content.= '<p>Most of my public projects are <b>small tools</b>, <b>scripts</b>, <b>boilerplates</b> and <b>websites</b>, which are commented, documented and coded in English. You can find them in the navigation above.</p>';
 
 /**
  * Contact
  */
-$content.= '<h2><span class="fas icon">&#xf2bb;</span>Contact me</h2>';
+$content.= '<h2><span class="fas icon">&#xf0a1;</span>Contact me</h2>';
 $contact = [
   [
     'faClass' => 'fab',
@@ -56,11 +52,11 @@ $contact = [
     'title' => 'Email',
   ],
 ];
-$content.= '<table>';
+$content.= '<div class="overflowXAuto"><table>';
 foreach($contact as $val) {
   $content.= '<tr><td><span class="'.$val['faClass'].' icon">&#x'.$val['faSymbol'].';</span>'.$val['title'].'</td><td><a href="'.$val['url'].'" target="_blank" rel="noopener">'.$val['name'].'</a></td></tr>';
 }
-$content.= '</table>';
+$content.= '</table></div>';
 $content.= '<p class="note">I will ignore automated emails and I am not interested in studies or full-time job offers.</p>';
 $content.= '<p>If you think I\'d be the right person for your project, feel free to contact me! Likewise, If you have any comments, criticism, questions, etc. about my projects - or just want to say "hi" - don\'t hesitate to contact me.</p>';
 ?>

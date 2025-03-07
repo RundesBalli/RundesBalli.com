@@ -26,59 +26,35 @@ if(isset($_POST['submit'])) {
   $layers = abs(intval($_POST['layers']));
 
   $pricePer100Sheet = 100*($price/($rolls*$sheets));
-  $content.= "<h3>Ergebnis</h3>";
-  $content.= "<div class='row'>".
-    "<div class='col-s-12 col-l-6 alignRightNotMobile'>Price per 100 Sheets</div>".
-    "<div class='col-s-12 col-l-6 bold highlight'>".number_format($pricePer100Sheet, 4, ",", ".")."€</div>".
-  "</div>";
   $pricePer1000Layers = $pricePer100Sheet/$layers*10;
-  $content.= "<div class='row'>".
-    "<div class='col-s-12 col-l-6 alignRightNotMobile'>Price per 1000 Layers</div>".
-    "<div class='col-s-12 col-l-6 bold highlight'>".number_format($pricePer1000Layers, 4, ",", ".")."€</div>".
-  "</div>";
+  $content.= "<h2>Result</h2>";
+  $content.= '<div class="overflowXAuto"><table>';
+  $content.= '<tr><th>Description</th><th>Value</th></tr>';
+  $content.= '<tr><td>Price per 100 Sheets</td><td>'.number_format($pricePer100Sheet, 4, ",", ".").'€</td></tr>';
+  $content.= '<tr><td>Price per 1000 Layers</td><td>'.number_format($pricePer1000Layers, 4, ",", ".").'€</td></tr>';
   $addNew = TRUE;
-  $content.= "<div class='spacer-m'></div>";
+  $content.= '</table></div>';
+  $content.= '<h2>Calculator</h2>';
 }
 
 /**
  * Form
  */
-$tabindex = 1;
+$tabIndex = 1;
 $content.= "<form method='post'>";
-$content.= "<div class='row'>".
-  "<div class='col-s-12 col-l-6 alignRightNotMobile'>Total price in € <span class='note highlight'>*</span></div>".
-  "<div class='col-s-12 col-l-6'><input type='number' placeholder='e.g. 3,79' min='0.01' step='0.01' name='price' tabindex='".$tabindex++."' required autofocus></div>".
-"</div>";
-$content.= "<div class='row'>".
-  "<div class='col-s-12 col-l-6 alignRightNotMobile'>Roll count <span class='note highlight'>*</span></div>".
-  "<div class='col-s-12 col-l-6'><input type='number' placeholder='e.g. 8' min='1' step='1' name='rolls' tabindex='".$tabindex++."' required></div>".
-"</div>";
-$content.= "<div class='row'>".
-  "<div class='col-s-12 col-l-6 alignRightNotMobile'>Sheets per roll <span class='note highlight'>*</span></div>".
-  "<div class='col-s-12 col-l-6'><input type='number' placeholder='e.g. 150' min='10' step='5' name='sheets' tabindex='".$tabindex++."' required></div>".
-"</div>";
-$content.= "<div class='row'>".
-  "<div class='col-s-12 col-l-6 alignRightNotMobile'>Layers <span class='note highlight'>*</span></div>".
-  "<div class='col-s-12 col-l-6'><input type='number' placeholder='e.g. 3' min='1' max='6' step='1' name='layers' tabindex='".$tabindex++."' required></div>".
-"</div>";
-$content.= "<div class='row'>".
-  "<div class='col-s-12 col-l-6 alignRightNotMobile'>Description / Name <span class='note highlight'>**</span></div>".
-  "<div class='col-s-12 col-l-6'><input type='text' placeholder='Shitpaper' maxlength='40' name='desc' tabindex='".$tabindex++."'></div>".
-"</div>";
-$content.= "<div class='row'>".
-  "<div class='col-s-12 col-l-6 alignRightNotMobile'>Special offer price?</div>".
-  "<div class='col-s-12 col-l-6'><select name='off' tabindex='".$tabindex++."'><option value='1'>Yes</option><option value='0' selected>No</option></select></div>".
-"</div>";
-$content.= "<div class='row'>".
-  "<div class='col-s-12 col-l-6 alignRightNotMobile'>Calculate</div>".
-  "<div class='col-s-12 col-l-6'><input type='submit' name='submit' value='Calculate' tabindex='".$tabindex++."'></div>".
-"</div>";
-$content.= "<div class='row note center'>".
-  "<div class='col-s-12 col-l-12'><span class='highlight'>*</span> Required</div>".
-  "<div class='col-s-12 col-l-12'><span class='highlight'>**</span> If a name is given, the entry is stored in a cookie for later use.</div>".
-"</div>";
+$content.= '<div class="overflowXAuto"><table>';
+$content.= '<tr><th>Description</th><th>Field</th></tr>';
+$content.= '<tr><td>Total price in € <span class="highlight">*</span></td><td><input type="number" placeholder="e.g. 3,79" min="0.01" step="0.01" name="price" tabindex="'.$tabIndex++.'" required autofocus></td></tr>';
+$content.= '<tr><td>Roll count <span class="highlight">*</span></td><td><input type="number" placeholder="e.g. 8" min="1" step="1" name="rolls" tabindex="'.$tabIndex++.'" required></td></tr>';
+$content.= '<tr><td>Sheets per roll <span class="highlight">*</span></td><td><input type="number" placeholder="e.g. 150" min="10" step="5" name="sheets" tabindex="'.$tabIndex++.'" required></td></tr>';
+$content.= '<tr><td>Layers <span class="highlight">*</span></td><td><input type="number" placeholder="e.g. 3" min="1" max="6" step="1" name="layers" tabindex="'.$tabIndex++.'" required></td></tr>';
+$content.= '<tr><td>Description / Name <span class="highlight">**</span></td><td><input type="text" placeholder="Shitpaper" maxlength="40" name="desc" tabindex="'.$tabIndex++.'"></td></tr>';
+$content.= '<tr><td>Special offer price?</td><td><select name="off" tabindex="'.$tabIndex++.'"><option value="1">Yes</option><option value="0" selected>No</option></select></td></tr>';
+$content.= '<tr><td colspan="2"><input type="submit" name="submit" value="Calculate" tabindex="'.$tabIndex++.'"></td></tr>';
+$content.= '<tr><td colspan="2"><span class="highlight">*</span> Required</td></tr>';
+$content.= '<tr><td colspan="2"><span class="highlight">**</span> If a name is given, the entry is stored in a cookie for later use.</td></tr>';
+$content.= '</table></div>';
 $content.= "</form>";
-$content.= "<div class='spacer-m'></div>";
 
 /**
  * Previous calculations
@@ -113,7 +89,7 @@ if(!empty($_COOKIE['toiletPaper'])) {
         '100s' => $val['100s'],
         '1000l' => $val['1000l'],
         'off' => $val['off'],
-        'ts' => $val['ts']
+        'ts' => $val['ts'],
       ];
     }
 
@@ -122,7 +98,7 @@ if(!empty($_COOKIE['toiletPaper'])) {
      */
     if(!empty($addNew) AND $addNew === TRUE AND !empty($_POST['desc'])) {
       $tpVal[] = [
-        'desc' => strip_tags($_POST['desc']).'; Rolls:'.$rolls.'; Sheets:'.$sheets.'; Layers:'.$layers,
+        'desc' => trim(strip_tags($_POST['desc'])).'; Rolls: '.$rolls.'; Sheets: '.$sheets.'; Layers: '.$layers,
         '100s' => $pricePer100Sheet,
         '1000l' => $pricePer1000Layers,
         'off' => ((!empty($_POST['off']) AND $_POST['off'] == 1) ? TRUE : FALSE),
@@ -140,26 +116,17 @@ if(!empty($_COOKIE['toiletPaper'])) {
       setcookie('toiletPaper', json_encode($tpVal), time()+(86400*180), NULL, NULL, TRUE, TRUE);
 
       /**
-       * Table heading
+       * Output
        */
-      $content.= "<div class='row highlight bold marginBottomMobile'>".
-        "<div class='col-s-12 col-l-7'>Description / Name</div>".
-        "<div class='col-s-5 col-l-2'>100 Sheets</div>".
-        "<div class='col-s-5 col-l-2'>1000 Layers</div>".
-        "<div class='col-s-12 col-l-1'>Special offer price</div>".
-      "</div>";
+      $content.= '<h3>Previous calculations</h3>';
+      $content.= '<div class="overflowXAuto"><table>';
+      $content.= '<tr><th>Name</th><th>100 Sheets</th><th>1000 Layers</th><th>Special offer</th></tr>';
 
-      /**
-       * Iterate through entries.
-       */
       foreach($tpVal as $val) {
-        $content.= "<div class='row marginBottomMobile'>".
-          "<div class='col-s-12 col-l-7'>".htmlentities($val['desc'], ENT_QUOTES)."<br><span class='note'>".date('d.m.Y, H:i:s', $val['ts'])."</span></div>".
-          "<div class='col-s-5 col-l-2'>".number_format($val['100s'], 4, ',', '.')." €</div>".
-          "<div class='col-s-5 col-l-2'>".number_format($val['1000l'], 4, ',', '.')." €</div>".
-          "<div class='col-s-12 col-l-1'>".($val['off'] ? 'Ja' : 'Nein')."</div>".
-        "</div>";
+        $content.= '<tr><td>'.output($val['desc'], FALSE).'<br><span class="note">'.date('d.m.Y, H:i:s', intval($val['ts'])).'</span></td><td>'.number_format($val['100s'], 4, ',', '.').'€</td><td>'.number_format($val['1000l'], 4, ',', '.').'€</td><td>'.($val['off'] ? 'Yes' : 'No').'</td></tr>';
       }
+
+      $content.= '</table></div>';
     }
   } else {
     /**
@@ -173,7 +140,7 @@ if(!empty($_COOKIE['toiletPaper'])) {
    */
   if(!empty($addNew) AND $addNew === TRUE AND !empty($_POST['desc'])) {
     setcookie('toiletPaper', json_encode([[
-      'desc' => strip_tags($_POST['desc']).'; Rolls:'.$rolls.'; Sheets:'.$sheets.'; Layers:'.$layers,
+      'desc' => strip_tags($_POST['desc']).'; Rolls: '.$rolls.'; Sheets: '.$sheets.'; Layers: '.$layers,
       '100s' => $pricePer100Sheet,
       '1000l' => $pricePer1000Layers,
       'off' => ((!empty($_POST['off']) AND $_POST['off'] == 1) ? TRUE : FALSE),

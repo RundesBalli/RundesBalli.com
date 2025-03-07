@@ -2,11 +2,11 @@
 /**
  * pages/adsb.php
  * 
- * ADS-B
+ * ADS-B Information Page
  */
 
 $title = 'ADS-B';
-$content.= '<h1><span class="fas icon">&#xf542;</span>ADS-B</h1>';
+$content.= '<h1><span class="fas icon">&#xf072;</span>ADS-B</h1>';
 
 /**
  * OG Tags
@@ -16,53 +16,120 @@ $ogDescription = 'The Bratwurst ADS-B project! We are an European group of peopl
 /**
  * What is ADS-B?
  */
-$content.= '<h2>What is ADS-B?</h2>';
-$content.= '<div class="row center">'.
-  '<div class="col-s-12 col-l-12">Aircraft automatically transmit their position, speed, altitude and other interesting information with their ADS-B transponder. This data is primarily used for air traffic control, but also for analysis of aircraft movements by companies, associations and authorities.</div>'.
-'</div>';
-
-$content.= '<div class="spacer-l"></div>';
-
-$content.= '<hr>';
+$content.= '<h2><span class="fas icon">&#xe4e3;</span>What is ADS-B?</h2>';
+$content.= '<p>Aircraft automatically transmit their position, speed, altitude and other interesting information with their ADS-B transponder. This data is primarily used for air traffic control, but also for analysis of aircraft movements by companies, associations and authorities.</p>';
+$content.= '<p>Some aircraft does only send their callsign and no other data. For this purpose a large network of ADS-B receivers are needed on ground to multilaterate/triangulate the aircraft and find out their position, altitude, etc.</p>';
 
 /**
  * Bratwurst ADS-B
  */
-$content.= '<h2>Bratwurst ADS-B project</h2>';
+$content.= '<h2><span class="fas icon">&#xf519;</span>Bratwurst ADS-B project</h2>';
+$content.= '<p>We are an European group of people interested in the observation of local and international air traffic. My responsibilities include project management, marketing, and technical administration.</p>';
+$content.= '<p>Take a look at our <a href="https://info.bratwurst.network" target="_blank" rel="noopener">Bratwurst ADS-B information website</a> and become a member of our community! You can find the respective contact options on the linked website.</p>';
 
-$content.= '<div class="row center">'.
-  '<div class="col-s-12 col-l-12">We are an European group of people interested in the observation of local and international air traffic. My responsibilities include project management, marketing, and technical administration.</div>'.
-'</div>';
-$content.= '<div class="spacer-m"></div>';
-
-$content.= '<div class="row center">'.
-  '<div class="col-s-12 col-l-12"><a href="https://info.bratwurst.network" target="_blank" rel="noopener">Bratwurst ADS-B information website</a></div>'.
-'</div>';
-$content.= '<div class="spacer-m"></div>';
-
-$content.= '<div class="row center">'.
-  '<div class="col-s-12 col-l-12"><span class="bold">Feel free to join us!</span> Check out the contact options on the information website.</div>'.
-'</div>';
-$content.= '<div class="spacer-m"></div>';
-
-$content.= '<div class="row center">'.
-  '<div class="col-s-12 col-l-12"><img class="imgGlow" src="/assets/images/adsb/adsbMap.png" alt="Bratwurst ADS-B" title="Bratwurst ADS-B" width="650" height="379"></div>'.
-'</div>';
-
-$content.= '<div class="spacer-l"></div>';
-
-$content.= '<hr>';
+$content.= '<p><img class="imgGlow" src="/assets/images/adsb/adsbMap.png" alt="Bratwurst ADS-B" title="Bratwurst ADS-B" width="650" height="379"></p>';
 
 /**
- * Notifier
+ * ADS-B related projects
  */
-$content.= '<h2>Notifier</h2>';
+$availableProjects = [
+  [
+    'title' => 'Notifier',
+    'anchor' => 'notifier',
+    'faClass' => 'fas',
+    'faSymbol' => 'f0f3',
+    'projects' => [
+      [
+        'name' => 'Telegram Notifier',
+        'faClass' => 'fas',
+        'faSymbol' => 'f0f3',
+        'thumb' => 'adsbTelegramNotifier',
+        'flag' => 'en',
+        'description' => 'Notifies via Telegram when an aircraft passes over a certain area.',
+        'sourceUrl' => 'https://github.com/RundesBalli/adsbTelegramNotifier',
+        'badges' => [
+          'php',
+          'api',
+          'telegram',
+        ],
+      ],
+    ],
+  ],
+];
 
-$content.= '<div class="row">'.
-  '<div class="col-s-12 col-l-3 bold"><span class="fas icon">&#xf0fb;</span><a href="https://github.com/RundesBalli/adsbTelegramNotifier" target="_blank" rel="noopener">adsbTelegramNotifier</a></div>'.
-  '<div class="col-s-12 col-l-7">Notifies via Telegram when an aircraft passes over a certain area.</div>'.
-  '<div class="col-s-12 col-l-2"><span class="fab icon">&#xf09b;</span><a href="https://github.com/RundesBalli/adsbTelegramNotifier" target="_blank" rel="noopener">SourceCode</a><br>'.BADGE['php'].BADGE['telegram'].'</div>'.
-'</div>';
+/**
+ * List view
+ */
+foreach($availableProjects as $projects) {
+  /**
+   * Heading
+   */
+  $content.= '<h2 id="'.output($projects['anchor']).'"><span class="'.output($projects['faClass']).' icon">&#x'.output($projects['faSymbol']).';</span>'.output($projects['title']).'</h2>';
 
-$content.= '<div class="spacer-l"></div>';
+  /**
+   * Iterate through projects
+   */
+  $content.= '<div class="items">';
+  foreach($projects['projects'] as $project) {
+    /**
+     * Check whether a project website has to be linked.
+     */
+    if(empty($project['url'])) {
+      /**
+       * There is no website to be linked.
+       */
+      $projectName = '<a href="'.output($project['sourceUrl']).'" '.(stripos($project['sourceUrl'], 'http') !== FALSE ? 'target="_blank" rel="noopener"' : NULL).'>'.output($project['name']).'</a>';
+      $image = '<a href="'.$project['sourceUrl'].'" target="_blank" rel="noopener">
+        <img src="/assets/images/adsb/'.$project['thumb'].'.png" alt="'.$project['name'].'">
+      </a>';
+    } else {
+      /**
+       * There is a website to be linked.
+       */
+      $projectName = '<a href="'.output($project['url']).'" '.(stripos($project['url'], 'http') !== FALSE ? 'target="_blank" rel="noopener"' : NULL).'>'.output($project['name']).'</a>';
+      $image = '<a href="'.$project['url'].'" target="_blank" rel="noopener">
+        <img src="/assets/images/adsb/'.$project['thumb'].'.png" alt="'.$project['name'].'">
+      </a>';
+    }
+
+    /**
+     * Check whether there are any notes or tasks.
+     */
+    $description = $project['description'];
+    if(!empty($project['tasks'])) {
+      $description.= '<div class="spacer-s"></div><span class="highlight">Tasks:</span> '.$project['tasks'];
+    }
+    if(!empty($project['note'])) {
+      $description.= '<div class="spacer-s"></div><span class="highlight">Note:</span> '.$project['note'];
+    }
+
+    /**
+     * Check whether there are any badges to display.
+     */
+    $badges = [];
+    if(!empty($project['badges'])) {
+      foreach($project['badges'] as $badge) {
+        $badges[] = BADGE[$badge];
+      }
+    }
+    $badges[] = ((!empty($project['flag']) AND !empty(FLAGS[$project['flag']])) ? FLAGS[$project['flag']] : NULL);
+
+    /**
+     * Show as tile/item
+     */
+    $content.=
+    '<div class="item">
+      '.$image.'
+      <div class="infos">
+        <div class="project">
+          <div class="name"><span class="'.output($project['faClass']).' icon">&#x'.output($project['faSymbol']).';</span>'.$projectName.'</div>
+          '.(!empty($badges) ? '<div class="note">'.implode($badges).'</div>' : NULL).'
+          <div class="note"><span class="fab icon">&#xf09b;</span><a href="'.output($project['sourceUrl']).'" target="_blank" rel="noopener">SourceCode</a></div>
+        </div>
+        <div class="description">'.$description.'</div>
+      </div>
+    </div>';
+  }
+  $content.= '</div>';
+}
 ?>
