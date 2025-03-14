@@ -354,7 +354,7 @@ nav > #toggleElement {
   }
 
   nav.responsive a:not(#toggleElement) {
-    display: inline-block;
+    display: block;
   }
 
   nav > #toggleElement {
