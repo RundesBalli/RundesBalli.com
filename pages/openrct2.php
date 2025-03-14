@@ -49,6 +49,19 @@ $availableProjects = [
           'n' => 2.25,
         ],
       ],
+
+      /**
+       * Twisted Snake
+       */
+      [
+        'name' => 'Twisted Snake',
+        'filename' => 'Twisted_Snake',
+        'stats' => [
+          'e' => 5.37,
+          'i' => 6.14,
+          'n' => 2.81,
+        ],
+      ],
   ],
 ];
 ?>
