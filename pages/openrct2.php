@@ -36,6 +36,19 @@ $availableProjects = [
           'n' => 2.48,
         ],
       ],
+
+      /**
+       * Ribbon
+       */
+      [
+        'name' => 'Ribbon',
+        'filename' => 'Ribbon',
+        'stats' => [
+          'e' => 5.21,
+          'i' => 5.91,
+          'n' => 2.25,
+        ],
+      ],
   ],
 ];
 ?>
