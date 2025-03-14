@@ -24,6 +24,18 @@ $availableProjects = [
     'title' => 'Looping Roller Coaster',
     'anchor' => 'looping',
     'projects' => [
+      /**
+       * Loopyloop
+       */
+      [
+        'name' => 'Loopyloop',
+        'filename' => 'Loopyloop',
+        'stats' => [
+          'e' => 5.17,
+          'i' => 6.57,
+          'n' => 2.48,
+        ],
+      ],
   ],
 ];
 ?>
