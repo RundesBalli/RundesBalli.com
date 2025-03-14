@@ -82,6 +82,7 @@ $availableProjects = [
 /**
  * Buttons for fast navigation
  */
+$content.= '<h2>Quick navigation</h2>';
 $content.= '<div class="buttonGroup">';
 foreach($availableProjects as $projects) {
   $content.= '<a href="#'.output($projects['anchor']).'">'.output($projects['title']).'</a>';
