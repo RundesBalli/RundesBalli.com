@@ -17,4 +17,13 @@ $ogDescription = 'A collection of my OpenRCT2 coasters.';
  * Project array
  */
 $availableProjects = [
+  /**
+   * Looping Roller Coaster
+   */
+  [
+    'title' => 'Looping Roller Coaster',
+    'anchor' => 'looping',
+    'projects' => [
+  ],
+];
 ?>
