@@ -21,6 +21,14 @@ $footerElements = [
     'text' => 'GitHub',
     'newTab' => TRUE,
   ],
+  [
+    'faSet' => 'fas',
+    'faIcon' => 'f233',
+    'url' => 'https://www.netcup.de/?ref=213946',
+    'route' => NULL,
+    'text' => 'hosted by Netcup',
+    'newTab' => TRUE,
+  ],
 ];
 
 $footer = '';
