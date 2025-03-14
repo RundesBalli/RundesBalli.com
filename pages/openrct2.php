@@ -14,6 +14,12 @@ $content.= '<h1><span class="fas icon">&#xf546;</span>OpenRCT2 Projects</h1>';
 $ogDescription = 'A collection of my OpenRCT2 coasters.';
 
 /**
+ * Introduction
+ */
+$content.= '<p>Here you can find my <a href="https://openrct2.io" target="_blank" rel="noopener">OpenRCT2</a> track designs. I like simple designs that still look good both externally and in terms of stats, but are not too complicated.</p>';
+$content.= '<p>All tracks are tested with OpenRCT2 only and fulfill the <a href="https://www.reddit.com/r/marcelvos/comments/q7kn1w/stat_requirements_of_all_rides_in_rct2/" target="_blank" rel="noopener">minimum stat requirements</a> from each coaster type.</p>';
+
+/**
  * Project array
  */
 $availableProjects = [
