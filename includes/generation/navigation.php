@@ -37,6 +37,14 @@ $navElements = [
     'text' => 'Factorio',
     'newTab' => FALSE,
   ],
+  [
+    'faSet' => 'fas',
+    'faIcon' => 'f546',
+    'url' => '/openrct2',
+    'route' => 'openrct2',
+    'text' => 'OpenRCT2',
+    'newTab' => FALSE,
+  ],
 ];
 
 $nav = '<a id="toggleElement"></a>';

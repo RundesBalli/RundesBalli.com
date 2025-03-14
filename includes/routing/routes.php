@@ -18,6 +18,7 @@ $routes = [
   'mockingText' => 'mockingText.php',
   'factorio' => 'factorio.php',
   'imprint' => 'imprint.php',
+  'openrct2' => 'openrct2.php',
 
   /**
    * Error pages
