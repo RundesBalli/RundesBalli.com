@@ -78,4 +78,59 @@ $availableProjects = [
     ],
   ],
 ];
+
+/**
+ * Buttons for fast navigation
+ */
+$content.= '<div class="buttonGroup">';
+foreach($availableProjects as $projects) {
+  $content.= '<a href="#'.output($projects['anchor']).'">'.output($projects['title']).'</a>';
+}
+$content.= '</div>';
+
+/**
+ * List view
+ */
+foreach($availableProjects as $projects) {
+  /**
+   * Heading
+   */
+  $content.= '<h2 id="'.output($projects['anchor']).'">'.output($projects['title']).'</h2>';
+
+  /**
+   * Iterate through projects
+   */
+  $content.= '<div class="items">';
+  foreach($projects['projects'] as $project) {
+    /**
+     * Image
+     */
+    $image = '<a href="/assets/images/openrct2/'.output($project['filename']).'-image.png" target="_blank"><img src="/assets/images/openrct2/'.output($project['filename']).'-thumb.png"></a>';
+
+    /**
+     * Name
+     */
+    $name = '<a href="/assets/files/openrct2/'.output($project['filename']).'.td6" target="_blank">'.output($project['name']).'</a>';
+
+    /**
+     * Show as tile/item
+     */
+    $content.=
+    '<div class="item">
+      '.$image.'
+      <div class="infos">
+        <div class="project">
+          <div class="name">'.$name.'</div>
+        </div>
+        <div class="stats">
+          <div><span class="fas icon help" title="Excitement">&#xf005;</span>'.$project['stats']['e'].'</div>
+          <div><span class="fas icon help" title="Intensity">&#xf625;</span>'.$project['stats']['i'].'</div>
+          <div><span class="fas icon help" title="Nausea">&#xf57f;</span>'.$project['stats']['n'].'</div>
+        </div>
+        <div class="download"><a href="/assets/files/openrct2/'.output($project['filename']).'.td6" target="_blank"><span class="fas icon">&#xf019;</span>Download</a></div>
+      </div>
+    </div>';
+  }
+  $content.= '</div>';
+}
 ?>

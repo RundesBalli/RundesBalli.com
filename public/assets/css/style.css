@@ -538,6 +538,33 @@ tr:not(th):hover {
   font-size: calc(var(--fontSize) * 0.8);
 }
 
+.item > .infos > .stats {
+  width: 100%;
+  margin: 0px auto calc(var(--fontSize) * 0.8);
+  font-size: calc(var(--fontSize) * 0.8);
+}
+
+.item > .infos > .stats::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.item > .infos > .stats > div {
+  float: left;
+  width: 33.3%;
+  text-align: center;
+}
+
+.item > .infos > .stats > div > span {
+  color: var(--fontColorDimmed)
+}
+
+.item > .infos > .download {
+  font-size: calc(var(--fontSize) * 0.8);
+  text-align: center;
+}
+
 /**
  * Buttons
  */
