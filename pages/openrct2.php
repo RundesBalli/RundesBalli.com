@@ -62,6 +62,20 @@ $availableProjects = [
           'n' => 2.81,
         ],
       ],
+
+      /**
+       * Vortex
+       */
+      [
+        'name' => 'Vortex',
+        'filename' => 'Vortex',
+        'stats' => [
+          'e' => 5.26,
+          'i' => 5.64,
+          'n' => 2.49,
+        ],
+      ],
+    ],
   ],
 ];
 ?>
