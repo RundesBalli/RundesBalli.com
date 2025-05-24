@@ -36,7 +36,7 @@ $availableProjects = [
         'thumb' => 'simpleRocketParts',
         'url' => 'https://mods.factorio.com/mod/SimpleRocketParts',
         'flag' => 'en',
-        'description' => 'A mod for the 1.1 version of the game that simplifies the recipes for rocket parts, so that in the end game, your main concern is procuring a vast amount of raw materials rather than managing the factory.',
+        'description' => 'A mod that simplifies the recipes for rocket parts, so that in the end game, your main concern is procuring a vast amount of raw materials rather than managing the factory.',
         'sourceUrl' => 'https://github.com/RundesBalli/factorio-simpleRocketParts',
         'badges' => NULL,
       ],
