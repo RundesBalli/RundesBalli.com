@@ -40,6 +40,20 @@ $availableProjects = [
         'sourceUrl' => 'https://github.com/RundesBalli/factorio-simpleRocketParts',
         'badges' => NULL,
       ],
+      /**
+       * IronDustEnergySource
+       */
+      [
+        'name' => 'IronDustEnergySource',
+        'faClass' => 'fas',
+        'faSymbol' => 'e4f1',
+        'thumb' => 'ironDustEnergySource',
+        'url' => 'https://mods.factorio.com/mod/IronDustEnergySource',
+        'flag' => 'en',
+        'description' => 'A mod that turns leftover iron ore into burnable iron dust.',
+        'sourceUrl' => 'https://github.com/RundesBalli/factorio-ironDustEnergySource',
+        'badges' => NULL,
+      ],
     ],
   ],
 
