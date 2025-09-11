@@ -369,6 +369,24 @@ $availableProjects = [
       ],
 
       /**
+       * fridaySnapDownloader
+       */
+      [
+        'name' => 'FridaySnap Downloader',
+        'faClass' => 'fas',
+        'faSymbol' => 'f87c',
+        'thumb' => 'fridaySnapDownloader',
+        'flag' => 'en',
+        'description' => 'Downloader for FridaySnap albums.',
+        'sourceUrl' => 'https://github.com/RundesBalli/fridaySnapDownloader',
+        'badges' => [
+          'php',
+          'json',
+          'cli',
+        ],
+      ],
+
+      /**
        * pr0gramm-apiCall
        */
       [
