@@ -219,26 +219,6 @@ $availableProjects = [
         'tasks' => 'Backend and Frontend',
         'note' => 'The recipes are not from me.',
       ],
-
-      /**
-       * Boomerparty.live
-       */
-      [
-        'name' => 'Boomerparty.live',
-        'faClass' => 'fas',
-        'faSymbol' => 'f144',
-        'thumb' => 'boomerparty',
-        'url' => 'https://boomerparty.live',
-        'description' => 'Official website for the Boomerparty-Playlist on <a href="https://open.spotify.com/playlist/64WfneVI8dqmpd6T6QKAMs" target="_blank" rel="noopener">Spotify</a> and <a href="https://www.youtube.com/playlist?list=PLOnRDACaCcSMom4d1cAxxaoFjeP9167I8" target="_blank" rel="noopener">YouTube</a>. A community project of my friend <a href="https://pr0gramm.com/user/KaiserMolay" target="_blank" rel="noopener">KaiserMolay</a>.',
-        'sourceUrl' => 'https://github.com/RundesBalli/boomerparty.live',
-        'badges' => [
-          'php',
-          'html5',
-          'css3',
-        ],
-        'tasks' => 'Whole website without photographs and images.',
-        'note' => 'The playlist is maintained by KaiserMolay.',
-      ],
     ],
   ],
 
