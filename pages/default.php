@@ -45,6 +45,13 @@ $contact = [
     'title' => 'pr0gramm',
   ],
   [
+    'faClass' => 'fab',
+    'faSymbol' => 'f1a1',
+    'url' => 'https://www.reddit.com/user/RundesBalli/',
+    'name' => 'RundesBalli',
+    'title' => 'Reddit',
+  ],
+  [
     'faClass' => 'fas',
     'faSymbol' => 'f0e0',
     'url' => 'mailto:webspam@RundesBalli.com',
