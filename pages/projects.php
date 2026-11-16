@@ -65,24 +65,6 @@ $availableProjects = [
       ],
 
       /**
-       * PHP-Noise CLI/API
-       */
-      [
-        'name' => 'PHP-Noise CLI',
-        'faClass' => 'fas',
-        'faSymbol' => 'f03e',
-        'thumb' => 'phpNoise',
-        'flag' => 'en',
-        'description' => 'The CLI script and API for the above mentioned PHP-Noise website.',
-        'sourceUrl' => 'https://github.com/RundesBalli/php-noise',
-        'badges' => [
-          'php',
-          'cli',
-          'api',
-        ],
-      ],
-
-      /**
        * Tankersparnis.net
        */
       [
@@ -328,6 +310,24 @@ $availableProjects = [
         'badges' => [
           'php',
           'cli',
+        ],
+      ],
+
+      /**
+       * PHP-Noise CLI/API
+       */
+      [
+        'name' => 'PHP-Noise CLI',
+        'faClass' => 'fas',
+        'faSymbol' => 'f03e',
+        'thumb' => 'phpNoise',
+        'flag' => 'en',
+        'description' => 'The CLI script and API for the above mentioned PHP-Noise website.',
+        'sourceUrl' => 'https://github.com/RundesBalli/php-noise',
+        'badges' => [
+          'php',
+          'cli',
+          'api',
         ],
       ],
 
